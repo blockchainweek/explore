@@ -7,12 +7,12 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Barlow Semi Condensed', ...defaultTheme.fontFamily.sans]
+				sans: ['PT Sans', ...defaultTheme.fontFamily.sans]
 			},
 			colors: {
-				pbw: {
-					red: '#ff1616',
-					yellow: '#ffde59',
+				bbw: {
+					navy: '#0024ff',
+					yellow: '#ffd200',
 					white: '#ffffff',
 					dark: '#121212'
 				}

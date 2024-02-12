@@ -21,7 +21,7 @@
 		{ title: 'Days', value: 10, col: 'schedule' },
 		{ title: 'Events', col: 'events', filter: (e) => !e.hidden },
 		// { title: 'Speakers', col: 'speakers', value: speakers.length },
-		{ title: 'Places', col: 'places' },
+		{ title: 'Places', col: 'places' }
 		// { title: 'Media Partners', col: 'media-partners' },
 		// { title: "Blockchains", col: "chains" },
 		// { title: "Unions", col: "unions" },
@@ -35,11 +35,11 @@
 
 <div class="w-full px-6 xl:mx-0">
 	<div class="max-w-7xl mx-auto pt-2">
-		<div class="flex flex-wrap gap-2 my-6 text-center text-2xl">
+		<div class="flex flex-wrap gap-2 my-6 text-center text-lg">
 			{#each collections as cd}
 				<a href="/{$page.params.entry}/{cd.col}">
 					<button
-						class="border rounded border-pbw-red hover:bg-pbw-red hover:text-white py-2 px-2 text-pbw-red hover:shadow-lg"
+						class="border rounded border-bbw-navy hover:bg-bbw-navy hover:text-white py-2 px-2 text-bbw-navy hover:shadow-lg"
 					>
 						{cd.value || data.bundle[cd.col]?.filter(cd.filter || ((e) => e)).length}
 						{cd.title}
@@ -50,7 +50,7 @@
 
 		<TimelineHeatmap {data} />
 
-		<h2 class="text-2xl uppercase font-bold pbw-text-color-secondary">
+		<h2 class="text-2xl uppercase font-bold bbw-text-color-secondary">
 			<a href="/{entry}/events">Conferences and Hackathons</a> ({conferences.length})
 		</h2>
 		<Disclaimer />
@@ -58,8 +58,8 @@
 			class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 my-6 text-center text-2xl"
 		>
 			<CollectionList arr={conferences} img="logo" col="event" {entry} offer={true} />
-	</div>
-		<h2 class="text-2xl uppercase font-bold pbw-text-color-secondary">
+		</div>
+		<h2 class="text-2xl uppercase font-bold bbw-text-color-secondary">
 			<a href="/{entry}/events">Meetups, parties and other events</a> ({otherEvents.length})
 		</h2>
 		<div
@@ -68,7 +68,7 @@
 			<CollectionList arr={otherEvents} img="logo" col="event" {entry} />
 		</div>
 
-		<h2 class="text-2xl uppercase font-bold mt-10 pbw-text-color-secondary">
+		<h2 class="text-2xl uppercase font-bold mt-10 bbw-text-color-secondary">
 			<a href="/{entry}/places">Places</a> ({data.bundle.places.length})
 		</h2>
 		<div
