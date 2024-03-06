@@ -1,39 +1,39 @@
 const l = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/_layout-6e00648f.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/start-a298fe79.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
   "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-d1068b77.js",
-  "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-be3548b2.js",
   "/_app/immutable/modules/pages/_page.js-c0185d73.js",
   "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/chunks/7-f0e2f940.js",
+  "/_app/immutable/chunks/8-c0640556.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-68c7d6da.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/chunks/4-0a133456.js",
   "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
+  "/_app/immutable/start-a7dad3fc.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/2-d5ef5b18.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/chunks/_layout-0c99bfcd.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
+  "/_app/immutable/chunks/CalendarList-542869a7.js",
   "/_app/immutable/chunks/utils-f88f52cb.js",
-  "/_app/immutable/chunks/CalendarList-542869a7.js"
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js"
 ], m = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const l = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], b = "1709712390579", d = "24", u = "Berlin Blockchain Week 2024", h = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", f = "https://outright6-sear-8gusto-atrium.protocol.berlin/24", g = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
+], d = "1709714875460", b = "24", u = "Berlin Blockchain Week 2024", h = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", f = "https://outright6-sear-8gusto-atrium.protocol.berlin/24", g = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
   {
     id: "cbase",
     hash: "1483aa21c333e89fb9e13b456768c670b3c1e0ea50c68ebd6caad20b9ee51e38",
@@ -80,6 +80,76 @@ const l = [
     }
   }
 ], _ = [
+  {
+    id: "ethberlin",
+    hash: "0c2bf6f69867ed0708262a3d675ebf842f6232d465cd0755c1641803f3154580",
+    name: "ETHBerlin 04",
+    shortname: "ETHBerlin",
+    types: [
+      "hackathon"
+    ],
+    status: "published",
+    org: "Department of Decentralization",
+    dri: "q9f",
+    poc: "Afri Schoedon",
+    date: "2024-05-24",
+    days: 3,
+    times: "00:00-24:00",
+    venues: [
+      "factory"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 800,
+    chains: [
+      "ethereum",
+      "polkadot",
+      "cosmos"
+    ],
+    tags: [
+      "cypherpunk",
+      "privacy",
+      "hacker",
+      "identity"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ethberlin/logo.webp",
+    description: `ETHBerlin is a hackathon, a cultural festival, an educational event, a platform for hacktivism, and a community initiative to push the decentralized ecosystem forward.
+`,
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://visas.ethberlin.org/ethberlin/4/",
+      button: "Sign up!",
+      status: "available"
+    },
+    links: {
+      web: "https://ethberlin.org/",
+      twitter: "https://twitter.com/ETHBerlin",
+      matrix: "https://matrix.to/#/%23ethberlin:dod.ngo",
+      telegram: "https://matrix.to/#/%23ethberlin:dod.ngo"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "00:00-24:00",
+        startTime: "2024-05-23T22:00:00.000Z",
+        endTime: "2024-05-24T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-25",
+        times: "00:00-24:00",
+        startTime: "2024-05-24T22:00:00.000Z",
+        endTime: "2024-05-25T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-26",
+        times: "00:00-24:00",
+        startTime: "2024-05-25T22:00:00.000Z",
+        endTime: "2024-05-26T22:00:00.000Z"
+      }
+    ]
+  },
   {
     id: "w3pn",
     hash: "b6a43b2faa6b96fbc74f2ca5a154829cd92e469ba7988f4db6c827db58bae8cb",
@@ -129,75 +199,6 @@ const l = [
         endTime: "2024-05-22T19:00:00.000Z"
       }
     ]
-  },
-  {
-    id: "ethberlin",
-    hash: "0c2bf6f69867ed0708262a3d675ebf842f6232d465cd0755c1641803f3154580",
-    name: "ETHBerlin 04",
-    shortname: "ETHBerlin",
-    types: [
-      "hackathon"
-    ],
-    status: "published",
-    org: "Department of Decentralization",
-    dri: "q9f",
-    poc: "Afri Schoedon",
-    date: "2024-05-24",
-    days: 3,
-    times: "00:00-24:00",
-    venues: [
-      "factory"
-    ],
-    languages: [
-      "english"
-    ],
-    attendees: 800,
-    chains: [
-      "ethereum",
-      "polkadot",
-      "cosmos"
-    ],
-    tags: [
-      "cypherpunk",
-      "privacy",
-      "hacker",
-      "identity"
-    ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ethberlin/logo.webp",
-    description: `ETHBerlin is a hackathon, a cultural festival, an educational event, a platform for hacktivism, and a community initiative to push the decentralized ecosystem forward.
-`,
-    registration: {
-      type: "signup",
-      price: "free",
-      link: "https://visas.ethberlin.org/ethberlin/4/",
-      button: "Sign up!",
-      status: "available"
-    },
-    links: {
-      web: "https://ethberlin.org/",
-      twitter: "https://twitter.com/ETHBerlin",
-      telegram: "https://matrix.to/#/%23ethberlin:dod.ngo"
-    },
-    segments: [
-      {
-        date: "2024-05-24",
-        times: "00:00-24:00",
-        startTime: "2024-05-23T22:00:00.000Z",
-        endTime: "2024-05-24T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-25",
-        times: "00:00-24:00",
-        startTime: "2024-05-24T22:00:00.000Z",
-        endTime: "2024-05-25T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-26",
-        times: "00:00-24:00",
-        startTime: "2024-05-25T22:00:00.000Z",
-        endTime: "2024-05-26T22:00:00.000Z"
-      }
-    ]
   }
 ], k = [
   {
@@ -213,14 +214,14 @@ const l = [
   }
 ], w = [], v = [], j = [
   {
-    id: "ethereum",
-    hash: "5de714b31c76c263e0201837dda7f3b9d92d45a72adb2f495676abdc0370243e",
-    name: "Ethereum",
-    symbol: "ETH",
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/ethereum/logo.webp",
+    id: "cosmos",
+    hash: "fc1f35322edcdd31bdc323c2a9a48b4e79b7fe3c1b75823d6f0da5b52828b9d7",
+    name: "Cosmos",
+    symbol: "ATOM",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/cosmos/logo.webp",
     links: {
-      web: "https://ethereum.org/",
-      twitter: "https://twitter.com/ethereum"
+      web: "https://cosmos.network/",
+      twitter: "https://twitter.com/cosmos"
     }
   },
   {
@@ -234,25 +235,14 @@ const l = [
     }
   },
   {
-    id: "monero",
-    hash: "aa2a9bad20d98363d2a47204788b0d4cbb4aa3ab3340031f2b24c3ca9c112921",
-    name: "Monero",
-    symbol: "XMR",
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/monero/logo.webp",
+    id: "ethereum",
+    hash: "5de714b31c76c263e0201837dda7f3b9d92d45a72adb2f495676abdc0370243e",
+    name: "Ethereum",
+    symbol: "ETH",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/ethereum/logo.webp",
     links: {
-      web: "https://www.getmonero.org/",
-      twitter: "https://twitter.com/monero"
-    }
-  },
-  {
-    id: "cosmos",
-    hash: "fc1f35322edcdd31bdc323c2a9a48b4e79b7fe3c1b75823d6f0da5b52828b9d7",
-    name: "Cosmos",
-    symbol: "ATOM",
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/cosmos/logo.webp",
-    links: {
-      web: "https://cosmos.network/",
-      twitter: "https://twitter.com/cosmos"
+      web: "https://ethereum.org/",
+      twitter: "https://twitter.com/ethereum"
     }
   },
   {
@@ -265,9 +255,20 @@ const l = [
       web: "https://polkadot.network/",
       twitter: "https://twitter.com/polkadot"
     }
+  },
+  {
+    id: "monero",
+    hash: "aa2a9bad20d98363d2a47204788b0d4cbb4aa3ab3340031f2b24c3ca9c112921",
+    name: "Monero",
+    symbol: "XMR",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/monero/logo.webp",
+    links: {
+      web: "https://www.getmonero.org/",
+      twitter: "https://twitter.com/monero"
+    }
   }
-], T = "2024-02-06T13:51:27.788Z", B = "v24.1.3", r = {
-  id: d,
+], T = "2024-02-12T17:14:52.327Z", B = "v24.1.4", r = {
+  id: b,
   name: u,
   dataUrl: h,
   exploreUrl: f,
@@ -332,7 +333,7 @@ const l = [
   },
   date: "2024-05-18",
   days: 10
-}, i = `cache-${b}`, n = [];
+}, i = `cache-${d}`, n = [];
 for (const e in c.collections)
   c.collections[e].virtual || n.push(...r[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
 for (const e of r.events)
