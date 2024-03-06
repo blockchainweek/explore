@@ -3,6 +3,9 @@ name: GitHub Pages
 on:
   schedule:
     - cron: '42 * * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
