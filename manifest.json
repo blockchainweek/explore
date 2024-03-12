@@ -1,7 +1,7 @@
 {
 	"name": "Berlin Blockchain Week 2024",
-	"theme_color": "#ff1616",
-	"background_color": "#FF1616",
+	"theme_color": "#0024ff",
+	"background_color": "#0024ff",
 	"display": "browser",
 	"scope": "/",
 	"start_url": "/"
