@@ -1,39 +1,39 @@
-const l = [
+const p = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/_page-2dca5438.js",
   "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
   "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
   "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/chunks/_layout-0587e9ed.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/start-014b0fee.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-6f2303a3.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
   "/_app/immutable/chunks/3-2d378cfc.js",
   "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
-  "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-58c878fa.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
   "/_app/immutable/chunks/8-c0640556.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-aa95926b.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/chunks/2-af6f1169.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
+  "/_app/immutable/chunks/7-f0e2f940.js",
+  "/_app/immutable/start-bd05d962.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/chunks/_layout-d00324d3.js",
   "/_app/immutable/chunks/CalendarList-542869a7.js",
-  "/_app/immutable/chunks/utils-f88f52cb.js"
+  "/_app/immutable/chunks/utils-f88f52cb.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js"
 ], d = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const l = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], h = "1712656066626", m = "24", u = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", f = "https://blockchainweek.berlin/24", g = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
+], h = "1712659677576", m = "24", u = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", f = "https://blockchainweek.berlin/24", g = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
   {
     id: "spindler",
     hash: "0e34d4d5289b7559906d902dcb21801c22cfdee0303f8eb88ce0643da599eb28",
@@ -245,10 +245,10 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
       "conference"
     ],
     status: "published",
-    org: "Fluence",
+    org: "Fluence & 1kx",
     dri: "dearnadia",
     poc: "Nadia Venzhina",
-    date: "2024-05-24",
+    date: "2024-05-22",
     days: 1,
     times: "12:00-18:00",
     venueName: "TBA",
@@ -279,9 +279,130 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
     },
     segments: [
       {
-        date: "2024-05-24",
+        date: "2024-05-22",
         times: "12:00-18:00",
-        startTime: "2024-05-24T10:00:00.000Z",
+        startTime: "2024-05-22T10:00:00.000Z",
+        endTime: "2024-05-22T16:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "drone",
+    hash: "61c79ef899eb489a1d5f99a6cbc2694f4a81396d4a27b543b239a78688962cfe",
+    name: "First in the World Web3 Drone Corridor Launch",
+    shortname: "Web3 Drone Launch",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "Staex",
+    dri: "SantaBerlin",
+    poc: "Paksy Plackis-Cheng",
+    date: "2024-05-21",
+    days: 1,
+    times: "15:00-16:00",
+    venueName: "Im Marienpark",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Im+Marienpark+12107+Berlin",
+    venueAddress: "Im Marienpark, 12107 Berlin Tempelhof-Schöneberg",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [
+      "lisk"
+    ],
+    tags: [
+      "machine-to-machine",
+      "machine payments",
+      "Web2 co using Web3 tools",
+      "drones"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/drone/logo.webp",
+    description: `Invitation to the official Web3 Drone Corridor launch in Berlin
+
+An Actual Industry Usage of Web3 Tools
+
+Join us for the World's First Web3 Drone Corridor launch on May 21st, 2024. Don't miss out on German best-of-breed technologies featuring reliable and secure data capturing, communication, and processing incl. payment. Secure your spot and be an active participant purchasing your photo (data) realtime that will be captured by a drone utilizing machine-to-machine payments.
+
+Here's what to expect:
+
+When: May 21st, 2024, at 15:00.
+If you are press or a Staex partner, your event starts at 14:00.
+`,
+    cfp: {
+      link: "https://staex.io/web3-drone-corridor"
+    },
+    registration: {
+      type: "signup",
+      price: "FREE!",
+      status: "available"
+    },
+    links: {
+      web: "https://staex.io/web3-drone-corridor-announcement",
+      twitter: "https://twitter.com/staex_io"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "15:00-16:00",
+        startTime: "2024-05-21T13:00:00.000Z",
+        endTime: "2024-05-21T14:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "desci",
+    hash: "cde562a0df58a93f06dfafd37202a2ae7f3766a5ddfc4aafb5dc762af0caa4f4",
+    name: "DeSci Berlin 2024",
+    shortname: "DeSci Berlin",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "Molecule",
+    dri: "none",
+    poc: "Ezanne Tessendorf",
+    date: "2024-05-23",
+    days: 2,
+    times: "10:00-18:00",
+    venueName: "Molecule Offices",
+    venueAddress: "Alexandrinenstraße 118-121, 10969 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 120,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "decentralized science",
+      "desci",
+      "science"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/desci/logo.webp",
+    description: `DeSci.Berlin's goal is to deepen our attendees' understanding of decentralized science, and specifically, of biotech DAOs (BioDAOs).
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/zbm8gm3x",
+      status: "available"
+    },
+    links: {
+      web: "https://desci.berlin/",
+      twitter: "https://twitter.com/DeSciBerlin"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "10:00-18:00",
+        startTime: "2024-05-23T08:00:00.000Z",
+        endTime: "2024-05-23T16:00:00.000Z"
+      },
+      {
+        date: "2024-05-24",
+        times: "10:00-18:00",
+        startTime: "2024-05-24T08:00:00.000Z",
         endTime: "2024-05-24T16:00:00.000Z"
       }
     ]
@@ -382,7 +503,6 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/brew/logo.webp",
     description: `BREW is a one-day, protocol-agnostic conference during the Berlin Blockchain Week, designed for thinkers and tinkerers across the Web3 ecosystem.
-
 BREW offers a crucial platform for those eager to shape the future of Web 3, offering avenues for knowledge exchange, forging valuable connections and connecting talent with matching projects and jobs.
 `,
     cfp: {
@@ -390,7 +510,8 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
     },
     registration: {
       type: "tickets",
-      price: "TBD",
+      price: "Free",
+      link: "https://lu.ma/brew",
       status: "available"
     },
     links: {
@@ -682,6 +803,16 @@ Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps
     }
   },
   {
+    id: "lisk",
+    hash: "38504fbca68df2ad5b5060b750cdc9cb6c589694cdd37fd8e2c981c84fcd38e6",
+    name: "Lisk",
+    symbol: "LSK",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/lisk/logo.webp",
+    links: {
+      web: "https://lisk.com/"
+    }
+  },
+  {
     id: "bitcoin",
     hash: "89eb61f2c142a77e6a3f40f7524c8cf070841c18b56bf2f1d407e7d8bed1f127",
     name: "Bitcoin",
@@ -702,7 +833,7 @@ Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps
       twitter: "https://twitter.com/monero"
     }
   }
-], j = "2024-04-02T16:26:33.581Z", B = "v24.2.0", c = {
+], B = "2024-04-09T09:53:01.427Z", j = "v24.2.1", c = {
   id: m,
   name: u,
   dataUrl: b,
@@ -716,8 +847,8 @@ Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps
   unions: T,
   chains: _,
   "other-events": [],
-  __time: j,
-  __tag: B
+  __time: B,
+  __tag: j
 }, r = {
   tz: "Europe/Berlin",
   collections: {
@@ -773,8 +904,8 @@ for (const e in r.collections)
   r.collections[e].virtual || o.push(...c[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
 for (const e of c.events)
   e.speakers && o.push(...e.speakers.map((t) => t.photoUrl).filter((t) => t));
-const p = [
-  ...l,
+const l = [
+  ...p,
   // the app itself
   ...d,
   // everything in `static`
@@ -782,7 +913,7 @@ const p = [
 ];
 self.addEventListener("install", (e) => {
   async function t() {
-    await (await caches.open(i)).addAll(p);
+    await (await caches.open(i)).addAll(l);
   }
   e.waitUntil(t());
 });
@@ -798,7 +929,7 @@ self.addEventListener("fetch", (e) => {
     return;
   async function t() {
     const s = new URL(e.request.url), a = await caches.open(i);
-    if (p.includes(s.pathname))
+    if (l.includes(s.pathname))
       return a.match(e.request);
     try {
       const n = await fetch(e.request);
