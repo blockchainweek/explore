@@ -1,37 +1,37 @@
 const p = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/chunks/_layout-33db14b5.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
   "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/chunks/_layout-7b19301c.js",
-  "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
-  "/_app/immutable/chunks/6-b6e81de1.js",
   "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/chunks/2-c2481776.js",
-  "/_app/immutable/start-ca37e9b2.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-0e7e78ba.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/CalendarList-542869a7.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/chunks/6-b6e81de1.js",
   "/_app/immutable/chunks/8-c0640556.js",
+  "/_app/immutable/chunks/7-f0e2f940.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/2-3bf6f731.js",
+  "/_app/immutable/start-b76f9ed6.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-3db42f59.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/chunks/CalendarList-542869a7.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
   "/_app/immutable/chunks/utils-f88f52cb.js"
 ], d = [
@@ -42,7 +42,7 @@ const p = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], h = "1713869259198", m = "24", u = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", f = "https://blockchainweek.berlin/24", g = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
+], h = "1713872860478", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -134,24 +134,6 @@ const p = [
     }
   },
   {
-    id: "factory",
-    hash: "788ed6d85371105e87f0e5fc522e0a67ffc9e8b29087aa47086266e47d74506e",
-    name: "Factory Berlin",
-    eventTypes: [
-      "conference",
-      "hackathon"
-    ],
-    capacity: 1e3,
-    address: "Lohmühlenstraße 65, 12435 Berlin",
-    mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Lohmuehlenstra%C3%9Fe+65+12435+Berlin",
-    description: `Factory Berlin is an ecosystem of over 3,500 members from more than 70 nations located on two campuses – Factory Berlin Görlitzer Park and Factory Berlin Mitte.
-`,
-    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/factory/photo.webp",
-    links: {
-      web: "https://factoryberlin.com/spaces/"
-    }
-  },
-  {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
     name: "MOOS Space",
@@ -209,8 +191,26 @@ Typically Berlin - self-confident, diverse, creative and international
     links: {
       web: "https://hubraum.com/"
     }
+  },
+  {
+    id: "cic",
+    hash: "f3ebeba9e3485ee5e0e128e487b347721af4cd4ee8f2e0724549e2153ccb4095",
+    name: "CIC Innovation Center",
+    eventTypes: [
+      "conference",
+      "hackathon"
+    ],
+    capacity: 1e3,
+    address: "Lohmühlenstraße 65, 12435 Berlin",
+    mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Lohmuehlenstra%C3%9Fe+65+12435+Berlin",
+    description: `Situated in the historic Lohmühlenstraße 65 factory near Görlitzer Park. CIC’s newest Innovation Campus is in the heart of Berlin’s vibrant creative district. With 14.000 square meters across five floors of dynamic workspace, CIC Berlin is the perfect home for modern businesses—from startups to enterprise—to grow and innovate in a flexible, hybrid world.
+`,
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/cic/photo.webp",
+    links: {
+      web: "https://cic.com/berlin/"
+    }
   }
-], w = [
+], y = [
   {
     id: "w3pn",
     hash: "b6a43b2faa6b96fbc74f2ca5a154829cd92e469ba7988f4db6c827db58bae8cb",
@@ -589,7 +589,7 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
     registration: {
       type: "signup",
       price: "Free",
-      link: "https://lu.ma/wgetm0miep2i",
+      link: "https://lu.ma/m0miep2i",
       status: "available"
     },
     links: {
@@ -620,7 +620,7 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
     days: 3,
     times: "00:00-24:00",
     venues: [
-      "factory"
+      "cic"
     ],
     languages: [
       "english"
@@ -812,60 +812,6 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
     ]
   },
   {
-    id: "decentralized-ai",
-    hash: "06418900ec14bb8d058fbf75d8be185116b6ab015de6a00b0f3eeba0f6cd2746",
-    name: "Decentralized AI Summit Berlin",
-    shortname: "Decentralized AI Summit",
-    types: [
-      "conference",
-      "expo"
-    ],
-    status: "planning",
-    org: "Newfoundation",
-    dri: "madviiii",
-    poc: "Madvi",
-    date: "2024-05-20",
-    days: 1,
-    times: "09:00-20:00",
-    venues: [
-      "factory"
-    ],
-    languages: [
-      "english"
-    ],
-    attendees: 250,
-    chains: [],
-    tags: [
-      "decentralizedai",
-      "DeAI",
-      "ZkML"
-    ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/decentralized-ai/logo.webp",
-    description: `Gathering new internet founders, researchers, builders and VCs in Decentralized AI for a main DeAI summit during Berlin Blockchain Week ahead of ETHBerlin. Application based event.
-`,
-    registration: {
-      type: "signup",
-      price: "0 EUR",
-      link: "https://newinternet.cc/apply",
-      button: "Apply here",
-      status: "available"
-    },
-    links: {
-      web: "https://newcoin.org/newinternet",
-      twitter: "https://twitter.com/newforum_nco",
-      telegram: "https://t.me/newfound8ion",
-      docs: "https://developer.newcoin.org"
-    },
-    segments: [
-      {
-        date: "2024-05-20",
-        times: "09:00-20:00",
-        startTime: "2024-05-20T07:00:00.000Z",
-        endTime: "2024-05-20T18:00:00.000Z"
-      }
-    ]
-  },
-  {
     id: "wasm",
     hash: "6467c51ffc76b094e3bb3b4b0b7fce0167d039421084b04cddc9dcbfca335274",
     name: "AwesomWasm Hackathon 2024",
@@ -989,6 +935,66 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
     ]
   },
   {
+    id: "wormhole",
+    hash: "6d2d67419e5b339651e46d13996f6989c1d335db1ee7dc11dbd0cd9870e3530c",
+    name: "Wormhole x Staking Facilities: Guardians of the Multichain",
+    shortname: "Guardians of the Multichain",
+    types: [
+      "meetup",
+      "conference",
+      "party"
+    ],
+    status: "published",
+    org: "Staking Facilities",
+    dri: "rpd089",
+    poc: "Robet Dörzbach",
+    date: "2024-05-23",
+    days: 1,
+    times: "12:00-22:00",
+    venues: [
+      "web3hub"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 300,
+    tags: [
+      "wormhole",
+      "multichain"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/wormhole/logo.webp",
+    description: `In times of turmoil, unite. Rise beyond tribalism. Calling the Guardians of the Multichain.
+
+As the world is starting to embrace crypto and it is becoming more apparent that a lot of economic activity is moving on-chain, we want to reinforce the notion of a multi-chain world.
+
+As the leading interoperability platform for multichain bridges and applications, Wormhole embodies this sentiment to the fullest. This is why we want to facilitate a place for the Wormhole community and ecosystem partners to connect, exchange, and advocate the vision of a 'web of web3'.
+
+Expect a full day of workshops, presentations, panels, as well as games, music, food and drinks.
+
+Agenda coming soon. Please RSVP.
+`,
+    cfp: {
+      link: "https://lu.ma/30e3ctlk"
+    },
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://lu.ma/30e3ctlk",
+      status: "available"
+    },
+    links: {
+      twitter: "https://twitter.com/StakingFac"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "12:00-22:00",
+        startTime: "2024-05-23T10:00:00.000Z",
+        endTime: "2024-05-23T20:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "dappcon",
     hash: "9b9b33b227ead2e445b2c44dbd271f1423cb6ca0cd36b888b5dccf775ee0af35",
     name: "DAPPCON 24",
@@ -1050,6 +1056,111 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
         times: "09:00-17:00",
         startTime: "2024-05-23T07:00:00.000Z",
         endTime: "2024-05-23T15:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "aihope",
+    hash: "48cb33e5ff47accd1c555e691c24d5d4eb834bc7e1e2f9a8e790c5fbe76f5f6b",
+    name: "AI x Hope: New Internet",
+    shortname: "AI x Hope",
+    types: [
+      "meetup",
+      "conference"
+    ],
+    status: "published",
+    org: "Seed Club Ventures, Newcoin.org, and Foresight Institute",
+    dri: "newfound8ion",
+    poc: "Madvi",
+    date: "2024-05-24",
+    days: 1,
+    times: "14:00-22:00",
+    venueName: "Molecule Offices",
+    venueAddress: "Alexandrinenstraße 118-121, 10969 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 120,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "AI",
+      "crypto"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/aihope/logo.webp",
+    description: `Join us for BBW's decentralized AI day! Please note, the event is by application only and places are limited.
+
+We present:
+
+**AI x Hope: Towards Futures of Human-AI Interdependence**
+
+We stand at a crucial point in shaping how Human-AI cooperation will evolve and are witnessing the birth of a New Internet. We aim to approach this flippening with [Existential Hope](https://www.existentialhope.com/), and foster futures where humans and machines coexist to flourish ✨.
+
+Our belief is that a healthy and harmonious development of decentralized artificial general intelligence (AGI) can arise from an enlightened vantage point. Specifically, we hope to empower builders, researchers, creators and investors exploring positive futures and protocols at the intersection of AI, crypto and creativity, with AI x Hope as an enabler for coordination in sharing technical, research-based and values-aligned perspectives.
+
+We will converge through panel discussions, keynotes and workshops and think far and wide on the ways to align the nascent AI x crypto space for this new paradigm, where our collective synergy—in data, values and protocols—is all we need.
+
+Hosted by [Seed Club Ventures](https://seedclub.ventures/), [Newcoin.org](http://newcoin.org/), and [Foresight Institute](https://foresight.org/).
+
+[Newinternet.cc](http://newinternet.cc/)
+~~
+SPEAKERS
+Join us to talk with top researchers, founders, creators, and investors in decentralized AI, including:
+
+[Illia Polosukhin](https://twitter.com/ilblackdragon), Co-Founder @ NEARProtocol
+[Puja Ohlhaver](https://twitter.com/pujaohlhaver), Pluralist, Technologist
+[Sofiane Delloue](https://twitter.com/sofiane_nco), Co-Founder @ [Newcoin](http://www.newcoin.org/)
+[Scott Moore](https://twitter.com/notscottmoore), Cofounder @ PublicWorks, Gitcoin
+[Emad Mostaque](https://twitter.com/EMostaque), Founder @ Schelling.AI, former Founder @ Stability AI
+[Holly Herndon](https://twitter.com/hollyherndon), Co-Founder @ Spawning.ai
+[Matt Dryhurst](https://twitter.com/matdryhurst), Co-Founder @ Spawning.ai
+[Nick Naraghi](https://twitter.com/0xNN2), Co-Founder @ Hats Protocol
+[Lou de Kerhuelvez](https://twitter.com/louviq), Program Director @ Foresight Institute
+[NiMA Asghari](https://twitter.com/insideNiMA), Instigator @ Seed Club Ventures
+
+Speaker & workshop host applications [here](https://airtable.com/appUEWveA6PEFrL6z/pagg7cR4ZLVWWjlZm/form).
+
+AGENDA
+
+14:00 ~ Welcome hangout
+15:00-20:00 ~ Main Talks & Workshop Sessions
+20:00-22:00 ~ Social Gathering (in the summer garden)
+22:00+ ~ AFTERPARTY, berlin-style (You will be invited)
+
+Beanbag chill areas + summer garden open during the entire event for you.
+[See the program updates](https://www.newinternet.cc/)
+
+Thank you to our friends at Molecule for hosting us. Event production supported by Pretopia.
+
+SEED CLUB VENTURES
+[Seed Club Ventures](https://seedclub.ventures/) is a Venture DAO backing early-stage founders building at the intersection of web3 and community. With a membership of 60+ leading innovators and investors in crypto, we are diverse in our ability to support projects throughout their life cycle. Launched in partnership with [Seed Club](https://www.seedclub.xyz/) — the leading network for builders at the intersection of crypto, culture, and community — our mission is to build a community-owned internet.
+
+FORESIGHT INSTITUTE
+[Existential Hope](http://existentialhope.com/) is a [Foresight Institute](https://foresight.org/) project. Foresight is a non-profit that supports the beneficial development of high-impact technologies. From nanotech, to BCI, space exploration, cryptocommerce, biotech and AI, we gather leading minds to advance research and accelerate progress toward flourishing futures. Existential Hope project is the contextualizer of all our work. As we advance technology and science, we also want to ensure that we are progressing positive futures, and decreasing x-risks.
+
+NEWCOIN
+[Newcoin](https://www.newcoin.org/) is a decentralized AGI protocol for human-agent coordination. [Build on Newcoin](https://www.newcoin.org/build), or join [Newcoin OS](https://www.newcoin.org/os). Newcoin started as a [research project](https://github.com/newfound8ion/papers/blob/main/newcoin.pdf) in 2017, when [Newlife.ai](http://newlife.ai/) was launched as one of the pioneers of RLHF years before the launch of ChatGPT, and accelerated by NVIDIA in 2019. Backed by Seed Club Ventures and builders in DeAI. We support founders, builders and creators in our network with a mission to build the New Internet."
+`,
+    cfp: {
+      link: "https://airtable.com/appUEWveA6PEFrL6z/pagg7cR4ZLVWWjlZm/form"
+    },
+    registration: {
+      type: "tickets",
+      price: "TBA",
+      link: "https://newinternet.cc",
+      status: "available"
+    },
+    links: {
+      web: "https://newinternet.cc",
+      docs: "https://developer.newcoin.org"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "14:00-22:00",
+        startTime: "2024-05-24T12:00:00.000Z",
+        endTime: "2024-05-24T20:00:00.000Z"
       }
     ]
   },
@@ -1176,7 +1287,7 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
       twitter: "https://twitter.com/dod_berlin"
     }
   }
-], T = [], v = [], B = [
+], v = [], T = [], B = [
   {
     id: "polkadot",
     hash: "48887cef7134179e2390ebbd2122bc4e76e1414c894720757f7b05ddea753f68",
@@ -1241,22 +1352,22 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
       twitter: "https://twitter.com/monero"
     }
   }
-], Z = "2024-04-17T19:50:52.257Z", j = "v24.2.2", c = {
-  id: m,
-  name: u,
+], j = "2024-04-23T11:04:45.633Z", Z = "v24.2.4", c = {
+  id: u,
+  name: m,
   dataUrl: b,
-  exploreUrl: f,
-  dataGithubUrl: g,
-  places: y,
-  events: w,
+  exploreUrl: g,
+  dataGithubUrl: f,
+  places: w,
+  events: y,
   "media-partners": [],
   contributors: k,
-  benefits: T,
-  unions: v,
+  benefits: v,
+  unions: T,
   chains: B,
   "other-events": [],
-  __time: Z,
-  __tag: j
+  __time: j,
+  __tag: Z
 }, r = {
   tz: "Europe/Berlin",
   collections: {
@@ -1307,7 +1418,7 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
   },
   date: "2024-05-18",
   days: 10
-}, n = `cache-${h}`, o = [];
+}, i = `cache-${h}`, o = [];
 for (const e in r.collections)
   r.collections[e].virtual || o.push(...c[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
 for (const e of c.events)
@@ -1321,14 +1432,14 @@ const l = [
 ];
 self.addEventListener("install", (e) => {
   async function t() {
-    await (await caches.open(n)).addAll(l);
+    await (await caches.open(i)).addAll(l);
   }
   e.waitUntil(t());
 });
 self.addEventListener("activate", (e) => {
   async function t() {
     for (const a of await caches.keys())
-      a !== n && await caches.delete(a);
+      a !== i && await caches.delete(a);
   }
   e.waitUntil(t());
 });
@@ -1336,12 +1447,12 @@ self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET")
     return;
   async function t() {
-    const a = new URL(e.request.url), s = await caches.open(n);
+    const a = new URL(e.request.url), s = await caches.open(i);
     if (l.includes(a.pathname))
       return s.match(e.request);
     try {
-      const i = await fetch(e.request);
-      return i.status === 200 && s.put(e.request, i.clone()), i;
+      const n = await fetch(e.request);
+      return n.status === 200 && s.put(e.request, n.clone()), n;
     } catch {
       return s.match(e.request);
     }
