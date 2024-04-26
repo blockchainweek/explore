@@ -1,40 +1,40 @@
-const p = [
+const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/_layout-c8a5eb91.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
   "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
   "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/chunks/_layout-33db14b5.js",
-  "/_app/immutable/start-b76f9ed6.js",
-  "/_app/immutable/chunks/5-3948902e.js",
   "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-3db42f59.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/chunks/2-3bf6f731.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/0-476fd584.js",
   "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/chunks/6-b6e81de1.js",
   "/_app/immutable/chunks/7-f0e2f940.js",
   "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-04fe4314.js",
+  "/_app/immutable/start-ac09aefa.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/2-51a817cd.js",
   "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
   "/_app/immutable/chunks/Footer-49410533.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
   "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
   "/_app/immutable/chunks/CalendarList-542869a7.js",
-  "/_app/immutable/chunks/utils-f88f52cb.js"
-], d = [
+  "/_app/immutable/chunks/utils-f88f52cb.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js"
+], p = [
   "/bg-prg.png",
   "/favicon.png",
   "/img/pbw23-banner-square.png",
@@ -42,7 +42,7 @@ const p = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], h = "1714142858648", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], h = "1714146462324", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -211,6 +211,111 @@ Typically Berlin - self-confident, diverse, creative and international
     }
   }
 ], y = [
+  {
+    id: "scroll",
+    hash: "518b64979ba3ae1a91f58c0b8e757f0273b501baab231571ff72903667878a03",
+    name: "Scroll on the Kotti Canal",
+    shortname: "Scroll on the Kotti Canal",
+    types: [
+      "meetup",
+      "party"
+    ],
+    status: "published",
+    org: "Scroll",
+    dri: "dghelm",
+    poc: "Dylan Dedi",
+    date: "2024-05-22",
+    days: 1,
+    times: "18:30-20:30",
+    venueName: "Admiralstr 15",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Admiralstra%C3%9Fe+15+10999+Berlin",
+    venueAddress: "Admiralstraße 15, 10999 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [
+      "ethereum"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/scroll/logo.webp",
+    description: `Come by for some drinks with the Scroll squad and our buddies at peanut.to! Hang out for a bevvie on Admiralbrücke bridge like a true Berliner.
+
+We'll have DJs, natural wine (while supplies last), and some cool swag 😎
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/dtwr61ox",
+      button: "Signup",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/dtwr61ox"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "18:30-20:30",
+        startTime: "2024-05-22T16:30:00.000Z",
+        endTime: "2024-05-22T18:30:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "buildernight",
+    hash: "c30da58fe50b4b1e739f52543de30f466cc1eb38b5db5a6d40546ac17aa062e8",
+    name: "Builder Nights Berlin - Presented by MetaMask 🦊 , Linea,Safe,1inch.io and ZKLink",
+    shortname: "Builder Nights Berlin",
+    types: [
+      "meetup"
+    ],
+    status: "planning",
+    org: "MetaMask 🦊 , Linea,Safe,1inch.io and ZKLink",
+    dri: "andreolf",
+    poc: "francesco Andreoli",
+    date: "2024-05-25",
+    days: 1,
+    times: "17:00-21:00",
+    venueName: "Safe venue",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Gontardstra%C3%9Fe+11+10178+Berlin",
+    venueAddress: "Gontardstraße 11, 10178 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 250,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "Builder Nights",
+      "cryptography",
+      "4337",
+      "L2"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/buildernight/logo.webp",
+    description: `We are thrilled to announce our Builder Nights Berlin, taking place in during DappCon, Safe{Con} and ETHBerlin ! Over the past two years, we've been incredibly fortunate to foster communities across five continents and host top Web3 thought leaders. Our list of guests have included Vitalik Buterin, Yat Siu, Joe Lubin, Dan Finlay, and many others.
+
+Immerse yourself in insightful discussions with the biggest brains in the Web3 game, network with other giga 🧠, and expand your knowledge of one of the hottest industry topics. The evening promises to be filled with builder insights and ample networking opportunities! 🤝
+`,
+    registration: {
+      type: "tickets",
+      price: "0 EUR",
+      link: "https://lu.ma/buidlberlin",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/buidlberlin",
+      twitter: "https://twitter.com/francescoswiss"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "17:00-21:00",
+        startTime: "2024-05-25T15:00:00.000Z",
+        endTime: "2024-05-25T19:00:00.000Z"
+      }
+    ]
+  },
   {
     id: "w3pn",
     hash: "b6a43b2faa6b96fbc74f2ca5a154829cd92e469ba7988f4db6c827db58bae8cb",
@@ -430,6 +535,62 @@ See you there! 🚀
     ]
   },
   {
+    id: "sundowners",
+    hash: "eae8130c396eb919aa6526cbfd0810f8ddb0804498eac918bbb5a686d16612d4",
+    name: "Sundowners with Starknet Foundation",
+    shortname: "Sundowners",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "Starknet Foundation",
+    dri: "teamgurkha",
+    poc: "Gurk & Amy",
+    date: "2024-05-23",
+    days: 1,
+    times: "19:30-21:00",
+    venueName: "Atelier Rooftop",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Prinzenstra%C3%9Fe+84+10969+Berlin",
+    venueAddress: "Prinzenstraße 84.1, 10969 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "STARKS",
+      "ZK",
+      "L3"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/sundowners/logo.webp",
+    description: `Join us for a drink or two on our rooftop terrace as the day ends. Great tunes, great people and a great view.
+`,
+    cfp: {
+      link: "https://lu.ma/5d22gq9g"
+    },
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/5d22gq9g",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/5d22gq9g",
+      twitter: "https://twitter.com/starknetevents",
+      discord: "https://discord.gg/K4BwQVbm"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "19:30-21:00",
+        startTime: "2024-05-23T17:30:00.000Z",
+        endTime: "2024-05-23T19:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "desci",
     hash: "cde562a0df58a93f06dfafd37202a2ae7f3766a5ddfc4aafb5dc762af0caa4f4",
     name: "DeSci Berlin 2024",
@@ -639,13 +800,21 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ethberlin/logo.webp",
     description: `ETHBerlin is a hackathon, a cultural festival, an educational event, a platform for hacktivism, and a community initiative to push the decentralized ecosystem forward.
+
+The event registrations are now closed!
+
+FRIDAY
+- REGISTRATION 12:00
+- DOORS OPEN 16:00
+
+Check out the website for the full schedule.
 `,
     registration: {
       type: "signup",
       price: "free",
       link: "https://visas.ethberlin.org/ethberlin/4/",
-      button: "Sign up!",
-      status: "available"
+      button: "CLOSED!",
+      status: "closed"
     },
     links: {
       web: "https://ethberlin.org/",
@@ -670,6 +839,59 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
         times: "00:00-24:00",
         startTime: "2024-05-25T22:00:00.000Z",
         endTime: "2024-05-26T22:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "shefi",
+    hash: "9c73e08ce384e3136dbdc2a3c5922a7a89d76dfc0fd7a0a4726e3713c528a941",
+    name: "SheFi & Starknet Foundation Women's Brunch",
+    shortname: "Women's Brunch",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "Starknet Foundation",
+    dri: "teamgurkha",
+    poc: "Gurk & Amy",
+    date: "2024-05-23",
+    days: 1,
+    times: "11:00-13:00",
+    venueName: "Atelier Rooftop",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Prinzenstra%C3%9Fe+84+10969+Berlin",
+    venueAddress: "Prinzenstraße 84.1, 10969 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 50,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "STARKS",
+      "ZK",
+      "L3"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/shefi/logo.webp",
+    description: `Join us for a meetup, brunch, some gaming or just for the wifi and snacks.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/g011j9qi",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/g011j9qi",
+      twitter: "https://twitter.com/starknetevents",
+      discord: "https://discord.gg/K4BwQVbm"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "11:00-13:00",
+        startTime: "2024-05-23T09:00:00.000Z",
+        endTime: "2024-05-23T11:00:00.000Z"
       }
     ]
   },
@@ -808,6 +1030,176 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
         times: "09:00-22:00",
         startTime: "2024-06-21T07:00:00.000Z",
         endTime: "2024-06-21T20:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "starkspace",
+    hash: "e4c26186bc7c3416740a8336da2a724c5c94acdf0b3e490ea1e4e4d53ec0fdaf",
+    name: "StarkSpace Berlin drop-in",
+    shortname: "StarkSpace",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "Starknet Foundation",
+    dri: "teamgurkha",
+    poc: "Gurk & Amy",
+    date: "2024-05-23",
+    days: 1,
+    times: "13:00-17:30",
+    venueName: "Atelier Rooftop",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Prinzenstra%C3%9Fe+84+10969+Berlin",
+    venueAddress: "Prinzenstraße 84.1, 10969 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "STARKS",
+      "ZK",
+      "L3"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/starkspace/logo.webp",
+    description: `Need somewhere to take a call? Or just somewhere for a coffee and sit down? - pop in to StarkSpace Berlin. Do some work or don't it's completely up to you; we will provide the wifi, coffee and vibes.
+
+If you'd like to meet a member of the Starknet Foundation Team we will be here and ready to chat.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/4o6znhcp",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/4o6znhcp",
+      twitter: "https://twitter.com/starknetevents",
+      discord: "https://discord.gg/K4BwQVbm"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "13:00-17:30",
+        startTime: "2024-05-23T11:00:00.000Z",
+        endTime: "2024-05-23T15:30:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "starknet",
+    hash: "cf84ec9e7bee6c333f733c009784e30a980855d37dbb5a11397f8f5ba2f1cd04",
+    name: "Starknet Foundation Meetup - Berlin Blockchain Week Edition",
+    shortname: "Starknet Foundation Meetup",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Starknet Foundation",
+    dri: "teamgurkha",
+    poc: "Gurk & Amy",
+    date: "2024-05-23",
+    days: 1,
+    times: "17:30-19:30",
+    venueName: "Atelier Rooftop",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Prinzenstra%C3%9Fe+84+10969+Berlin",
+    venueAddress: "Prinzenstraße 84.1, 10969 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 150,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "STARKS",
+      "ZK",
+      "L3"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/starknet/logo.webp",
+    description: `Further info to follow....
+
+17:30 - Explore the Starknet Ecosystem: Omar Espejel, Developer Advocate @ Starknet Foundation
+18:00 - Argent
+18:20 - Giza (TBC)
+18:40 - Build your first Smart Contract on Starknet: Robert Kodra, Developer Advocate @ Starknet Foundation
+
+You are very welcome to stay for a sundowner drink on the rooftop terrace with us after the talks have ended. No need to register again
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/k8xdqbkt",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/k8xdqbkt",
+      twitter: "https://twitter.com/starknetevents",
+      discord: "https://discord.gg/K4BwQVbm"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "17:30-19:30",
+        startTime: "2024-05-23T15:30:00.000Z",
+        endTime: "2024-05-23T17:30:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "blockparty",
+    hash: "282ec57bc9286115859a457fe8d96337cd1750f4b26686e1a8d160617e683d8a",
+    name: "Finoa's Blockparty: Celebrating Berlin's Crypto Craze",
+    shortname: "Finoa's Blockparty",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "Finoa",
+    dri: "marius-smith",
+    poc: "Marius Smith",
+    date: "2024-05-23",
+    days: 1,
+    times: "18:00-02:00",
+    venueName: "Finoa Headquarters",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Saarbruecker+Stra%C3%9Fe+37+10405+Berlin",
+    venueAddress: "Saarbrücker Str. 37, 10405 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [
+      "ethereum",
+      "polkadot",
+      "cosmos"
+    ],
+    tags: [
+      "party",
+      "networking"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/blockparty/logo.webp",
+    description: `Join us for an electrifying evening of celebration as we toast to the vibrant Berlin ecosystem at Finoa's Blockparty! Get ready to groove to the beats of DJs while sipping on drinks that epitomize Berlin's party spirit, setting the perfect tone to kick off the night.
+
+This event is a gathering of venture capitalists, innovators, entrepreneurs, and enthusiasts coming together to revel in the dynamic spirit of Berlin's crypto scene. Whether you're a seasoned investor, a budding entrepreneur, or a degen, this is the ultimate opportunity to connect, collaborate, and raise a glass to the successes of our community.""
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/hzsjmzkm",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/hzsjmzkm",
+      twitter: "https://twitter.com/Finoa_io"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "18:00-02:00",
+        startTime: "2024-05-23T16:00:00.000Z",
+        endTime: "2024-05-24T00:00:00.000Z"
       }
     ]
   },
@@ -1352,7 +1744,7 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
       twitter: "https://twitter.com/monero"
     }
   }
-], j = "2024-04-23T11:04:45.633Z", Z = "v24.2.4", c = {
+], S = "2024-04-26T15:21:14.688Z", A = "v24.2.5", c = {
   id: u,
   name: m,
   dataUrl: b,
@@ -1366,8 +1758,8 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
   unions: T,
   chains: B,
   "other-events": [],
-  __time: j,
-  __tag: Z
+  __time: S,
+  __tag: A
 }, r = {
   tz: "Europe/Berlin",
   collections: {
@@ -1424,9 +1816,9 @@ for (const e in r.collections)
 for (const e of c.events)
   e.speakers && o.push(...e.speakers.map((t) => t.photoUrl).filter((t) => t));
 const l = [
-  ...p,
-  // the app itself
   ...d,
+  // the app itself
+  ...p,
   // everything in `static`
   ...o
 ];
