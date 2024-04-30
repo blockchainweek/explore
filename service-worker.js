@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/2-51a817cd.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
-  "/_app/immutable/start-ac09aefa.js",
-  "/_app/immutable/chunks/_layout-c8a5eb91.js",
   "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
-  "/_app/immutable/chunks/CalendarList-542869a7.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-04fe4314.js",
   "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
   "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/_layout-bb513576.js",
+  "/_app/immutable/chunks/8-c0640556.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/2-01a53f7d.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/chunks/6-b6e81de1.js",
+  "/_app/immutable/chunks/7-f0e2f940.js",
+  "/_app/immutable/start-82984dc9.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-02e10546.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
   "/_app/immutable/chunks/utils-f88f52cb.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js"
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/chunks/CalendarList-542869a7.js"
 ], p = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], h = "1714477672738", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], h = "1714481694033", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -317,6 +317,80 @@ Immerse yourself in insightful discussions with the biggest brains in the Web3 g
     ]
   },
   {
+    id: "steuer",
+    hash: "b95ee6d7d6ccbc646f7d570d1a032d57416c97f737f74693dfea99448ec3ec24",
+    name: "Krypto - Steuer Meetup",
+    shortname: "Krypto - Steuer",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Pekuna",
+    dri: "PekunaMaster",
+    poc: "Werner Hoffmann",
+    date: "2024-05-22",
+    days: 1,
+    times: "17:00-20:30",
+    venueName: "Taxfix office",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Stra%C3%9Fe+122%2C+10179+Berlin",
+    venueAddress: "Köpenicker Str. 122, 10179 Berlin",
+    languages: [
+      "german"
+    ],
+    attendees: 200,
+    tags: [
+      "blockchain",
+      "crypto",
+      "legal",
+      "regulatory",
+      "taxes",
+      "profit"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/steuer/logo.webp",
+    description: `Du hast in Kryptowährungen investiert und jetzt lässt dich der Gedanke an das Finanzamt nicht mehr ruhig schlafen?
+
+Dann solltest du dieses Meetup besuchen. Wir werden über die Grundlagen zur Besteuerung von Kryptowährungen sprechen, aber auch über die neusten Entwicklungen und die größten Steuerfallen.
+
+Im Anschluss wird es neben dem rechtlichen Vortrag noch kurze Beiträge zum Thema der Umsetzung in der Praxis geben.
+
+Agenda:
+
+Beginn Einlass: 17:00
+
+Vortrag zum Thema Krypto-Steuer: 17:30
+
+Krypto-Steuer in der Praxis: 19:00
+
+Networking und Drinks: 19:30
+
+Sponsoren:
+
+Taxfix: [www.taxfix.de](http://www.taxfix.de/)
+
+Pekuna: [www.pekuna.de](http://www.pekuna.de/)
+
+Cointracking: [www.cointracking.info](http://www.cointracking.info/)
+`,
+    registration: {
+      type: "signup",
+      price: "Free!",
+      link: "https://lu.ma/o0box0o4",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/o0box0o4",
+      twitter: "https://twitter.com/pekuna_steuer"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "17:00-20:30",
+        startTime: "2024-05-22T15:00:00.000Z",
+        endTime: "2024-05-22T18:30:00.000Z"
+      }
+    ]
+  },
+  {
     id: "w3pn",
     hash: "b6a43b2faa6b96fbc74f2ca5a154829cd92e469ba7988f4db6c827db58bae8cb",
     name: "Web3privacy now meetup",
@@ -469,6 +543,55 @@ The event will be prolonged with the 5th anniversary part of BerChain. Celebrate
         times: "14:00-22:00",
         startTime: "2024-05-23T12:00:00.000Z",
         endTime: "2024-05-23T20:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "olas",
+    hash: "effc7d46102b3a5682df0cefe7d3512f93e4d9cba7b675b1cb6c9410cd7d8240",
+    name: "Agents Unleashed: Olas Product Launch Party",
+    shortname: "Olas Product Launch Party",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "Olas",
+    dri: "ralphpahlmeyer",
+    poc: "Ralph Pahlmeyer",
+    date: "2024-05-21",
+    days: 1,
+    times: "16:00-20:00",
+    venueName: "Locke at East Side Gallery, Friedrichshain",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    tags: [
+      "ai",
+      "agents",
+      "blockchain",
+      "web3",
+      "aiagents"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/olas/logo.webp",
+    description: "Come celebrate a major Olas consumer product launch while overlooking the Spree. Enjoy drinks and canapés courtesy of the Valory team (core contributors to Olas).",
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/ezds98r7",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/ezds98r7",
+      twitter: "https://twitter.com/autonolas",
+      discord: "https://discord.gg/38hUhDkb"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "16:00-20:00",
+        startTime: "2024-05-21T14:00:00.000Z",
+        endTime: "2024-05-21T18:00:00.000Z"
       }
     ]
   },
@@ -648,6 +771,57 @@ See you there! 🚀
     ]
   },
   {
+    id: "greenfield",
+    hash: "02facba301b78f1f5689a8cc0163a56b54270c8422785a321d269fea60230f26",
+    name: "Drinks_ Reception by Greenfield, NEAR, Celo and Q",
+    shortname: "Drinks_ Reception",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "Greenfield, NEAR, Celo, Q",
+    dri: "GreenfieldCap",
+    poc: "Karolina Kowalik",
+    date: "2024-05-22",
+    days: 1,
+    times: "20:30-23:00",
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "ethereum",
+      "polkadot"
+    ],
+    tags: [
+      "party",
+      "networking"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/greenfield/logo.webp",
+    description: `Gm builders! It's Berlin Blockchain Week once more.
+Come and join us for an evening filled with cool music, cocktails, friends -old and new- and a stunning view over Berlin.
+We (Greenfield, NEAR, Celo and Q) are eager to catch up with you and hear about what you're building!
+We're excited for a fantastic evening with all of you. Please sign up promptly, as seats are limited,.`,
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://lu.ma/greenfield-berlin-blockchain-week",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/greenfield-berlin-blockchain-week",
+      twitter: "https://twitter.com/greenfield_cap"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "20:30-23:00",
+        startTime: "2024-05-22T18:30:00.000Z",
+        endTime: "2024-05-22T21:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "drone",
     hash: "61c79ef899eb489a1d5f99a6cbc2694f4a81396d4a27b543b239a78688962cfe",
     name: "First in the World Web3 Drone Corridor Launch",
@@ -762,6 +936,101 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
         times: "13:00-19:00",
         startTime: "2024-05-23T11:00:00.000Z",
         endTime: "2024-05-23T17:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "24hack",
+    hash: "10f03340587291a14d4a60ea1ef8d969a306cd89204d91c9298f37166386f6a9",
+    name: "Solana Berlin 24-Hour Hackathon",
+    shortname: "Solana Berlin",
+    types: [
+      "hackathon"
+    ],
+    status: "published",
+    org: "Solana",
+    dri: "zCasee",
+    poc: "Carlo",
+    date: "2024-05-21",
+    days: 2,
+    times: "00:00-24:00",
+    languages: [
+      "english"
+    ],
+    attendees: 65,
+    tags: [
+      "solana",
+      "hackathon"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/24hack/logo.webp",
+    description: `Solana Foundation will be hosting an IRL overnight hackathon in Berlin on 21-22nd May during Berlin Blockchain Week.
+
+65 developers of all skill levels will have the opportunity to compete for a prize pool of over $15,000 from the Solana Foundation and our ecosystem projects. This is a unique opportunity to chew glass, learn from some of the best Solana developers in the ecosystem, win prizes and have fun!
+
+AGENDA
+The Hackathon will start at 12:00 on May 21st and continue through the night until May 22nd at 13:00 when teams will present their pitches.
+
+May 21st:
+12:00 | Welcome & Lunch
+13:30 | Speed Networking & Team Building
+14:00 | Hacking Starts
+15:00 - 16:00 | Technical Office Hours
+16:00 -18:00 | Pitch VC Feedback
+19:00 | Dinner
+22:00 - 23:00 | Technical Office Hours
+24:00 - 1:00 | Disco Rave at the Hackathon
+Hacking continues through the nightmorning
+
+May 22nd:
+7:00 | Breakfast
+9:00 - 10:00 | Pitch VC Feedback
+10:00 - 11:00 | Technical Office Hours
+12:00 | Lunch
+13:00 | Pitches begin
+Winner Announcements & Closing
+
+
+WHAT TO EXPECT
+The 24-hour hackathon will be hosted on two floors of the w3 hub in Berlin. The 3rd floor is equipped with adjustable workstations, monitors, and office rooms for technical office hours and VC pitch sessions—everything you need for a productive hackathon! The 4th floor will include food stations, sleeping areas for when you need a late-night rest, and fun activities to let off steam. Lunches, Dinner, and Breakfast will be served at the venue, and snacks, coffee, and Red Bulls will always be in full supply!
+
+Technical office hours: Two veteran Solana Developers will be onsite to help answer questions and their time can be booked through the two days for technical support.
+
+VC pitch feedback sessions: VC's will be available during two time slots where you can get 1:1 direct feedback on your pitches.
+
+Final Pitch: You will have a chance to pitch your project to the panel of judges (5 min pitch per team). Judges will vote to select a winning team in each of 3 categories.
+
+PRIZES & TRACKS:
+$15k+ prize pool split across three tracks:
+
+- Decentralized Finance & Payments
+- Consumer Apps & NFTs
+- Public Goods
+
+Who can apply?
+
+You can apply as an individual or also join with a pre-existing team. Teams & individuals with pre-existing projects are welcome to join, but judges will only review the work that is developed during the 24 hours.
+
+Inexperienced devs are welcome and encouraged to apply, there will be ample technical support and experienced devs to join forces with.
+
+Applications will be approved on a rolling basis and spaces are limited, make sure to apply ASAP.
+`,
+    registration: {
+      type: "signup",
+      link: "https://lu.ma/berlin-24hour-hackathon",
+      status: "available"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "00:00-24:00",
+        startTime: "2024-05-20T22:00:00.000Z",
+        endTime: "2024-05-21T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-22",
+        times: "00:00-24:00",
+        startTime: "2024-05-21T22:00:00.000Z",
+        endTime: "2024-05-22T22:00:00.000Z"
       }
     ]
   },
@@ -1452,6 +1721,66 @@ Agenda coming soon. Please RSVP.
     ]
   },
   {
+    id: "cosmos",
+    hash: "480767ab4b128e0198f90cdc2c3da929205941736fd86f0c06cf346d9c5b997c",
+    name: "Cosmos Berlin²",
+    shortname: "Cosmos Berlin²",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "Cosmoverse",
+    dri: "jmaytree",
+    poc: "Juri Maibaum",
+    date: "2024-05-27",
+    days: 1,
+    times: "10:00-17:00",
+    venues: [
+      "web3hub"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 500,
+    chains: [
+      "cosmos"
+    ],
+    tags: [
+      "cosmos",
+      "ibc"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/cosmos/logo.webp",
+    description: `We are coming back to Berlin 🇩🇪
+
+Cosmos Berlin² is set to take place on May 27, 2024. Expect a full-day event packed with keynotes/ panels, an exhibition area, F&B, and much more.
+
+Cosmos Berlin² marks the kick-off event for the "Berlin Cosmos Week" at the end of May.
+
+This year, the event will focus on chain abstraction, modularity, AI, and DePIN.
+
+Agenda TBA
+Partners TBA
+`,
+    registration: {
+      type: "tickets",
+      price: "0 EUR",
+      link: "https://lu.ma/cosmosberlin2",
+      status: "available"
+    },
+    links: {
+      web: "https://cosmoverse.org/cosmosglobal",
+      twitter: "https://twitter.com/cosmoverseHQ"
+    },
+    segments: [
+      {
+        date: "2024-05-27",
+        times: "10:00-17:00",
+        startTime: "2024-05-27T08:00:00.000Z",
+        endTime: "2024-05-27T15:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "aihope",
     hash: "48cb33e5ff47accd1c555e691c24d5d4eb834bc7e1e2f9a8e790c5fbe76f5f6b",
     name: "AI x Hope: New Internet",
@@ -1607,6 +1936,162 @@ NEWCOIN
     ]
   },
   {
+    id: "base",
+    hash: "e9c4f97ec07068c2938b52372f3201a5b09c857d781368b1c671bb408caf66f9",
+    name: "BasedBerlin Hackathon",
+    shortname: "BasedBerlin",
+    types: [
+      "hackathon"
+    ],
+    status: "published",
+    org: "Coinbase",
+    dri: "serra_nur16",
+    poc: "Serra Saridereli",
+    date: "2024-05-20",
+    days: 1,
+    times: "10:00-22:00",
+    venues: [
+      "web3hub"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    tags: [
+      "base",
+      "ledger"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/base/logo.webp",
+    description: `Calling BUIDLers in Berlin 🔵
+
+👀 Curious what the Farcaster Frames hype is all about? Ready to build on Base? Join the BasedBerlin Hackathon to find out!
+
+Learn how to build a Farcaster Frame on Base, a mini-app that enables builders, creators, and tinkerers a new way to create delightful experiences onchain.
+
+⛓️ Stretch your imagination and leave your mark in one of the fastest-growing onchain social ecosystems.
+
+After a day of building, you'll have an opportunity to showcase your project and earn a reward.
+
+🎉 We'll have breakfast and coffee throughout the event, followed by happy hour and connections with builders. See you in Berlin!
+
+This event is proudly hosted in collaboration with Ledger.
+
+** Please note this event is for builders who have experience with onchain development **
+
+📜 Agenda
+
+10:00 - 10:15 | Opening + Breakfast
+10:15 - 10:30 | Briefing + Logistics
+10:30 - 11:00 | Frames 101 + Demo
+11:00 - 11:30 | Team Formation + Brainstorming
+11:30 - 12:00 | Lunch
+12:00 - 17:00 | Hacking
+17:00 - 18:30 | Project Demo
+18:30 - 19:00 | Review + Prize
+19:00 - 22:00 | Happy Hour
+
+⚙️ Prerequisites
+
+You will need the following before entering the event:
+
+- Telegram Account: You will need to join our invite-only TG channel to onboard and connect with other hackers! We will share this with you once you're approved for the event.
+- Self Custodial Wallet (Coinbase Wallet preferred, but not required): You will need a wallet to be able to receive an event NFT
+- Farcaster Account: You will need a Farcaster account to build the frames and participate the hackathon.
+- During the event, we will ask you to form teams of min 2 builders
+
+🏆 Prizes & Categories
+
+3 Winning Teams: $1500 USDC each
+
+Categories:
+1. Easiest to use
+2. Most creative
+3. Use case to get more people onchain
+
+
+`,
+    registration: {
+      type: "signup",
+      link: "https://lu.ma/BasedBerlin24",
+      status: "available"
+    },
+    segments: [
+      {
+        date: "2024-05-20",
+        times: "10:00-22:00",
+        startTime: "2024-05-20T08:00:00.000Z",
+        endTime: "2024-05-20T20:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "chainlink",
+    hash: "a9e5215a14b6b22655a80547e5307d61d563d0fad8651e3e12f96ed12aab5998",
+    name: "Chainlink's Morning Mixer: Innovations Over Brunch",
+    shortname: "ChainlinkBBW",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Chainlink Labs",
+    dri: "rayneh",
+    poc: "Joy Pokkamol",
+    date: "2024-05-24",
+    days: 1,
+    times: "10:00-13:00",
+    venues: [
+      "web3hub"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    tags: [
+      "Chainlink",
+      "Ethereum",
+      "Transponder",
+      "CCIP"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainlink/logo.webp",
+    description: `Come hang with the Chainlink community in Berlin at "Chainlink's Morning Mixer: Innovations Over Brunch," part of the exciting Berlin Blockchain Week. Join us for a morning that blends engaging conversations with the latest insights into the blockchain and Web3 spaces.
+
+Featured Guests:
+
+Solange Gueiros, Chainlink Developer Advocacy
+
+Christopher Glissner, Software Engineer, Deutsche Telekom & Chainlink Community Advocate
+
+Explore Chainlink's Ecosystem:
+
+Insights into Chainlink Network: Delve into how Chainlink enhances smart contract capabilities across multiple blockchains, ensuring the security and reliability of data sources.
+
+Latest Product Updates: Be the first to learn about Chainlink's newest product updates and how they are set to transform the landscape of decentralized finance.
+
+Role in Blockchain and Web3: Understand Chainlink's role within the broader blockchain and Web3 ecosystem and how it's driving forward the future of decentralized applications.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/chainlinkBBW2024",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/chainlinkBBW2024",
+      twitter: "https://twitter.com/chainlink",
+      telegram: "https://t.me/chainlinkofficial",
+      docs: "https://docs.chain.link/",
+      discord: "https://discord.com/invite/chainlink"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "10:00-13:00",
+        startTime: "2024-05-24T08:00:00.000Z",
+        endTime: "2024-05-24T11:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "zkhack",
     hash: "ecd9fe4d2840292aea6544e9465217464d49884f0ddc8a493dc42a2d72986f3e",
     name: "ZK Hack Meetup - ZK Education",
@@ -1664,6 +2149,85 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
         times: "18:00-21:30",
         startTime: "2024-05-21T16:00:00.000Z",
         endTime: "2024-05-21T19:30:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "modular",
+    hash: "8c6eb72bde1b73c0af94b4d8525cfbd94106494e6b92bb888c39646736587986",
+    name: "Modular Day by w3.fund x Celestia",
+    shortname: "Modular Day",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "w3.hub",
+    dri: "hbredi",
+    poc: "Vicktoria Klich",
+    date: "2024-05-25",
+    days: 1,
+    times: "15:00-20:00",
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "modular",
+      "community",
+      "tokenization"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/modular/logo.webp",
+    description: `Berlin Blockchain Week is full of exciting things such as knowledge exchange, insights & networking.
+
+After a full week of input, let's come together and talk about Web3 applications.
+
+For this purpose we have an exciting combo from different industries to tackle "The Future of Payments".
+
+What to expect?
+
+Doors open at w3.hub from 3PM. Let's use the opportunity to review Berlin Blockchain Week.
+
+4PM -> Start of the program
+
+Introduction by [w3.fund](http://w3.fund/); purpose of the event, sneak peek into the Afterparty & the Beer Pong Tournament
+
+4:20PM -> Applications on Celestia
+
+5PM -> Break, get some drinks & snacks
+
+5:30PM -> [Tokenize.it](http://tokenize.it/) presentation
+
+5:45PM -> DeFi Bank by Unstoppable Finance
+
+6PM -> Panel w/ Q&A on "The Future of Payments" with Celestia, [Tokenize.it](http://tokenize.it/), Unstoppable Finance & X [stay tuned 🥹]; moderated by [w3.fund](http://w3.fund/)
+
+6:40PM - Pizza & Drinks 🍻🍕
+
+Transition into BBW Afterparty & Beer Pong Tournament with Drinks & DJs
+
+
+Stay tuned for updates and make sure to bring your curiosity & good vibes.
+
+If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:vicktoria@w3.fund)
+`,
+    registration: {
+      type: "signup",
+      link: "https://lu.ma/j6yvpfgm",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/j6yvpfgm",
+      twitter: "https://twitter.com/w3_hub"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "15:00-20:00",
+        startTime: "2024-05-25T13:00:00.000Z",
+        endTime: "2024-05-25T18:00:00.000Z"
       }
     ]
   }
@@ -1744,7 +2308,7 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
       twitter: "https://twitter.com/monero"
     }
   }
-], S = "2024-04-26T15:21:14.688Z", A = "v24.2.5", c = {
+], S = "2024-04-30T12:31:01.729Z", C = "v24.2.6", l = {
   id: u,
   name: m,
   dataUrl: b,
@@ -1759,7 +2323,7 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
   chains: B,
   "other-events": [],
   __time: S,
-  __tag: A
+  __tag: C
 }, r = {
   tz: "Europe/Berlin",
   collections: {
@@ -1810,12 +2374,12 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
   },
   date: "2024-05-18",
   days: 10
-}, i = `cache-${h}`, o = [];
+}, s = `cache-${h}`, o = [];
 for (const e in r.collections)
-  r.collections[e].virtual || o.push(...c[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
-for (const e of c.events)
+  r.collections[e].virtual || o.push(...l[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
+for (const e of l.events)
   e.speakers && o.push(...e.speakers.map((t) => t.photoUrl).filter((t) => t));
-const l = [
+const c = [
   ...d,
   // the app itself
   ...p,
@@ -1824,14 +2388,14 @@ const l = [
 ];
 self.addEventListener("install", (e) => {
   async function t() {
-    await (await caches.open(i)).addAll(l);
+    await (await caches.open(s)).addAll(c);
   }
   e.waitUntil(t());
 });
 self.addEventListener("activate", (e) => {
   async function t() {
-    for (const a of await caches.keys())
-      a !== i && await caches.delete(a);
+    for (const n of await caches.keys())
+      n !== s && await caches.delete(n);
   }
   e.waitUntil(t());
 });
@@ -1839,14 +2403,14 @@ self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET")
     return;
   async function t() {
-    const a = new URL(e.request.url), s = await caches.open(i);
-    if (l.includes(a.pathname))
-      return s.match(e.request);
+    const n = new URL(e.request.url), a = await caches.open(s);
+    if (c.includes(n.pathname))
+      return a.match(e.request);
     try {
-      const n = await fetch(e.request);
-      return n.status === 200 && s.put(e.request, n.clone()), n;
+      const i = await fetch(e.request);
+      return i.status === 200 && a.put(e.request, i.clone()), i;
     } catch {
-      return s.match(e.request);
+      return a.match(e.request);
     }
   }
   e.respondWith(t());
