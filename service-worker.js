@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/_page-2dca5438.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
-  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
   "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/start-3782ce16.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/_layout-e612a14c.js",
   "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/chunks/_layout-bb513576.js",
   "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-01a53f7d.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-02e10546.js",
   "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/start-82984dc9.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-a53a5414.js",
+  "/_app/immutable/chunks/2-a9f4a25e.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/chunks/utils-f88f52cb.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
-  "/_app/immutable/chunks/CalendarList-542869a7.js",
-  "/_app/immutable/chunks/utils-f88f52cb.js"
+  "/_app/immutable/chunks/CalendarList-542869a7.js"
 ], p = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], h = "1714924061332", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], h = "1714927659982", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -76,6 +76,22 @@ const d = [
     photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/cbase/logo.webp",
     links: {
       web: "https://c-base.org"
+    }
+  },
+  {
+    id: "lisk-centre",
+    hash: "a88015240b4372a69f1bd8972c86b5d5095b398d90dd49974fe6f3a53daec1f7",
+    name: "CV Labs @ Lisk Centre",
+    eventTypes: [
+      "conference",
+      "meetup"
+    ],
+    address: "Köpenicker Str. 126, 10179 Berlin",
+    mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Str.+126%2C+10179+Berlin",
+    description: "",
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/lisk-centre/logo.webp",
+    links: {
+      web: "https://www.cvlabs.com/"
     }
   },
   {
@@ -131,6 +147,24 @@ const d = [
     photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/eins/logo.webp",
     links: {
       web: "https://www.tu.berlin/themen/gruenden/eins"
+    }
+  },
+  {
+    id: "spielfeld",
+    hash: "8b5dd8080f20dba0395d6fa4cc457fb18896c057d0155d2e4873940873171065",
+    name: "Spielfeld",
+    eventTypes: [
+      "conference",
+      "meetup"
+    ],
+    capacity: 100,
+    address: "Skalitzer Straße 85/86, 10997 Berlin",
+    mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Skalitzer+Stra%C3%9Fe+85%2F86%2C+10997+Berlin",
+    description: `Spielfeld is a coworking space and event venue for entrepreneurs, startups and corporates.
+`,
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/spielfeld/logo.webp",
+    links: {
+      web: "https://www.spielfeld.com/"
     }
   },
   {
@@ -317,6 +351,66 @@ Immerse yourself in insightful discussions with the biggest brains in the Web3 g
     ]
   },
   {
+    id: "celo",
+    hash: "1846beaf102b7ac3e327b3922235a154123d9872e163a5d18b88ac01e89e99cf",
+    name: "Celo Gather 2024",
+    shortname: "Celo Gather",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "Celo Europe",
+    dri: "scryptoisback",
+    poc: "Niko da Costa Gomez",
+    date: "2024-05-24",
+    days: 1,
+    times: "10:00-17:00",
+    venues: [
+      "spielfeld"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 600,
+    chains: [
+      "celo"
+    ],
+    tags: [
+      "community",
+      "governance",
+      "Celo",
+      "Optimism"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/celo/celo-gather.webp",
+    description: `Celo Gather 2024 is a one-day conference organized by Celo Europe, bringing together stakeholders from the Celo community to foster collaboration, share insights, and explore the future of the Celo ecosystem.
+
+Date: May 24th, 2024
+Location: Selina Berlin Mitte Rooftop, Rungestraße 20, 10179 Berlin
+
+Join us for a day of thought-provoking discussions, presentations, and networking opportunities focused on topics such as governance, decentralized finance (DeFi), real-world assets (RWA), and community building.
+
+For more information and to secure your spot, visit our website: [Celo Gather](https://www.celodao.eu/gather).
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://www.celodao.eu/gather",
+      status: "available"
+    },
+    links: {
+      web: "https://www.celodao.eu/gather",
+      twitter: "https://twitter.com/CeloEurope"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "10:00-17:00",
+        startTime: "2024-05-24T08:00:00.000Z",
+        endTime: "2024-05-24T15:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "steuer",
     hash: "b95ee6d7d6ccbc646f7d570d1a032d57416c97f737f74693dfea99448ec3ec24",
     name: "Krypto - Steuer Meetup",
@@ -497,6 +591,74 @@ Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps
     ]
   },
   {
+    id: "chainflip",
+    hash: "e8bf1ec16c501a58177e76440e00435d2c9ce61147919f3a17d6528743d43e01",
+    name: "Chainflip Happy Hour",
+    shortname: "Chainflip Happy Hour",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Chainflip Labs",
+    dri: "Willywhoot",
+    poc: "William Johs",
+    date: "2024-05-24",
+    days: 1,
+    times: "15:00-19:00",
+    venueName: "Studio 20",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Schlesische+Strasse+20%2C+10179+Berlin",
+    venueAddress: "Schlesische Strasse 20, 10179 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 300,
+    chains: [
+      "ethereum",
+      "bitcoin",
+      "arbitrum",
+      "solana",
+      "polkadot"
+    ],
+    tags: [
+      "HappyHour",
+      "Cross-chain"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainflip/chainflip.webp",
+    description: `​Come join us for a Happy Hour in Berlin with tunes, beers, cocktails, and food. Alongside the Chainflip crew, we'll have Crypto Builders, Developers, and the wider Web3 Community joining us. So, yeah, networking.
+
+​Here's what you can expect:
+
+- ​Local Berlin Beers
+​- Homemade Cocktails 
+- ​Our very own CEO on the decks 
+- ​Meet the Chainflip team and fellow Berlin Builders
+​- Get your hands on some of our Merch
+`,
+    cfp: {
+      link: "https://lu.ma/32mmm5em"
+    },
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/32mmm5em",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/32mmm5em",
+      twitter: "https://twitter.com/Chainflip",
+      telegram: "https://t.me/chainflip_io_chat",
+      discord: "https://discord.com/invite/chainflip-community"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "15:00-19:00",
+        startTime: "2024-05-24T13:00:00.000Z",
+        endTime: "2024-05-24T17:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "berchain",
     hash: "9c34842c5d933ddefa2c3eda28bcc91e41342c4785b4c71bd4fe0eb4ce897e9a",
     name: "Blockchain meets AI + BerChain's 5th Anniversary",
@@ -535,7 +697,7 @@ The event will be prolonged with the 5th anniversary part of BerChain. Celebrate
       status: "available"
     },
     links: {
-      twitter: "https://twitter.com/Berchain"
+      twitter: "https://twitter.com/ber_chain"
     },
     segments: [
       {
@@ -958,6 +1120,9 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
       "english"
     ],
     attendees: 65,
+    chains: [
+      "solana"
+    ],
     tags: [
       "solana",
       "hackathon"
@@ -1429,7 +1594,7 @@ You are very welcome to stay for a sundowner drink on the rooftop terrace with u
     org: "Finoa",
     dri: "marius-smith",
     poc: "Marius Smith",
-    date: "2024-05-23",
+    date: "2024-05-22",
     days: 1,
     times: "18:00-02:00",
     venueName: "Finoa Headquarters",
@@ -1465,10 +1630,10 @@ This event is a gathering of venture capitalists, innovators, entrepreneurs, and
     },
     segments: [
       {
-        date: "2024-05-23",
+        date: "2024-05-22",
         times: "18:00-02:00",
-        startTime: "2024-05-23T16:00:00.000Z",
-        endTime: "2024-05-24T00:00:00.000Z"
+        startTime: "2024-05-22T16:00:00.000Z",
+        endTime: "2024-05-23T00:00:00.000Z"
       }
     ]
   },
@@ -1635,7 +1800,7 @@ Expect a full day of workshops, presentations, panels, as well as games, music, 
 Agenda coming soon. Please RSVP.
 `,
     cfp: {
-      link: "https://lu.ma/30e3ctlk"
+      link: "https://lu.ma/guardians"
     },
     registration: {
       type: "signup",
@@ -2153,6 +2318,51 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
     ]
   },
   {
+    id: "crypto2030",
+    hash: "ff10d90c5d6e7c3869a177c20d1c1dafcd15ab00f2d4f2db0bf80d2405bb0fbe",
+    name: "CRYPTO2030",
+    shortname: "CRYPTO2030",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "SMART-compliance and SMART-shift, supported by BerChain, Crypto Valley Association",
+    dri: "CRYPTO-2030",
+    date: "2024-05-22",
+    days: 1,
+    times: "11:00-18:00",
+    venues: [
+      "lisk-centre"
+    ],
+    languages: [
+      "english"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/crypto2030/crypto2030.webp",
+    description: `CRYPTO2030 serves as an ideal platform for industry leaders, experts and innovators to come together. This event was hosted in an interactive format where thematic dialogues, roundtables and networking opportunities abounded.
+
+Our goal for CRYPTO2030 is to foster a productive environment where influential voices could exchange ideas and collectively propel the advancement of the Web3 space.
+
+Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypto Valley Association, venue partner CV Labs.
+`,
+    registration: {
+      type: "tickets",
+      price: "0 EUR",
+      link: "https://c2030.org/register",
+      status: "available"
+    },
+    links: {
+      web: "https://c2030.org/"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "11:00-18:00",
+        startTime: "2024-05-22T09:00:00.000Z",
+        endTime: "2024-05-22T16:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "modular",
     hash: "8c6eb72bde1b73c0af94b4d8525cfbd94106494e6b92bb888c39646736587986",
     name: "Modular Day by w3.fund x Celestia",
@@ -2245,6 +2455,28 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
   }
 ], v = [], T = [], B = [
   {
+    id: "arbitrum",
+    hash: "10f993987939fd33a30218ae02d5c9ecea3b5b8429f0edc6ddd46f913c39aa85",
+    name: "Arbitrum",
+    symbol: "ARB",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/arbitrum/arbitrum.webp",
+    links: {
+      web: "https://arbitrum.io/",
+      twitter: "https://twitter.com/arbitrum"
+    }
+  },
+  {
+    id: "celo",
+    hash: "d71a9a3d383ec39cc0896343e5d1f2f8f64c904e72b64b4713d079bbb5bf8523",
+    name: "Celo",
+    symbol: "CELO",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/celo/logo.webp",
+    links: {
+      web: "https://celo.org/",
+      twitter: "https://twitter.com/Celo"
+    }
+  },
+  {
     id: "polkadot",
     hash: "48887cef7134179e2390ebbd2122bc4e76e1414c894720757f7b05ddea753f68",
     name: "Polkadot",
@@ -2264,6 +2496,17 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
     links: {
       web: "https://ethereum.org/",
       twitter: "https://twitter.com/ethereum"
+    }
+  },
+  {
+    id: "solana",
+    hash: "f805bd1677ca5f4d5c848652fad838b2d9cbbd97e2d2210c3f60fc5fd11ed6ca",
+    name: "Solana",
+    symbol: "SOL",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/solana/solana.webp",
+    links: {
+      web: "https://solana.com/",
+      twitter: "https://twitter.com/solana"
     }
   },
   {
@@ -2308,7 +2551,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/monero"
     }
   }
-], S = "2024-04-30T12:31:01.729Z", C = "v24.2.6", l = {
+], C = "2024-05-05T16:20:39.611Z", S = "v24.2.10", l = {
   id: u,
   name: m,
   dataUrl: b,
@@ -2322,8 +2565,8 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
   unions: T,
   chains: B,
   "other-events": [],
-  __time: S,
-  __tag: C
+  __time: C,
+  __tag: S
 }, r = {
   tz: "Europe/Berlin",
   collections: {
