@@ -1,40 +1,40 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
   "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/start-3782ce16.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/_layout-e612a14c.js",
-  "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-a53a5414.js",
-  "/_app/immutable/chunks/2-a9f4a25e.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
   "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/8-c0640556.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-6000f146.js",
+  "/_app/immutable/chunks/7-f0e2f940.js",
+  "/_app/immutable/chunks/2-89a9ef79.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/6-b6e81de1.js",
+  "/_app/immutable/chunks/5-3948902e.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
   "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/chunks/utils-f88f52cb.js",
+  "/_app/immutable/start-060809d0.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
+  "/_app/immutable/chunks/_layout-8aacf83a.js",
+  "/_app/immutable/chunks/utils-f88f52cb.js",
   "/_app/immutable/chunks/CalendarList-542869a7.js"
-], p = [
+], h = [
   "/bg-prg.png",
   "/favicon.png",
   "/img/pbw23-banner-square.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], h = "1714927659982", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1714931273289", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -86,6 +86,7 @@ const d = [
       "conference",
       "meetup"
     ],
+    capacity: 100,
     address: "Köpenicker Str. 126, 10179 Berlin",
     mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Str.+126%2C+10179+Berlin",
     description: "",
@@ -333,7 +334,7 @@ Immerse yourself in insightful discussions with the biggest brains in the Web3 g
 `,
     registration: {
       type: "tickets",
-      price: "0 EUR",
+      price: "Free",
       link: "https://lu.ma/buidlberlin",
       status: "available"
     },
@@ -407,6 +408,62 @@ For more information and to secure your spot, visit our website: [Celo Gather](h
         times: "10:00-17:00",
         startTime: "2024-05-24T08:00:00.000Z",
         endTime: "2024-05-24T15:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "lens",
+    hash: "b8dd8acd62f08414bb48b70ec0fd83a541062721cbbb3b820835d2141a8bda79",
+    name: "afk Berlin",
+    shortname: "afk Berlin",
+    types: [
+      "meetup",
+      "conference",
+      "party"
+    ],
+    status: "published",
+    org: "Lens Protocol",
+    dri: "parisrouzati",
+    poc: "Paris Rouzati",
+    date: "2024-05-24",
+    days: 1,
+    times: "15:00-19:00",
+    venueName: "Telegraphenamt",
+    venueUrl: "https://www.openstreetmap.org/node/10264516383",
+    venueAddress: "Monbijoustr. 11, 10117 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 400,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "web3 social",
+      "new internet",
+      "privacy",
+      "scalability"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/lens/afk.webp",
+    description: `AFK is a new event series debuting in Berlin. 
+Alongside a line-up of cultural leaders, thinkers and technologists, we invite you to take a break from your laptop, dive into ideas, enjoy great conversations, and enjoy pop-ups from Orb, t2 and Bonsai. We'll wrap the evening up with a set by Sound of Fractures and delicious bites.
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/afkberlin",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/afkberlin",
+      twitter: "https://twitter.com/lensprotocol"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "15:00-19:00",
+        startTime: "2024-05-24T13:00:00.000Z",
+        endTime: "2024-05-24T17:00:00.000Z"
       }
     ]
   },
@@ -634,9 +691,6 @@ Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps
 - ​Meet the Chainflip team and fellow Berlin Builders
 ​- Get your hands on some of our Merch
 `,
-    cfp: {
-      link: "https://lu.ma/32mmm5em"
-    },
     registration: {
       type: "signup",
       price: "0 EUR",
@@ -933,6 +987,71 @@ See you there! 🚀
     ]
   },
   {
+    id: "rooftop-token",
+    hash: "94b572c80578214378f143c6d7b0a7df2895ff5f631fc2092d8fcc692dc2aac7",
+    name: "Rooftop Token Launch Party with Drinks and Pizza by Welshare Health",
+    shortname: "Welshare Rooftop Night",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Welshare Health",
+    dri: "jockschulz",
+    poc: "Jock Schulz",
+    date: "2024-05-21",
+    days: 1,
+    times: "19:00-22:00",
+    venueName: "Welshare Health HQ",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Voltairestr+11%2C+10179+Berlin",
+    venueAddress: "Voltairestr 11, 10179 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 269,
+    chains: [],
+    tags: [
+      "desci",
+      "health",
+      "token"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/rooftop-token/rooftop.webp",
+    description: `Let's enjoy the sunset of Berlin together after the first day of DappCon!
+
+Cold Drinks and delicious Pizza provided throughout the night.
+
+Welshare Health is disrupting the digital health landscape with the power of DeSci. Our web3 app enables you to personalize your contribution to medical research.
+
+Own your health data, contribute to medical research without the need of a middleman, earn rewards based on the true value of your health data and benefit from personalized health.
+
+We have exciting guests lined up from Digital Health, Medical AI, Pharma, DeSci and of course leaders from patient communities which we are co-creating with.
+
+This is a first of a kind event where we bring together leaders from web2 and web3 to discuss the innovative future of healthcare.
+
+To celebrate this endeavor, we soon will be launching the Welshare token and opening the public presale. Don't miss out on the opportunity to get on the exclusive token waitlist!
+
+https://twitter.com/welsharehealth
+`,
+    registration: {
+      type: "signup",
+      price: "FREE",
+      link: "https://lu.ma/welshare.health",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/welshare.health",
+      twitter: "https://twitter.com/welsharehealth",
+      telegram: "https://t.me/welsharehealth"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "19:00-22:00",
+        startTime: "2024-05-21T17:00:00.000Z",
+        endTime: "2024-05-21T20:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "greenfield",
     hash: "02facba301b78f1f5689a8cc0163a56b54270c8422785a321d269fea60230f26",
     name: "Drinks_ Reception by Greenfield, NEAR, Celo and Q",
@@ -1044,6 +1163,56 @@ If you are press or a Staex partner, your event starts at 14:00.
         times: "15:00-16:00",
         startTime: "2024-05-21T13:00:00.000Z",
         endTime: "2024-05-21T14:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "workoutdao",
+    hash: "fba0ed14f05fcded7b654444b2acc3237824f2d2e0394476113e7ecc83adc653",
+    name: "WorkoutDAO",
+    shortname: "WorkoutDAO",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "WorkoutDAO",
+    dri: "puncar-dev",
+    poc: "Puncar",
+    date: "2024-05-23",
+    days: 1,
+    times: "08:30-10:00",
+    venueName: "Outdoor",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin",
+    venueAddress: "Rungestraße 20, 10179 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 60,
+    chains: [],
+    tags: [
+      "solarpunk",
+      "workout",
+      "DAO"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/workoutdao/workoutdao.webp",
+    description: `​Lets run through Berlin and enjoy some good networking!
+`,
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://lu.ma/zq87qizu",
+      status: "available"
+    },
+    links: {
+      web: "https://workoutdao.com/",
+      telegram: "https://t.me/+nypYZPQZDDQzOTIx"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "08:30-10:00",
+        startTime: "2024-05-23T06:30:00.000Z",
+        endTime: "2024-05-23T08:00:00.000Z"
       }
     ]
   },
@@ -1200,6 +1369,63 @@ Applications will be approved on a rolling basis and spaces are limited, make su
     ]
   },
   {
+    id: "chainsafe",
+    hash: "218a3d89b843fcbe5854dc0c6543a8df825333181a59fad09b52dea68be06685",
+    name: "ChainSafe & Friends: Berlin",
+    shortname: "ChainSafe & Friends",
+    types: [
+      "meetup"
+    ],
+    status: "planning",
+    org: "ChainSafe",
+    dri: "BenAdarSafe",
+    poc: "Ben Adar",
+    date: "2024-05-22",
+    days: 1,
+    times: "18:00-22:00",
+    venueName: "betahaus | Kreuzberg",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Rudi-Dutschke-Stra%C3%9Fe+23%2C+10969+Berlin%2C+Germany",
+    venueAddress: "Rudi-Dutschke-Straße 23, 10969 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 50,
+    chains: [
+      "ethereum",
+      "polkadot"
+    ],
+    tags: [
+      "Cross-Chain",
+      "Account Abstraction"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainsafe/chainsafe.webp",
+    description: `Join us in Berlin for an intimate gathering for web3 folks hosted by ChainSafe & Sygma
+
+Discover cutting-edge advancements driving the future of open-source, public goods, and decentralized technology.
+
+​Whether you're an experienced developer, an entrepreneurial visionary, or simply curious about the endless possibilities of web3, this event is for you.
+`,
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://lu.ma/csconberlin",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/csconberlin",
+      twitter: "https://twitter.com/ChainSafeth",
+      discord: "https://discord.com/invite/xSAwrnCWcg"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "18:00-22:00",
+        startTime: "2024-05-22T16:00:00.000Z",
+        endTime: "2024-05-22T20:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "ethberlin",
     hash: "0c2bf6f69867ed0708262a3d675ebf842f6232d465cd0755c1641803f3154580",
     name: "ETHBerlin 04",
@@ -1273,6 +1499,64 @@ Check out the website for the full schedule.
         times: "00:00-24:00",
         startTime: "2024-05-25T22:00:00.000Z",
         endTime: "2024-05-26T22:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "hack-heights",
+    hash: "a1fed0c5ede040bcbda9c87bbdc6916f7074a9ee544bdcf6a7df44a8a8bf5073",
+    name: "Hack'N Heights: Unlocking Decentralized Data on a Berlin Rooftop",
+    shortname: "Hack'N Heights: Unlocking Decentralized Data on a Berlin Rooftop",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "KICKOFF The Graph, Chainlink, Deutsche Telekom MMS - HACKATHON Chainlink, The Graph, Plurality Network, Pinax, Deutsche Telekom and Soonami",
+    dri: "lorena1974",
+    poc: "Lorena Fabris",
+    date: "2024-05-21",
+    days: 1,
+    times: "18:00-22:00",
+    venueName: "Deutsche Telekom building",
+    venueUrl: "https://www.openstreetmap.org/search?query=Winterfeldtstra%C3%9Fe%2021#map=19/52.49633/13.35783",
+    venueAddress: "Winterfeldtstraße 21 10781 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [],
+    tags: [
+      "data",
+      "subgraphs",
+      "hackathon"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/hack-heights/telekom.webp",
+    description: `Set against the dynamic backdrop of a vibrant Berlin rooftop, "Hack'N Heights" invites you to delve into the vast potential of decentralized data during Berlin Blockchain Week 2024. 
+
+Hosted at the iconic Deutsche Telekom building, this evening with technical presentations serves as the official kick-off for the Hack’N Heights Online Hackathon.Hack’N Heights kickoff event is organized by leading entities including Chainlink, Deutsche Telekom, The Graph Protocol.The virtual hackathon is co-sponsored by Chainlink, The Graph, Plurality Network, Pinax, Deutsche Telekom, and Soonami with Bounties of over 6K and potential investment opportunities for promising projects. 
+
+We cordially invite you to the vibrating kickoff of Hack’N Heights - A night of enlightenment and connections. Engage with groundbreaking tools and protocols that harness the value of decentralized data through a series of expert-led technical presentations.
+
+Event Highlights:
+- Expert Presentations: Gain insights from leaders in blockchain technology, including Solange Gueiros from Chainlink Labs, Amaechi Okolobi, a Chainlink Developer Expert and Arturo Castanon Advocate from Graph AdvocatesDAO.
+- Dynamic Networking: Connect with pioneers and peers within the blockchain and web3 communities. Expand your network, exchange ideas, and discover new opportunities in an inspiring setting.
+- Complimentary Refreshments: Enjoy a variety of snacks and drinks provided throughout the evening at no cost, ensuring a comfortable and engaging experience.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/66o9s3m8",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/66o9s3m8"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "18:00-22:00",
+        startTime: "2024-05-21T16:00:00.000Z",
+        endTime: "2024-05-21T20:00:00.000Z"
       }
     ]
   },
@@ -1523,6 +1807,63 @@ If you'd like to meet a member of the Starknet Foundation Team we will be here a
     ]
   },
   {
+    id: "web3-talk",
+    hash: "eef718a8879c895eccbe31169e07e27076d1f258ccf084d7cdd55447945a214c",
+    name: "Web3 Talk #24: Gaming and Extended Reality in Web3",
+    shortname: "Gaming & XR in Web3",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "DAO.Researcher",
+    dri: "znerual56",
+    poc: "Laurenz L.",
+    date: "2024-05-27",
+    days: 1,
+    times: "19:00-21:00",
+    venueName: "Spreegold Bikini Berlin, 1st floor, Co-working area",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Budapester+Str.+50%2C+10787+Berlin",
+    venueAddress: "Budapester Str. 50, 10787 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 150,
+    chains: [],
+    tags: [
+      "gaming",
+      "xr",
+      "metaverse",
+      "extendedreality"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-talk/gaming.webp",
+    description: `Gamers welcome! Connect to like-minded enthusiasts from Berlin's creative Web3-, Metaverse, AI, and Blockchain scene!
+For years, the Web3 space discussed how Blockchain could support gaming, and how the gaming industry could make use of AI, XR (Extended Reality), and the Metaverses. Slowly, the games industry adopted Web3 and AI technologies, and Apple launched Vision Pro. We will discuss the latest trends with industrie insiders and take a look at the future of artificial intelligence in games, and games in the Metaverses. Our speakers:
++ CEO of a games company
++ CTO of a XR company
++ Lawyer and gaming industry consultant
++ Games magazine journalist
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "http://bit.ly/Gaming-and-XR",
+      button: "Sign up for free here!",
+      status: "available"
+    },
+    links: {
+      web: "http://bit.ly/Gaming-and-XR",
+      docs: "https://daoResearcher.org/"
+    },
+    segments: [
+      {
+        date: "2024-05-27",
+        times: "19:00-21:00",
+        startTime: "2024-05-27T17:00:00.000Z",
+        endTime: "2024-05-27T19:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "starknet",
     hash: "cf84ec9e7bee6c333f733c009784e30a980855d37dbb5a11397f8f5ba2f1cd04",
     name: "Starknet Foundation Meetup - Berlin Blockchain Week Edition",
@@ -1761,6 +2102,87 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
     ]
   },
   {
+    id: "governance",
+    hash: "402fae00c789897337c9de5f6f0c48d72edb9fde8f814f7290728f09ed44685d",
+    name: "Berlin Blockchain Week 2024: Governance, subjective rules and RWAs - the frontier of crypto",
+    shortname: "Governance, subjective rules and RWAs - the frontier of crypto",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Q Protocol, Kleros",
+    dri: "DianaTheKing",
+    poc: "Diana King",
+    date: "2024-05-23",
+    days: 1,
+    times: "17:30-23:00",
+    venues: [
+      "spielfeld"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [],
+    tags: [
+      "governance",
+      "RWA",
+      "web3"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/governance/governance.webp",
+    description: `​Q Protocol and Kleros are teaming up to bring you an event that is a deep dive into blockchain governance and the integration of real-world assets. This gathering is your opportunity to connect with fellow enthusiasts and explore a unique blend of expert insights and practical applications.
+
+The agenda will be updated soon.
+
+​Special highlights:
+
+​Meet innovative web3 projects that are pushing the boundaries between web3 and real world assets.
+
+​Network with pioneers, VCs and leaders shaping the future of Web3.
+
+​We can't wait to catch up with all the fellows and dive into the governance sea. Be ready for an evening full of learning, networking, and forward-thinking discussions. See you in Berlin!
+
+​​About Q
+
+​[​Q](https://linktr.ee/qblockchain) is a novel blockchain protocol acting as a fundamental governance layer in Web 3.It combines the benefits of a public, open, and decentralized ledger with the transparency and predictability of enforceable private contracts, thereby enabling adoption by a great variety of use cases that desire decentralization but require scalability and dependability.
+
+​About Kleros
+
+​[Kleros](https://kleros.io/) is a decentralized arbitration platform designed to resolve disputes in a transparent and efficient manner using blockchain technology. It leverages crowdsourced jurors who are incentivized through a token-based system to adjudicate a wide range of cases, from e-commerce disputes to contract disagreements.
+
+About SimplyTokenized
+
+[SimplyTokenized](https://www.simplytokenized.com/) is a platform that enhances financing options for businesses and community engagement. It facilitates easier access to capital through community funding, uses smart contracts for cost and time efficiency, and offers decentralized processing via blockchain. The platform's features aim to increase customer loyalty and community interaction through token-based campaigns and a community portal.
+
+About Closer
+
+[Closer](https://closer.earth/) is platform to enable web3 access to regenerative villages and coliving spaces.
+
+About Crypto Invest Berlin
+
+Join the community at [Crypto Invest Berlin](https://www.cryptoinvest.berlin/), the premier gathering spot for cryptocurrency enthusiasts! Held every third Thursday of the month, these events are designed to foster collaboration and share the collective knowledge that enhances their powerful network.
+`,
+    registration: {
+      type: "tickets",
+      price: "free",
+      link: "https://lu.ma/rzrder87",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/rzrder87",
+      twitter: "https://twitter.com/qblockchain",
+      telegram: "https://t.me/berlin_blockchain_week_agenda"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "17:30-23:00",
+        startTime: "2024-05-23T15:30:00.000Z",
+        endTime: "2024-05-23T21:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "wormhole",
     hash: "6d2d67419e5b339651e46d13996f6989c1d335db1ee7dc11dbd0cd9870e3530c",
     name: "Wormhole x Staking Facilities: Guardians of the Multichain",
@@ -1805,7 +2227,7 @@ Agenda coming soon. Please RSVP.
     registration: {
       type: "signup",
       price: "free",
-      link: "https://lu.ma/30e3ctlk",
+      link: "https://lu.ma/guardians",
       status: "available"
     },
     links: {
@@ -1817,6 +2239,61 @@ Agenda coming soon. Please RSVP.
         times: "12:00-22:00",
         startTime: "2024-05-23T10:00:00.000Z",
         endTime: "2024-05-23T20:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "community-run",
+    hash: "92c491433464263ae8c2200de928610ad1bb04002864762eabbf5e699460028e",
+    name: "BBW' 24 Community Run w/ w3.fund",
+    shortname: "BBW' 24 Community Run w/ w3.fund",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "w3.fund",
+    dri: "hbredi",
+    poc: "Henrik Bredenbals",
+    date: "2024-05-23",
+    days: 1,
+    times: "07:30-08:30",
+    venueName: "w3.hub",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=M%C3%B6ckernstra%C3%9Fe+120%2C+10963+Berlin",
+    venueAddress: "Möckernstraße 120, 10963 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 50,
+    chains: [],
+    tags: [
+      "fitness",
+      "running",
+      "strongertogether"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/community-run/w3run.webp",
+    description: `Join our run & energize for a lively 5-6km run with fitness stations to test your strength and agility along the way.
+
+​Gear up for an morning of physical challenge and community fun! Register now to secure your spot.
+
+​We will start at 7:30 in front of the w3.hub, please don't be late!
+
+​The run is presented to you by [w3.fund](http://w3.fund/), an early stage Web3 application layer VC fund."# a description of the event.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/oz82th95",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/oz82th95"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "07:30-08:30",
+        startTime: "2024-05-23T05:30:00.000Z",
+        endTime: "2024-05-23T06:30:00.000Z"
       }
     ]
   },
@@ -2047,6 +2524,70 @@ NEWCOIN
         times: "14:00-22:00",
         startTime: "2024-05-24T12:00:00.000Z",
         endTime: "2024-05-24T20:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "metabrew",
+    hash: "190cf3f494a69eb9b04208a570086178f2c16b223a1b5a08005f0605996cafba",
+    name: "Metabrew Community organized Meetup",
+    shortname: "Metabrew",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Metabrew Ambassador",
+    dri: "Aresss",
+    poc: "Werner Hoffmann",
+    date: "2024-05-19",
+    days: 1,
+    times: "19:00-22:00",
+    venueName: "RedRum Art Bar",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/details.html?osmtype=N&osmid=7340692918&class=amenity",
+    venueAddress: "Grimmstraße 24, 10967 Berlin",
+    languages: [
+      "english",
+      "german"
+    ],
+    attendees: 60,
+    chains: [],
+    tags: [
+      "meetup",
+      "metabrew",
+      "nft",
+      "community",
+      "beer"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/metabrew/metabrew.webp",
+    description: `This is a Meetup and pop-up store for Metabrew - the web3 beer as part of the Berlin Blockchain Week. We welcome everyone there is no need to be part of the Metabrew community already.
+
+​MetaBrewSociety is the leading Web3 beer brand and community. Created by a group of friends and entrepreneurs who love crypto, tech, beer, delicious food and festivals.
+
+​No agenda just a casual hangout at a bar drinking beer, talking about crypto, NFTs and realworld applications.
+
+​(This is not a official Metabrew event nor sponsored by it.)
+
+​There will be Metabrew for sell, only hard money accepted (cash, Bitcoin lightning and for easiness Matic).
+
+​
+
+​Looking forward to see many of you there.
+`,
+    registration: {
+      type: "signup",
+      price: "Free!",
+      link: "https://lu.ma/oa2mv636",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/oa2mv636/"
+    },
+    segments: [
+      {
+        date: "2024-05-19",
+        times: "19:00-22:00",
+        startTime: "2024-05-19T17:00:00.000Z",
+        endTime: "2024-05-19T20:00:00.000Z"
       }
     ]
   },
@@ -2551,7 +3092,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/monero"
     }
   }
-], C = "2024-05-05T16:20:39.611Z", S = "v24.2.10", l = {
+], C = "2024-05-05T17:14:39.887Z", S = "v24.2.12", l = {
   id: u,
   name: m,
   dataUrl: b,
@@ -2617,7 +3158,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
   },
   date: "2024-05-18",
   days: 10
-}, s = `cache-${h}`, o = [];
+}, s = `cache-${p}`, o = [];
 for (const e in r.collections)
   r.collections[e].virtual || o.push(...l[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
 for (const e of l.events)
@@ -2625,7 +3166,7 @@ for (const e of l.events)
 const c = [
   ...d,
   // the app itself
-  ...p,
+  ...h,
   // everything in `static`
   ...o
 ];
