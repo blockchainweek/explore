@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/2-89a9ef79.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/chunks/6-b6e81de1.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/chunks/7-f0e2f940.js",
   "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-6000f146.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/start-060809d0.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-c14d5d81.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/2-605a5c42.js",
+  "/_app/immutable/start-d41f09f8.js",
   "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/chunks/6-b6e81de1.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/_layout-653ec62a.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/_layout-8aacf83a.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
-  "/_app/immutable/chunks/CalendarList-542869a7.js",
-  "/_app/immutable/chunks/utils-f88f52cb.js"
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/chunks/utils-f88f52cb.js",
+  "/_app/immutable/chunks/CalendarList-542869a7.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1714978067296", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1714981679983", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -1105,52 +1105,55 @@ We're excited for a fantastic evening with all of you. Please sign up promptly, 
   {
     id: "drone",
     hash: "61c79ef899eb489a1d5f99a6cbc2694f4a81396d4a27b543b239a78688962cfe",
-    name: "First in the World Web3 Drone Corridor Launch",
-    shortname: "Web3 Drone Launch",
+    name: "First Web3 Drone Corridor in the World",
+    shortname: "Web3 Drone Corridor",
     types: [
       "other"
     ],
     status: "published",
-    org: "Staex",
+    org: "Staex GmbH",
     dri: "SantaBerlin",
     poc: "Paksy Plackis-Cheng",
     date: "2024-05-21",
     days: 1,
-    times: "15:00-16:00",
-    venueName: "Im Marienpark",
+    times: "14:00-17:00",
+    venueName: "Alter Wasserturm im Marienpark",
     venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Im+Marienpark+12107+Berlin",
-    venueAddress: "Im Marienpark, 12107 Berlin Tempelhof-Schöneberg",
+    venueAddress: "Im Marienpark, Berlin",
     languages: [
       "english"
     ],
     attendees: 100,
     chains: [
+      "ethereum",
       "lisk"
     ],
     tags: [
-      "machine-to-machine",
-      "machine payments",
-      "Web2 co using Web3 tools",
-      "drones"
+      "drones",
+      "Web3",
+      "German tech",
+      "M2M"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/drone/logo.webp",
-    description: `Invitation to the official Web3 Drone Corridor launch in Berlin
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/drone/drone.webp",
+    description: `An actual industry usage of Web3 tools...A public-private partnership realizing the next in assets sharing, data collection, permit- and contract handling, and machine payments. All of this will be automated with Staex for reliability and security allowing partners across sectors and industries to work with one another. With the use of Web3 tools, we have neutral grounds, built-in trust, smart-contracts, verified immutable data, and machine-to-machine payments.
 
-An Actual Industry Usage of Web3 Tools
+We are ready to show you a glimpse of the future. Join us for the best-of-breed German technology.
 
-Join us for the World's First Web3 Drone Corridor launch on May 21st, 2024. Don't miss out on German best-of-breed technologies featuring reliable and secure data capturing, communication, and processing incl. payment. Secure your spot and be an active participant purchasing your photo (data) realtime that will be captured by a drone utilizing machine-to-machine payments.
+Meet the future-forward Staex partners:
+Vantage Towers AG, owner of 84,000+ telco towers across Europe;
+REWE Group's paymenttools responsible for 50,000+ payment terminals across Europe; 
+Lightcurve, Lisk platform for L2 of Ethereum;
+Germandrones GmbH, high-performance drones for surveillance and reconnaissance globally; 
+Investa for Im Marienpark, and
+Berlin Partner für Wirtschaft und Technologie GmbH representing the Berlin State ecosystem and innovation.
 
-Here's what to expect:
+Dr. Severin Fischer, Staatssekretär in der Senatsverwaltung für Wirtschaft, Energie und Betriebe des Landes Berlin will open up the event. 
 
-When: May 21st, 2024, at 15:00.
-If you are press or a Staex partner, your event starts at 14:00.
 `,
-    cfp: {
-      link: "https://staex.io/web3-drone-corridor"
-    },
     registration: {
-      type: "signup",
+      type: "tickets",
       price: "FREE!",
+      link: "https://www.eventbrite.de/e/official-web3-drone-corridor-launch-in-berlin-tickets-877818236977?aff=oddtdtcreator",
       status: "available"
     },
     links: {
@@ -1160,9 +1163,9 @@ If you are press or a Staex partner, your event starts at 14:00.
     segments: [
       {
         date: "2024-05-21",
-        times: "15:00-16:00",
-        startTime: "2024-05-21T13:00:00.000Z",
-        endTime: "2024-05-21T14:00:00.000Z"
+        times: "14:00-17:00",
+        startTime: "2024-05-21T12:00:00.000Z",
+        endTime: "2024-05-21T15:00:00.000Z"
       }
     ]
   },
@@ -1822,7 +1825,7 @@ If you'd like to meet a member of the Starknet Foundation Team we will be here a
     days: 1,
     times: "19:00-21:00",
     venueName: "Spreegold Bikini Berlin, 1st floor, Co-working area",
-    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Budapester+Str.+50%2C+10787+Berlin",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/details.html?osmtype=N&osmid=5354555535&class=amenity",
     venueAddress: "Budapester Str. 50, 10787 Berlin",
     languages: [
       "english"
@@ -3092,7 +3095,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/monero"
     }
   }
-], C = "2024-05-05T17:14:39.887Z", S = "v24.2.12", l = {
+], C = "2024-05-06T07:30:34.773Z", S = "v24.2.13", l = {
   id: u,
   name: m,
   dataUrl: b,
