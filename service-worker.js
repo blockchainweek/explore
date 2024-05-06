@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
   "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/_layout-653ec62a.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/start-d41f09f8.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
   "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-2402917b.js",
   "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
   "/_app/immutable/chunks/6-b6e81de1.js",
   "/_app/immutable/chunks/7-f0e2f940.js",
   "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-c14d5d81.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
+  "/_app/immutable/start-efca9377.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
   "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/chunks/2-20d2c6c4.js",
+  "/_app/immutable/chunks/_layout-55507c4f.js",
+  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/2-605a5c42.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
-  "/_app/immutable/chunks/utils-f88f52cb.js",
-  "/_app/immutable/chunks/CalendarList-542869a7.js"
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/chunks/CalendarList-542869a7.js",
+  "/_app/immutable/chunks/utils-f88f52cb.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715006857241", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715010464696", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -372,7 +372,7 @@ Immerse yourself in insightful discussions with the biggest brains in the Web3 g
     languages: [
       "english"
     ],
-    attendees: 600,
+    attendees: 150,
     chains: [
       "celo"
     ],
@@ -386,7 +386,7 @@ Immerse yourself in insightful discussions with the biggest brains in the Web3 g
     description: `Celo Gather 2024 is a one-day conference organized by Celo Europe, bringing together stakeholders from the Celo community to foster collaboration, share insights, and explore the future of the Celo ecosystem.
 
 Date: May 24th, 2024
-Location: Selina Berlin Mitte Rooftop, Rungestraße 20, 10179 Berlin
+Location: Spielfeld Digital Hub
 
 Join us for a day of thought-provoking discussions, presentations, and networking opportunities focused on topics such as governance, decentralized finance (DeFi), real-world assets (RWA), and community building.
 
@@ -3095,7 +3095,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/monero"
     }
   }
-], C = "2024-05-06T07:30:34.773Z", S = "v24.2.13", l = {
+], C = "2024-05-06T15:33:10.572Z", S = "v24.2.14", l = {
   id: u,
   name: m,
   dataUrl: b,
