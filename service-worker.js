@@ -1,38 +1,38 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
   "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/start-efca9377.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/Footer-49410533.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/6-b6e81de1.js",
+  "/_app/immutable/chunks/7-f0e2f940.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/8-c0640556.js",
+  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/5-3948902e.js",
   "/_app/immutable/chunks/0-476fd584.js",
   "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-20d2c6c4.js",
-  "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
   "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
-  "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-2402917b.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/2-6cadf2df.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/_layout-55507c4f.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-7860bd6b.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
+  "/_app/immutable/start-ded49d22.js",
+  "/_app/immutable/chunks/_layout-e28e80a7.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/Footer-49410533.js",
   "/_app/immutable/chunks/CalendarList-542869a7.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
   "/_app/immutable/chunks/utils-f88f52cb.js"
 ], h = [
   "/bg-prg.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715096874925", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715100459472", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -425,7 +425,7 @@ For more information and to secure your spot, visit our website: [Celo Gather](h
     org: "Lens Protocol",
     dri: "parisrouzati",
     poc: "Paris Rouzati",
-    date: "2024-05-24",
+    date: "2024-05-23",
     days: 1,
     times: "15:00-19:00",
     venueName: "Telegraphenamt",
@@ -444,7 +444,7 @@ For more information and to secure your spot, visit our website: [Celo Gather](h
       "privacy",
       "scalability"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/lens/afk.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/lens/lens.webp",
     description: `AFK is a new event series debuting in Berlin. 
 Alongside a line-up of cultural leaders, thinkers and technologists, we invite you to take a break from your laptop, dive into ideas, enjoy great conversations, and enjoy pop-ups from Orb, t2 and Bonsai. We'll wrap the evening up with a set by Sound of Fractures and delicious bites.
 `,
@@ -460,10 +460,73 @@ Alongside a line-up of cultural leaders, thinkers and technologists, we invite y
     },
     segments: [
       {
-        date: "2024-05-24",
+        date: "2024-05-23",
         times: "15:00-19:00",
-        startTime: "2024-05-24T13:00:00.000Z",
-        endTime: "2024-05-24T17:00:00.000Z"
+        startTime: "2024-05-23T13:00:00.000Z",
+        endTime: "2024-05-23T17:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "zkwine",
+    hash: "14184957c62ad295db32b877f753aa85f8cf5be26a1fcb55869070ea2d55b666",
+    name: "zk wine berlin",
+    shortname: "zkwineberlin",
+    types: [
+      "meetup",
+      "party"
+    ],
+    status: "published",
+    org: "Payy",
+    dri: "spencejj",
+    poc: "Spencer",
+    date: "2024-05-24",
+    days: 1,
+    times: "17:00-20:00",
+    venueName: "Secret venue",
+    languages: [
+      "english"
+    ],
+    attendees: 500,
+    chains: [
+      "ethereum",
+      "polygon"
+    ],
+    tags: [
+      "zero knowledge",
+      "cryptography",
+      "payments",
+      "usdc"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/zkwine/zkwine.webp",
+    description: `​​Come join us for some wine and zero knowledge discussions at a low-key venue.
+
+There will be a variety of friends: zk cryptographers, defi builders, L1/2/3/4 maxis and more. But what we all have in common: a love for zero knowledge (and wine).
+
+​​Remember, you need to download the Payy app to get in. Get it ahead of time at [https://payy.link/download](https://payy.link/download%EF%BF%BC%EF%BF%BCIf)
+
+If you can't make it IRL, you can always find us online:
+
+​​https://payy.link/
+
+​​https://twitter.com/payy_link
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/zkwineberlin",
+      status: "available"
+    },
+    links: {
+      web: "https://payy.link/",
+      twitter: "https://twitter.com/payy_link"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "17:00-20:00",
+        startTime: "2024-05-24T15:00:00.000Z",
+        endTime: "2024-05-24T18:00:00.000Z"
       }
     ]
   },
@@ -812,6 +875,60 @@ The event will be prolonged with the 5th anniversary part of BerChain. Celebrate
     ]
   },
   {
+    id: "telekom",
+    hash: "e220e2000314e3798b46d7a2379f86c292d90883ec276edf1ffbfec67e570b8a",
+    name: "Telekom & Friends",
+    shortname: "Telekom & Friends",
+    types: [
+      "meetup",
+      "party"
+    ],
+    status: "published",
+    org: "Deutsche Telekom, Aleph Zero, Fetch.ai, NEAR, Polkadot",
+    dri: "rayneh",
+    poc: "Benjamin Balzer",
+    date: "2024-05-22",
+    days: 1,
+    times: "17:00-23:00",
+    venueName: "hubraum",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Winterfeldtstra%C3%9Fe+21",
+    venueAddress: "Winterfeldtstraße 21, 10781 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [],
+    tags: [
+      "Polkadot",
+      "Aleph Zero",
+      "Fetch.ai",
+      "NEAR"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/telekom/telekom.webp",
+    description: `Join us at the Telekom and Friends Party on May 22nd, from 5 PM to 11 PM, at Hubraum, Deutsche Telekom HQ in Berlin. This event, hosted by Aleph Zero, NEAR, Polkadot, Fetch.ai and Deutsche Telekom, is a highlight of the Berlin Blockchain Week, positioned right between Dappcon and ETH Berlin. Expect an evening filled with engaging conversations, a panel featuring insights from leaders in the Web3 space, and a vibrant party atmosphere with a special guest DJ.
+
+Designed for the Berlin Web3 Community, this event promises to blend insightful discussions on Zero Knowledge tech with relaxed networking opportunities. Whether you're deep into Web3 or just curious about the future of telecommunications and blockchain, this gathering is the perfect place to connect, learn, and unwind. Don’t miss out on this unique blend of tech and fun!
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/jr0fdi0z",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/jr0fdi0z",
+      twitter: "https://twitter.com/mms_Blockchain"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "17:00-23:00",
+        startTime: "2024-05-22T15:00:00.000Z",
+        endTime: "2024-05-22T21:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "blockdev",
     hash: "b8b967e610aa12b32ab3c8e2d720714f7fedabd69183a93a5123e9732c20820e",
     name: "Blockchain Developers Berlin Pt. 2",
@@ -1099,6 +1216,168 @@ We're excited for a fantastic evening with all of you. Please sign up promptly, 
         times: "20:30-23:00",
         startTime: "2024-05-22T18:30:00.000Z",
         endTime: "2024-05-22T21:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "onchain-art",
+    hash: "53cf222b99e53da4757b43170ffe5b188f5e04fbcec2dab44ab9037f3584c689",
+    name: "Onchain Art Day 2024",
+    shortname: "Onchain Art Day",
+    types: [
+      "conference",
+      "expo",
+      "meetup"
+    ],
+    status: "published",
+    org: "KodaDot",
+    dri: "damskyftw",
+    poc: "damsky",
+    date: "2024-05-24",
+    days: 1,
+    times: "13:00-22:00",
+    venues: [
+      "web3hub"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    tags: [
+      "art",
+      "generative-art",
+      "nft"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/onchain-art/onchainart.webp",
+    description: `Join us on May 24th at w3.hub for a day of art, talks, and workshops during Berlin Blockchain Week 2024.
+
+Agenda:
+- Talks & Panels: Learn how to bring your art into the digital age and discover the world of generative art.
+- Live Generative Art Minting: Get hands-on with workshops by KODA
+- Exhibition: Check out the freshest talent and established artists showcasing their physical and digital masterpieces from Berlin and Europe.
+
+Want to get involved? Hit us up about sponsorship opportunities and let's make this event unforgettable.
+
+If you are a generative artist who'd like to showcase their art, let us know at https://t.me/Just_Luuuu
+
+This event is possible thanks to our sponsors and collaborators: KODA, Vara Network, Office Impart, and Modern Meta.
+`,
+    cfp: {
+      link: "https://t.me/damskyftw"
+    },
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/onchainartday",
+      button: "Register Now!",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/onchainartday",
+      twitter: "https://twitter.com/KodaDot",
+      telegram: "https://t.me/koda_eco"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "13:00-22:00",
+        startTime: "2024-05-24T11:00:00.000Z",
+        endTime: "2024-05-24T20:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "hack-heights-online",
+    hash: "4c6065d17a430a11d6463ee076f4b33be2b2c3c50a2a09f83d079d0364b69006",
+    name: "Hack'n Heights Online Hackathon",
+    shortname: "Hack'n Heights",
+    types: [
+      "hackathon"
+    ],
+    status: "published",
+    org: "Foundance, Soonami, Chainlink, The Graph, Pinax, Plurality Network",
+    dri: "lorena1974",
+    poc: "Lorena Fabris",
+    date: "2024-05-21",
+    days: 7,
+    times: "00:00-24:00",
+    venueName: "Online",
+    venueUrl: "https://app.foundance.org/events/hacknheights?tab=overview",
+    languages: [
+      "english"
+    ],
+    attendees: 600,
+    chains: [],
+    tags: [
+      "subgraph",
+      "substreams"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/hack-heights-online/hack-heights.webp",
+    description: `The Hack'N Heights Online Hackathon is dedicated to showcasing how decentralized data can redefine our digital interactions. Our mission is to foster an environment where our bounty sponsors' combined technologies and frameworks—Chainlink, The Graph Protocol, Plurality Network, soonami.io and Pinax—illustrate the compelling advantages of web3 approaches.
+
+We anticipate developers will create exciting applications and explore blockchain technology's next wave of billion-dollar data-related use cases. Chainlink provides decentralized oracles, seamlessly integrating off-chain data into the blockchain world. Similarly, The Graph Protocol efficiently indexes and queries blockchain data, making it accessible for dApps and the broader off-chain landscape. Additionally, Plurality Network offers an onboarding solution, aggregating variable user data from social platforms that can be leveraged for both on-chain and off-chain use cases. We believe developers can craft amazing applications at this intersection of data and blockchain, eagerly look forward to the innovations to come!
+
+This event seeks to illuminate the cohesive power of these technologies, demonstrating their compatibility and strength in solving complex data problems.
+
+What to Expect:
+
+Global Participation: Engage from any location worldwide, facilitated by our seamless collaboration with Foundance.org, known for its robust digital hackathon platform. Generous Bounties: Compete for prizes worth $6000 as you bring your innovative solutions to life, generously sponsored by our partners committed to advancing the web3 ecosystem. Expert Guidance: Receive unparalleled support and feedback from industry leaders who are as passionate about decentralized solutions as you are. Our mentors are seasoned professionals from the sponsoring organizations who offer direct insights and guidance. Collaborative Environment: Work alongside peers and experts in a dynamic online setting, fostering collaboration and the exchange of revolutionary ideas.
+
+Join Us:
+
+Whether you're a developer seasoned in blockchain technology, an entrepreneur in the tech space, or a tech enthusiast eager to learn more about decentralized data, Hack'N Heights provides a perfect platform to deepen your expertise and showcase your skills.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://app.foundance.org/events/hacknheights?tab=overview",
+      status: "available"
+    },
+    links: {
+      web: "https://app.foundance.org/events/hacknheights?tab=overview"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "00:00-24:00",
+        startTime: "2024-05-20T22:00:00.000Z",
+        endTime: "2024-05-21T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-22",
+        times: "00:00-24:00",
+        startTime: "2024-05-21T22:00:00.000Z",
+        endTime: "2024-05-22T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-23",
+        times: "00:00-24:00",
+        startTime: "2024-05-22T22:00:00.000Z",
+        endTime: "2024-05-23T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-24",
+        times: "00:00-24:00",
+        startTime: "2024-05-23T22:00:00.000Z",
+        endTime: "2024-05-24T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-25",
+        times: "00:00-24:00",
+        startTime: "2024-05-24T22:00:00.000Z",
+        endTime: "2024-05-25T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-26",
+        times: "00:00-24:00",
+        startTime: "2024-05-25T22:00:00.000Z",
+        endTime: "2024-05-26T22:00:00.000Z"
+      },
+      {
+        date: "2024-05-27",
+        times: "00:00-24:00",
+        startTime: "2024-05-26T22:00:00.000Z",
+        endTime: "2024-05-27T22:00:00.000Z"
       }
     ]
   },
@@ -1514,7 +1793,7 @@ Check out the website for the full schedule.
       "meetup"
     ],
     status: "published",
-    org: "KICKOFF The Graph, Chainlink, Deutsche Telekom MMS - HACKATHON Chainlink, The Graph, Plurality Network, Pinax, Deutsche Telekom and Soonami",
+    org: "Chainlink, The Graph and Deutsche Telekom",
     dri: "lorena1974",
     poc: "Lorena Fabris",
     date: "2024-05-21",
@@ -2301,6 +2580,62 @@ Agenda coming soon. Please RSVP.
     ]
   },
   {
+    id: "fwb",
+    hash: "4a01df1e755a1c5edbd93597c323aebeb1edd6834d05413950b66149bf3288e1",
+    name: "CEREMONY by FWB",
+    shortname: "CEREMONY",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "Friends With Benefits",
+    dri: "enaranazarova",
+    poc: "Enara Nazarova",
+    date: "2024-05-25",
+    days: 1,
+    times: "09:00-23:59",
+    venueName: "Monopol",
+    venueUrl: "https://www.openstreetmap.org/node/9774919599",
+    venueAddress: "Provinzstraße 40-44, 13409 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [],
+    tags: [],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/fwb/fwb.webp",
+    description: `Dear Berliner,
+
+We're thrilled to invite you to the 4th edition of "CEREMONY," a unique fusion of spirituality and digital innovation celebrating Berlin's culture. Join us at the iconic Monopol for a theatrical experience with a hint of irreverence guided by Lori Baldwin and talents from Tresor and Lunacy.
+
+May 25th at 9pm. Doors close at 10pm sharp.
+
+Space is extremely limited, so please secure your ticket early and keep an eye out for a confirmation email containing event details. 
+
+We look forward to welcoming you!
+
+FWB Berlin
+`,
+    registration: {
+      type: "tickets",
+      price: "25 EUR",
+      link: "https://lu.ma/ceremony",
+      status: "available"
+    },
+    links: {
+      web: "https://fwb.help/",
+      twitter: "https://twitter.com/FWBtweets"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "09:00-23:59",
+        startTime: "2024-05-25T07:00:00.000Z",
+        endTime: "2024-05-25T21:59:00.000Z"
+      }
+    ]
+  },
+  {
     id: "dappcon",
     hash: "9b9b33b227ead2e445b2c44dbd271f1423cb6ca0cd36b888b5dccf775ee0af35",
     name: "DAPPCON 24",
@@ -2907,6 +3242,63 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
     ]
   },
   {
+    id: "buidlbase",
+    hash: "617aff30208732ca84afd3e4e661302a087ee9096246c7ad4b7801038250324a",
+    name: "BUIDL Base Camp",
+    shortname: "BUIDL Base Camp",
+    types: [
+      "workshop"
+    ],
+    status: "published",
+    org: "Buidl Guidl",
+    dri: "kmjones1979",
+    poc: "Jonathan",
+    date: "2024-05-21",
+    days: 1,
+    times: "10:00-16:00",
+    venueName: "Register to see venue name",
+    languages: [
+      "english"
+    ],
+    attendees: 60,
+    chains: [
+      "ethereum",
+      "base"
+    ],
+    tags: [
+      "workshop"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/buidlbase/buidlbase.webp",
+    description: `Join the Buidl Guidl Base Camp during Berlin Blockchain Week to get hands-on experience building and deploying your dapp on Base!
+
+​At the event we’ll introduce you to Scaffold-ETH 2, the leading open-source toolkit that simplifies the dApp development process. Specifically, we’ll work with the fork Scaffold-Base which is tailored to enhance your development experience building new applications on Base’s L2.
+
+​In other sessions you will learn how to utilize The Graph for indexing Base data, employ Coinbase Smart Wallet for account abstraction and deploy your dapp with the BUIDL on Base workshop.
+
+​This event is an excellent opportunity for developers of all levels to sharpen their skills, connect with like-minded individuals, start building with Scaffold ETH 2, and deploying on Base!
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/buidlbase",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/buidlbase",
+      twitter: "https://twitter.com/buidlguidl",
+      telegram: "https://t.me/buidlbase",
+      docs: "https://github.com/BuidlGuidl/scaffold-base"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "10:00-16:00",
+        startTime: "2024-05-21T08:00:00.000Z",
+        endTime: "2024-05-21T14:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "modular",
     hash: "8c6eb72bde1b73c0af94b4d8525cfbd94106494e6b92bb888c39646736587986",
     name: "Modular Day by w3.fund x Celestia",
@@ -3010,6 +3402,17 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
     }
   },
   {
+    id: "polygon",
+    hash: "4d4f17865122c58eb9b62acb245202086d9bf90d3007741bff2d1c6efefe2f42",
+    name: "Polygon",
+    symbol: "MATIC",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/polygon/polygon.webp",
+    links: {
+      web: "https://polygon.technology/",
+      twitter: "https://twitter.com/0xPolygon"
+    }
+  },
+  {
     id: "celo",
     hash: "d71a9a3d383ec39cc0896343e5d1f2f8f64c904e72b64b4713d079bbb5bf8523",
     name: "Celo",
@@ -3094,8 +3497,18 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       web: "https://www.getmonero.org/",
       twitter: "https://twitter.com/monero"
     }
+  },
+  {
+    id: "base",
+    hash: "58ce54dce0c01dc67e39ad192c7e09b54c8797fb2afc9b8f8549055962494cb1",
+    name: "Base",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/base/base.webp",
+    links: {
+      web: "https://www.base.org/",
+      twitter: "https://twitter.com/base"
+    }
   }
-], C = "2024-05-06T15:33:10.572Z", S = "v24.2.14", l = {
+], C = "2024-05-07T16:32:22.535Z", A = "v24.2.16", l = {
   id: u,
   name: m,
   dataUrl: b,
@@ -3110,7 +3523,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
   chains: B,
   "other-events": [],
   __time: C,
-  __tag: S
+  __tag: A
 }, r = {
   tz: "Europe/Berlin",
   collections: {
