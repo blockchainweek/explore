@@ -1,5 +1,5 @@
-import { format, addDays } from 'date-fns';
-
+import { format, addDays, parseISO } from 'date-fns';
+import { formatInTimeZone } from 'date-fns-tz';
 const langMapper = {
 	czech: 'cz',
 	slovak: 'sk',
@@ -8,7 +8,12 @@ const langMapper = {
 };
 
 export function formatItemDate(item, opts = {}) {
-	let dt = format(new Date(item.date), 'MMMM d' + (opts.full && item.days === 1 ? ', yyyy' : ''));
+	const date = parseISO(item.date + 'T00:00:00Z');
+	let dt = formatInTimeZone(
+		date,
+		'Europe/Berlin',
+		'MMMM d' + (opts.full && item.days === 1 ? ', yyyy' : '')
+	);
 	if (item.days > 1) {
 		dt +=
 			'-' + format(addDays(new Date(item.date), item.days - 1), 'd' + (opts.full ? ', yyyy' : ''));
