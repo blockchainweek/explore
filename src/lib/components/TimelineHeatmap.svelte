@@ -1,5 +1,6 @@
 <script>
-	import { compareAsc, addDays, addMinutes, format } from 'date-fns';
+	import { compareAsc, addDays, addMinutes } from 'date-fns';
+	import { formatInTimeZone } from 'date-fns-tz';
 	import { goto } from '$app/navigation';
 	import ItemLogo from '$lib/components/ItemLogo.svelte';
 	export let data;
@@ -23,16 +24,16 @@
 	const days = [];
 	let currentDate = startDate;
 	while (compareAsc(new Date(currentDate), new Date(endDate)) <= 0) {
-		days.push(format(new Date(currentDate), 'yyyy-MM-dd'));
+		days.push(formatInTimeZone(new Date(currentDate), "Europe/Berlin", 'yyyy-MM-dd'));
 		currentDate = addDays(new Date(currentDate), 1);
 	}
 
 	const segments = [];
 	let currentSegment = '00:00';
 	while (!segments.includes(currentSegment)) {
-		segments.push(format(new Date(startDate + 'T' + currentSegment), 'HH:mm'));
-		currentSegment = format(
-			addMinutes(new Date(startDate + 'T' + currentSegment), segmentMinutes),
+		segments.push(formatInTimeZone(new Date(startDate + 'T' + currentSegment), "Europe/Berlin", 'HH:mm'));
+		currentSegment = formatInTimeZone(
+			addMinutes(new Date(startDate + 'T' + currentSegment), segmentMinutes), "Europe/Berlin",
 			'HH:mm'
 		);
 	}
@@ -79,7 +80,7 @@
 				end: new Date(
 					`${
 						tend <= tstart
-							? format(addDays(new Date(eventSegment.date), 1), 'yyyy-MM-dd')
+							? formatInTimeZone(addDays(new Date(eventSegment.date), 1), "Europe/Berlin",'yyyy-MM-dd')
 							: eventSegment.date
 					}T${tend}`
 				)
@@ -97,8 +98,8 @@
 	function makeSelected(day, segment, keys) {
 		const baseDate = new Date(`${day}T${segment}`);
 		const title =
-			format(baseDate, 'EEEE MMMM d | HH:mm - ') +
-			format(addMinutes(baseDate, segmentMinutes), 'HH:mm');
+			formatInTimeZone(baseDate,"Europe/Berlin", 'EEEE MMMM d | HH:mm - ') +
+			formatInTimeZone(addMinutes(baseDate, segmentMinutes),"Europe/Berlin", 'HH:mm');
 		return (event) => {
 			selectedSegment = {
 				day,
@@ -169,9 +170,9 @@
 					: 'text-bbw-navy text-lg'}"
 				style="width: {1 / (days.length / 100)}%;"
 			>
-				<a href="/24/day/{format(new Date(day), 'yyyy-MM-dd')}"
-					><span class="hidden md:inline-block">{format(new Date(day), 'eee ')}</span>
-					{format(new Date(day), 'd')}</a
+				<a href="/24/day/{formatInTimeZone(new Date(day),  "Europe/Berlin", 'yyyy-MM-dd')}"
+					><span class="hidden md:inline-block">{formatInTimeZone(new Date(day),  "Europe/Berlin", 'eee ')}</span>
+					{formatInTimeZone(new Date(day), "Europe/Berlin",'d')}</a
 				>
 			</div>
 		{/each}
