@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
-  "/_app/immutable/start-094a421f.js",
-  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-ff693be9.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/2-2bdc13c1.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/4-0a133456.js",
-  "/_app/immutable/chunks/6-b6e81de1.js",
-  "/_app/immutable/chunks/7-f0e2f940.js",
-  "/_app/immutable/chunks/8-c0640556.js",
-  "/_app/immutable/chunks/5-3948902e.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/components/layout.svelte-9d2d995d.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
-  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
-  "/_app/immutable/chunks/utils-f88f52cb.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/CollectionList-0d0e1155.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/TimelineHeatmap-aac30151.js",
+  "/_app/immutable/chunks/2-77afca63.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/4-0a133456.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/8-c0640556.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-2b65fbfd.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-820f1b55.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-68b24088.js",
+  "/_app/immutable/chunks/7-f0e2f940.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/chunks/EventTypeBadge-2ce2a3cd.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-72cf87c4.js",
+  "/_app/immutable/chunks/6-b6e81de1.js",
+  "/_app/immutable/chunks/5-3948902e.js",
+  "/_app/immutable/start-b96bf115.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
   "/_app/immutable/chunks/Footer-49410533.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js",
-  "/_app/immutable/chunks/_layout-909581a8.js",
-  "/_app/immutable/chunks/CalendarList-542869a7.js"
+  "/_app/immutable/chunks/_layout-5f45284f.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-ec41b4e3.js",
+  "/_app/immutable/chunks/CalendarList-542869a7.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/utils-f88f52cb.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-794e2a94.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715183272229", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715186858747", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -1785,6 +1785,77 @@ Check out the website for the full schedule.
     ]
   },
   {
+    id: "marketers",
+    hash: "503dea94ff72c6a5e65a9932f37110f7f09f373869d118daf184c860040b407e",
+    name: "AdEx Web3 Marketers Meet Up & Drinks",
+    shortname: "AdEx Web3 Marketers Meet Up",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "AdEx",
+    dri: "dmngdsm",
+    poc: "Ivan Manchev",
+    date: "2024-05-22",
+    days: 1,
+    times: "19:30-22:30",
+    venueName: "East Side Bar Berlin",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Stralauer+Pl.+30-31",
+    venueAddress: "Stralauer Pl. 30-31, 10243 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 35,
+    chains: [],
+    tags: [
+      "Web3",
+      "marketing",
+      "AI",
+      "ZK"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/marketers/adex-event.webp",
+    description: `Are you a Web3 marketer tired of developer conferences and tech topics? Do you want to discuss community, points and shitposting with fellow nerds? We got you covered.
+
+​Join us for our second Web3 marketers gathering - a smooth Berliner evening of drinks and networking at the East Side Bar, just two minutes away from the Dappcon venue.
+
+​We're bringing together a carefully selected group of Web3 marketers with simple agenda in mind: all about forging connections, exchanging ideas, and building a vibrant community.
+
+​
+What's in store:
+
+​Intimate Atmosphere: We're keeping it cozy with a small group to ensure genuine conversations.
+
+​Networking Opportunities: Chat with peers who share your values and pains.
+
+​Views and Drinks: Grab a cocktail and nibble on tasty finger foods while enjoying the rooftop view. The bar is just a 2 min walk away from the DappCon venue.
+
+​About AdEx:
+AdEx is a cutting-edge decentralized advertising platform delving deep into AI and zero-knowledge (ZK) technology for campaign optimization, ensuring the best value for our advertisers. Currently being relaunched as a Demand-Side Platform (DSP), AdEx is pioneering programmatic advertising in the Web3 space. Our goal is to bridge the gap between the Web3 and Web2 spaces, maximizing the impact of targeted advertising.
+`,
+    cfp: {
+      link: "https://lu.ma/su2j996r"
+    },
+    registration: {
+      type: "invites",
+      price: "free",
+      link: "https://lu.ma/su2j996r",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/su2j996r",
+      twitter: "https://twitter.com/AdEx_Ads",
+      telegram: "https://t.me/adexweb3advertising"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "19:30-22:30",
+        startTime: "2024-05-22T17:30:00.000Z",
+        endTime: "2024-05-22T20:30:00.000Z"
+      }
+    ]
+  },
+  {
     id: "hack-heights",
     hash: "a1fed0c5ede040bcbda9c87bbdc6916f7074a9ee544bdcf6a7df44a8a8bf5073",
     name: "Hack'N Heights: Unlocking Decentralized Data on a Berlin Rooftop",
@@ -3508,7 +3579,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/base"
     }
   }
-], C = "2024-05-07T19:06:16.655Z", A = "v24.2.18", l = {
+], C = "2024-05-08T16:07:47.084Z", A = "v24.2.19", l = {
   id: u,
   name: m,
   dataUrl: b,
