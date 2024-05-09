@@ -1,5 +1,7 @@
 import { format, addDays, parseISO } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
+import { config } from '$lib/bbw.js';
+
 const langMapper = {
 	czech: 'cz',
 	slovak: 'sk',
@@ -11,7 +13,7 @@ export function formatItemDate(item, opts = {}) {
 	const date = parseISO(item.date + 'T00:00:00Z');
 	let dt = formatInTimeZone(
 		date,
-		'Europe/Berlin',
+		config.tz,
 		'MMMM d' + (opts.full && item.days === 1 ? ', yyyy' : '')
 	);
 	if (item.days > 1) {
