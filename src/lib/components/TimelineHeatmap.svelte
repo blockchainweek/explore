@@ -2,8 +2,6 @@
 	import { compareAsc, addDays, addMinutes, format } from 'date-fns';
 	import { goto } from '$app/navigation';
 	import ItemLogo from '$lib/components/ItemLogo.svelte';
-	import { formatInTimeZone } from 'date-fns-tz';
-import { config } from '$lib/bbw.js';
 	export let data;
 	export let highlightDay = false;
 
@@ -25,17 +23,16 @@ import { config } from '$lib/bbw.js';
 	const days = [];
 	let currentDate = startDate;
 	while (compareAsc(new Date(currentDate), new Date(endDate)) <= 0) {
-		days.push(formatInTimeZone(new Date(currentDate), config.tz, 'yyyy-MM-dd'));
+		days.push(format(new Date(currentDate), 'yyyy-MM-dd'));
 		currentDate = addDays(new Date(currentDate), 1);
 	}
 
 	const segments = [];
 	let currentSegment = '00:00';
 	while (!segments.includes(currentSegment)) {
-		segments.push(formatInTimeZone(new Date(startDate + 'T' + currentSegment), config.tz, 'HH:mm'));
-		currentSegment = formatInTimeZone(
+		segments.push(format(new Date(startDate + 'T' + currentSegment), 'HH:mm'));
+		currentSegment = format(
 			addMinutes(new Date(startDate + 'T' + currentSegment), segmentMinutes),
-			config.tz,
 			'HH:mm'
 		);
 	}
@@ -82,7 +79,7 @@ import { config } from '$lib/bbw.js';
 				end: new Date(
 					`${
 						tend <= tstart
-							? formatInTimeZone(addDays(new Date(eventSegment.date), 1), config.tz, 'yyyy-MM-dd')
+							? format(addDays(new Date(eventSegment.date), 1), 'yyyy-MM-dd')
 							: eventSegment.date
 					}T${tend}`
 				)
@@ -100,8 +97,8 @@ import { config } from '$lib/bbw.js';
 	function makeSelected(day, segment, keys) {
 		const baseDate = new Date(`${day}T${segment}`);
 		const title =
-		formatInTimeZone(baseDate, config.tz, 'EEEE MMMM d | HH:mm - ') +
-		formatInTimeZone(addMinutes(baseDate, segmentMinutes), config.tz, 'HH:mm');
+			format(baseDate, 'EEEE MMMM d | HH:mm - ') +
+			format(addMinutes(baseDate, segmentMinutes), 'HH:mm');
 		return (event) => {
 			selectedSegment = {
 				day,
@@ -172,9 +169,9 @@ import { config } from '$lib/bbw.js';
 					: 'text-bbw-navy text-lg'}"
 				style="width: {1 / (days.length / 100)}%;"
 			>
-				<a href="/24/day/{formatInTimeZone(new Date(day), config.tz, 'yyyy-MM-dd')}"
-					><span class="hidden md:inline-block">{formatInTimeZone(new Date(day), config.tz, 'eee ')}</span>
-					{formatInTimeZone(new Date(day), config.tz, 'd')}</a
+				<a href="/24/day/{format(new Date(day), 'yyyy-MM-dd')}"
+					><span class="hidden md:inline-block">{format(new Date(day), 'eee ')}</span>
+					{format(new Date(day), 'd')}</a
 				>
 			</div>
 		{/each}
