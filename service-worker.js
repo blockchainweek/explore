@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-4267f7e1.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/CollectionList-bb53f482.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/start-7c89604a.js",
+  "/_app/immutable/chunks/5-2b32db88.js",
+  "/_app/immutable/chunks/2-f26b0cd8.js",
   "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/_layout-5f45284f.js",
+  "/_app/immutable/chunks/4-c7382cc7.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-e8867925.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-6d87a657.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/CalendarList-dbddcfcc.js",
   "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/7-c4c6d30c.js",
-  "/_app/immutable/chunks/4-6d29741b.js",
   "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/EventTypeBadge-91c68144.js",
-  "/_app/immutable/chunks/TimelineHeatmap-5a215940.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-2dcf221d.js",
+  "/_app/immutable/chunks/EventTypeBadge-e44aa2f9.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/TimelineHeatmap-134215d8.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-8a7cad16.js",
+  "/_app/immutable/chunks/8-6cfe9cbc.js",
+  "/_app/immutable/chunks/6-371c5c02.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-09b9853b.js",
+  "/_app/immutable/chunks/7-94c35903.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/CollectionList-e11c2b3d.js",
+  "/_app/immutable/chunks/_layout-c1404493.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-6386bb21.js",
+  "/_app/immutable/start-df96bf10.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/8-d80d39cd.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-820f1b55.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-e83c7a9f.js",
-  "/_app/immutable/chunks/2-77afca63.js",
-  "/_app/immutable/chunks/CalendarList-79c8d309.js",
-  "/_app/immutable/chunks/5-632ab1a8.js",
-  "/_app/immutable/chunks/6-064c9121.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-033aa40b.js",
-  "/_app/immutable/chunks/utils-70ae3a82.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-8cada310.js",
-  "/_app/immutable/chunks/Footer-4e0a29d8.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-9ed2c1a1.js"
+  "/_app/immutable/chunks/Footer-12905dd1.js",
+  "/_app/immutable/chunks/utils-9ec8d385.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715251670431", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715342970231", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -711,6 +711,125 @@ Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps
     ]
   },
   {
+    id: "gen-video",
+    hash: "1f6a1b8e409cf2ddae6b39bd286f377beaa373a430ba2535a4f2760ff4d05596",
+    name: "GEN VIDEO - The Future of Decentralized AI Media and Streaming",
+    shortname: "GEN VIDEO",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "Livepeer",
+    dri: "shann7",
+    poc: "shanvasion",
+    date: "2024-05-23",
+    days: 1,
+    times: "14:00-18:00",
+    venueName: "Next Schank- und Speisewirtschaf",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=G%C3%B6rlitzer+Str.+52",
+    venueAddress: "Görlitzer Str. 52, 10997 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 60,
+    chains: [],
+    tags: [
+      "generative-video",
+      "decentralized media tech",
+      "AI",
+      "content creators"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/gen-video/gen-video.webp",
+    description: `
+Spurred by a new wave of generative AI capabilities, decentralized media technologies and applications have the potential to empower a new generation of content creators and cultural communities for whom video is an increasingly important medium. From online music broadcasting to social media, the relationship between content creators, audiences and platforms is being disrupted with the potential for significant artistic, economic and cultural impact across the globe.
+
+​This interactive event will bring together a diverse and high-caliber group of participants to discuss the conditions, opportunities and challenges for video content creation and broadcasting in the context of new AI and decentralized technologies.  
+
+​Through panels, talks and group workshops, participants will learn about Livepeer’s latest decentralized AI Video network technology and engage in critical topics including co-creation, ownership, monetization and moderation, with the goal of introducing new audiences to web3, and fostering connection and collaboration among participants on common challenges and opportunities.  
+
+​Curated participant group of 60 max, representing:  
+
+​- Web3 technology leaders: enabling infrastructure and tech 
+​- Web3 creators and builders 
+- ​Web2 media artists, streamers, publishers
+
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/4ochjrc3",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/4ochjrc3",
+      twitter: "https://twitter.com/Livepeer",
+      telegram: "https://t.me/livepeerofficials",
+      discord: "http://discord.gg/livepeer"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "14:00-18:00",
+        startTime: "2024-05-23T12:00:00.000Z",
+        endTime: "2024-05-23T16:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "perma",
+    hash: "82e617d45b6edfe36ebc0ed4a0c99789e70c54d070fbedeae2e4997181863b14",
+    name: "PERMA 📸 Closed Beta (Berlin, Germany)",
+    shortname: "PERMA 📸 ",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Future Primitive",
+    dri: "khawrk",
+    poc: "Benny Giang",
+    date: "2024-05-24",
+    days: 1,
+    times: "12:00-15:00",
+    venueName: "La Fève",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Karl-Kunger-Stra%C3%9Fe+58",
+    venueAddress: "Karl-Kunger-Straße 58, 12435 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 20,
+    chains: [
+      "ethereum",
+      "base"
+    ],
+    tags: [
+      "PERMA",
+      "NFT",
+      "photography",
+      "art"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/perma/perma.webp",
+    description: `Come hang out with PERMA team at La Fève and get access to our PERMA Closed Beta, the first time launched in Berlin.
+`,
+    registration: {
+      type: "signup",
+      price: "0",
+      link: "https://partiful.com/e/f0IkFMI5L0PT3GTY0CYn",
+      status: "available"
+    },
+    links: {
+      web: "https://partiful.com/e/f0IkFMI5L0PT3GTY0CYn",
+      twitter: "https://twitter.com/perma_net"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "12:00-15:00",
+        startTime: "2024-05-24T10:00:00.000Z",
+        endTime: "2024-05-24T13:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "chainflip",
     hash: "e8bf1ec16c501a58177e76440e00435d2c9ce61147919f3a17d6528743d43e01",
     name: "Chainflip Happy Hour",
@@ -1287,101 +1406,6 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
     ]
   },
   {
-    id: "hack-heights-online",
-    hash: "4c6065d17a430a11d6463ee076f4b33be2b2c3c50a2a09f83d079d0364b69006",
-    name: "Hack'n Heights Online Hackathon",
-    shortname: "Hack'n Heights",
-    types: [
-      "hackathon"
-    ],
-    status: "published",
-    org: "Foundance, Soonami, Chainlink, The Graph, Pinax, Plurality Network",
-    dri: "lorena1974",
-    poc: "Lorena Fabris",
-    date: "2024-05-21",
-    days: 7,
-    times: "00:00-24:00",
-    venueName: "Online",
-    venueUrl: "https://app.foundance.org/events/hacknheights?tab=overview",
-    languages: [
-      "english"
-    ],
-    attendees: 600,
-    chains: [],
-    tags: [
-      "subgraph",
-      "substreams"
-    ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/hack-heights-online/hack-heights.webp",
-    description: `The Hack'N Heights Online Hackathon is dedicated to showcasing how decentralized data can redefine our digital interactions. Our mission is to foster an environment where our bounty sponsors' combined technologies and frameworks—Chainlink, The Graph Protocol, Plurality Network, soonami.io and Pinax—illustrate the compelling advantages of web3 approaches.
-
-We anticipate developers will create exciting applications and explore blockchain technology's next wave of billion-dollar data-related use cases. Chainlink provides decentralized oracles, seamlessly integrating off-chain data into the blockchain world. Similarly, The Graph Protocol efficiently indexes and queries blockchain data, making it accessible for dApps and the broader off-chain landscape. Additionally, Plurality Network offers an onboarding solution, aggregating variable user data from social platforms that can be leveraged for both on-chain and off-chain use cases. We believe developers can craft amazing applications at this intersection of data and blockchain, eagerly look forward to the innovations to come!
-
-This event seeks to illuminate the cohesive power of these technologies, demonstrating their compatibility and strength in solving complex data problems.
-
-What to Expect:
-
-Global Participation: Engage from any location worldwide, facilitated by our seamless collaboration with Foundance.org, known for its robust digital hackathon platform. Generous Bounties: Compete for prizes worth $6000 as you bring your innovative solutions to life, generously sponsored by our partners committed to advancing the web3 ecosystem. Expert Guidance: Receive unparalleled support and feedback from industry leaders who are as passionate about decentralized solutions as you are. Our mentors are seasoned professionals from the sponsoring organizations who offer direct insights and guidance. Collaborative Environment: Work alongside peers and experts in a dynamic online setting, fostering collaboration and the exchange of revolutionary ideas.
-
-Join Us:
-
-Whether you're a developer seasoned in blockchain technology, an entrepreneur in the tech space, or a tech enthusiast eager to learn more about decentralized data, Hack'N Heights provides a perfect platform to deepen your expertise and showcase your skills.
-`,
-    registration: {
-      type: "signup",
-      price: "0 EUR",
-      link: "https://app.foundance.org/events/hacknheights?tab=overview",
-      status: "available"
-    },
-    links: {
-      web: "https://app.foundance.org/events/hacknheights?tab=overview"
-    },
-    segments: [
-      {
-        date: "2024-05-21",
-        times: "00:00-24:00",
-        startTime: "2024-05-20T22:00:00.000Z",
-        endTime: "2024-05-21T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-22",
-        times: "00:00-24:00",
-        startTime: "2024-05-21T22:00:00.000Z",
-        endTime: "2024-05-22T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-23",
-        times: "00:00-24:00",
-        startTime: "2024-05-22T22:00:00.000Z",
-        endTime: "2024-05-23T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-24",
-        times: "00:00-24:00",
-        startTime: "2024-05-23T22:00:00.000Z",
-        endTime: "2024-05-24T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-25",
-        times: "00:00-24:00",
-        startTime: "2024-05-24T22:00:00.000Z",
-        endTime: "2024-05-25T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-26",
-        times: "00:00-24:00",
-        startTime: "2024-05-25T22:00:00.000Z",
-        endTime: "2024-05-26T22:00:00.000Z"
-      },
-      {
-        date: "2024-05-27",
-        times: "00:00-24:00",
-        startTime: "2024-05-26T22:00:00.000Z",
-        endTime: "2024-05-27T22:00:00.000Z"
-      }
-    ]
-  },
-  {
     id: "drone",
     hash: "61c79ef899eb489a1d5f99a6cbc2694f4a81396d4a27b543b239a78688962cfe",
     name: "First Web3 Drone Corridor in the World",
@@ -1690,11 +1714,11 @@ Discover cutting-edge advancements driving the future of open-source, public goo
     registration: {
       type: "signup",
       price: "free",
-      link: "https://lu.ma/csconberlin",
+      link: "https://lu.ma/chainsafe",
       status: "available"
     },
     links: {
-      web: "https://lu.ma/csconberlin",
+      web: "https://lu.ma/chainsafe",
       twitter: "https://twitter.com/ChainSafeth",
       discord: "https://discord.com/invite/xSAwrnCWcg"
     },
@@ -2105,6 +2129,83 @@ Event Highlights:
     ]
   },
   {
+    id: "zkspaeti",
+    hash: "5968c92c0c2685285ddade77042a68d0d9ff78b7abb7fbec1f6812a046bee3bd",
+    name: "zk Späti with zkSync & crypto girls club",
+    shortname: "The zk Späti",
+    types: [
+      "meetup",
+      "party"
+    ],
+    status: "published",
+    org: "zkSync, crypto girls club",
+    dri: "cryptogirlsclubberlin",
+    poc: "Zoe Faircloth",
+    date: "2024-05-22",
+    days: 1,
+    times: "15:00-21:00",
+    venueName: "NEST Schank- und Speisewirtschaft",
+    venueUrl: "https://www.openstreetmap.org/node/1248728521",
+    venueAddress: "[Görlitzer Str. 52, 10997 Berlin](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47a84e4d15dd5631:0x86b65817acef8820?sa=X&ved=1t:8290&ictx=111)",
+    languages: [
+      "english"
+    ],
+    attendees: 300,
+    chains: [],
+    tags: [
+      "devrel",
+      "cryptography",
+      "rollups",
+      "account abstraction",
+      "l2s"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/zkspaeti/zkspaeti.webp",
+    description: `Step into The BlockSpäti and prepare to enter a new reality where your favourite crypto brand is available to drink over the counter. Join us from day to dusk for Berlin Blockchain Week at our authentic Berlin experience: a two-floor mini-mart.
+
+We'll be diving into account abstraction, quantum cryptography and cross-chain compatibility with a lineup so hard even Berghain couldn't curate.
+
+PANEL - 3:30PM
+
+Hira Siddiqui - CEO & Co-Founder, Plurality Network
+Lana Ivina - Blockchain Developer, Starkware
+Albiona Hoti - DevRel, Matter Labs
+Bianca Buzea - Head of Devrel, LUKSO
+
+​PRESENTATIONS - 4:20PM
+
+"Quantum Cryptography: Does It Have a Future?"
+Olena-Ivanna Oshchypok Applied Cryptographer Engineer at Matter Labs
+
+"Account abstraction: user interaction and experience"
+Albiona Hoti - DevRel, Matter Labs
+
+​AFTER HOURS - 6PM
+
+Join us for afterhours for sassy-named cocktails, free flowing food and drink, killer merch in the merch mart and live music and a DJ set by ohr collective afterwards till dark.
+
+Acoustic Nigerian set by [Dammy Daas]
+DJ set by [Ohr]
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/zkspati",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/zkspati",
+      twitter: "https://twitter.com/zksync"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "15:00-21:00",
+        startTime: "2024-05-22T13:00:00.000Z",
+        endTime: "2024-05-22T19:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "starkspace",
     hash: "e4c26186bc7c3416740a8336da2a724c5c94acdf0b3e490ea1e4e4d53ec0fdaf",
     name: "StarkSpace Berlin drop-in",
@@ -2439,6 +2540,7 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
       type: "tickets",
       price: "Free",
       link: "https://lu.ma/brew",
+      button: "Join BREW!",
       status: "available"
     },
     links: {
@@ -3370,6 +3472,72 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
     ]
   },
   {
+    id: "tokenised-clubs",
+    hash: "cff1d239953ac6cb90ebb56e2840f9e5e91c6ffa186aee3b2afc912980eb247c",
+    name: "Tokenised Clubs - Incentivising Mutual Growth",
+    shortname: "Tokenised Clubs",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "New Rococo Club",
+    dri: "jantinine",
+    poc: "Jantine Derksen",
+    date: "2024-05-21",
+    days: 1,
+    times: "14:30-17:00",
+    venueName: "bock ateliers",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Urbanstra%C3%9Fe+125%2C+10967+Berlin",
+    venueAddress: "Urbanstraße 125, 10967 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 40,
+    chains: [],
+    tags: [
+      "Tokenisation",
+      "DAOs",
+      "Tokenomics",
+      "Creative Industries"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/tokenised-clubs/logo.webp",
+    description: `We’re putting together an open house and panel discussion at Bock Atelier on May 21st about community engagement, token distribution models and tokenised incentives.
+
+​We will dive deep into our own use case, the establishment of a tokenised creative club were investors and creatives come together. We believe that tokenised clubs have the potential to focus on mutual growth as the core economic model. The recent controversies surrounding token launches however underscore the need for thoughtful discussion on these topics.
+
+​Can tokens help clubs favour more equitable outcomes for members? What are good token distribution models and how do token incentives work? We invite you to join us in this exploration, to share your insights and help shape the future of how clubs operate in a tokenised world.
+
+​If you are interested in joining the panel as a speaker, please reach out!
+
+​
+Doors open: 14.30
+
+​Panel: 15.00 - 16.00
+
+​Open House: 16.00 - 17.00
+
+Thank you to our supporters:
+CultTech Association : https://culttech.at/
+New Renaissance Ventures : https://www.nr.ventures/
+`,
+    registration: {
+      type: "tickets",
+      price: "0 EUR",
+      link: "https://lu.ma/nrc",
+      button: "Join us!",
+      status: "available"
+    },
+    links: {},
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "14:30-17:00",
+        startTime: "2024-05-21T12:30:00.000Z",
+        endTime: "2024-05-21T15:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "modular",
     hash: "8c6eb72bde1b73c0af94b4d8525cfbd94106494e6b92bb888c39646736587986",
     name: "Modular Day by w3.fund x Celestia",
@@ -3579,7 +3747,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/base"
     }
   }
-], C = "2024-05-08T16:07:47.084Z", A = "v24.2.19", l = {
+], C = "2024-05-10T06:55:57.507Z", A = "v24.2.21", l = {
   id: u,
   name: m,
   dataUrl: b,
