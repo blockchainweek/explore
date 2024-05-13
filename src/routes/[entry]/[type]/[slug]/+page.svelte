@@ -380,7 +380,7 @@
 					{#each eventDates(item) as date}
 						<div class="mb-6">
 							<h3 class="mt-4 text-xl uppercase text-gray-500 dark:text-gray-400">
-								<a href="/{entry}/day/{date}">{format(new Date(date), 'EEEE - MMMM d, yyyy')}</a>
+								<a href="/{entry}/day/{date}">{formatInTimeZone(new Date(date), config.tz, 'EEEE - MMMM d, yyyy')}</a>
 							</h3>
 							<div class="mt-4">
 								<CalendarList
