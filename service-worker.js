@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/4-c7382cc7.js",
-  "/_app/immutable/chunks/5-2b32db88.js",
-  "/_app/immutable/chunks/6-371c5c02.js",
-  "/_app/immutable/chunks/7-94c35903.js",
-  "/_app/immutable/chunks/8-6cfe9cbc.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-9dc0538d.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/EventTypeBadge-e44aa2f9.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/TimelineHeatmap-134215d8.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-09b9853b.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-2dcf221d.js",
-  "/_app/immutable/chunks/Footer-12905dd1.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-e8867925.js",
-  "/_app/immutable/chunks/CollectionList-e11c2b3d.js",
-  "/_app/immutable/chunks/CalendarList-dbddcfcc.js",
-  "/_app/immutable/start-a7566f04.js",
+  "/_app/immutable/chunks/2-e772e409.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-197a27af.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-6386bb21.js",
-  "/_app/immutable/chunks/2-df52a1aa.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/7-78bc1b91.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/6-2f4d0eb2.js",
+  "/_app/immutable/chunks/8-5c396179.js",
+  "/_app/immutable/chunks/TimelineHeatmap-22b3790c.js",
+  "/_app/immutable/chunks/5-1505ab9a.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-36755925.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-384791e8.js",
+  "/_app/immutable/chunks/_layout-7e66f622.js",
+  "/_app/immutable/chunks/CalendarList-b57a8e1e.js",
+  "/_app/immutable/start-3b554e05.js",
+  "/_app/immutable/chunks/CollectionList-0b89c292.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-7eaa9328.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e5c2d36a.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/_layout-7adac810.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-8a7cad16.js",
-  "/_app/immutable/chunks/utils-9ec8d385.js"
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/EventTypeBadge-cae710af.js",
+  "/_app/immutable/chunks/4-8eafad2a.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8fab25ff.js",
+  "/_app/immutable/chunks/Footer-08403943.js",
+  "/_app/immutable/chunks/utils-92f94e05.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715626058509", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715631507212", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -724,7 +724,7 @@ Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps
     poc: "shanvasion",
     date: "2024-05-23",
     days: 1,
-    times: "14:00-18:00",
+    times: "11:00-15:00",
     venueName: "NEST Schank- und Speisewirtschaft",
     venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=G%C3%B6rlitzer+Str.+52",
     venueAddress: "Görlitzer Str. 52, 10997 Berlin, Germany",
@@ -769,9 +769,9 @@ Spurred by a new wave of generative AI capabilities, decentralized media technol
     segments: [
       {
         date: "2024-05-23",
-        times: "14:00-18:00",
-        startTime: "2024-05-23T12:00:00.000Z",
-        endTime: "2024-05-23T16:00:00.000Z"
+        times: "11:00-15:00",
+        startTime: "2024-05-23T09:00:00.000Z",
+        endTime: "2024-05-23T13:00:00.000Z"
       }
     ]
   },
@@ -2562,7 +2562,7 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
     name: "Berlin Blockchain Week 2024: Governance, subjective rules and RWAs - the frontier of crypto",
     shortname: "Governance, subjective rules and RWAs - the frontier of crypto",
     types: [
-      "meetup"
+      "conference"
     ],
     status: "published",
     org: "Q Protocol, Kleros",
@@ -2805,6 +2805,51 @@ FWB Berlin
         times: "09:00-23:59",
         startTime: "2024-05-25T07:00:00.000Z",
         endTime: "2024-05-25T21:59:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "crypto-converge",
+    hash: "5707d6f9d3a13d23689aa22eec174642ad2fe79fc91c4eddeae448858ecd40e5",
+    name: "CryptoConverge with Kraken powered by DLT Finance",
+    shortname: "CryptoConverge with Kraken powered by DLT Finance",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "w3.fund",
+    dri: "tarahabsburg",
+    poc: "Vicktoria Klich",
+    date: "2024-05-22",
+    days: 1,
+    times: "19:00-23:00",
+    venueName: "w3.hub",
+    languages: [
+      "english"
+    ],
+    tags: [
+      "kraken",
+      "dlt finance",
+      "w3.hub"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/crypto-converge/kraken.webp",
+    description: `Join us at CryptoConverge with Kraken powered by DLT Finance during Berlin Blockchain Week for a dynamic event where industry leaders, innovators, and enthusiasts come together to explore the future of decentralized finance and blockchain technology. Engage in insightful discussions, network with fellow crypto enthusiasts, and discover the latest trends shaping the digital asset landscape.
+`,
+    registration: {
+      type: "invites",
+      price: "Free!",
+      link: "https://example.org/tickets",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/krakenDLTfinance"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "19:00-23:00",
+        startTime: "2024-05-22T17:00:00.000Z",
+        endTime: "2024-05-22T21:00:00.000Z"
       }
     ]
   },
@@ -3309,6 +3354,58 @@ Role in Blockchain and Web3: Understand Chainlink's role within the broader bloc
     ]
   },
   {
+    id: "ai-agents",
+    hash: "7b4f8a50fffb255a14b96ac01230d063f53a1240f5c769c97a2cd6cc81db308e",
+    name: "AI Agents: value synergies of blockchain and AI - Supporting Builders from A to Z",
+    shortname: "Value Synergies of Blockchain and AI",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Crypto Invest Berlin",
+    dri: "GutscheRC",
+    poc: "Rapha",
+    date: "2024-05-20",
+    days: 1,
+    times: "17:30-21:30",
+    languages: [
+      "english"
+    ],
+    attendees: 150,
+    chains: [],
+    tags: [
+      "aiagents",
+      "blockchain",
+      "web3"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ai-agents/ai-agents.webp",
+    description: `​We're thrilled to kick off this year's Berlin Blockchain Week with an event where the convergence of artificial intelligence and blockchain technology takes center stage. This intersection has emerged as one of the most dynamic and promising sectors in our industry.
+
+​Our focus is on exploring the tangible value offered by live products at this intersection. The presenting projects will offer the audience practical insights into live AI agents and the benefits they bring.
+
+​We aim to move beyond the buzz and highlight real applications and live agents demoed by their builders. Join us to glean insights from the brightest and most innovative projects in this exciting industry.
+`,
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://lu.ma/phurgmbn",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/phurgmbn",
+      twitter: "https://twitter.com/CryptoInvestBln",
+      telegram: "https://t.me/+wEML3dssvSRkMTBi"
+    },
+    segments: [
+      {
+        date: "2024-05-20",
+        times: "17:30-21:30",
+        startTime: "2024-05-20T15:30:00.000Z",
+        endTime: "2024-05-20T19:30:00.000Z"
+      }
+    ]
+  },
+  {
     id: "zkhack",
     hash: "ecd9fe4d2840292aea6544e9465217464d49884f0ddc8a493dc42a2d72986f3e",
     name: "ZK Hack Meetup - ZK Education",
@@ -3747,7 +3844,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/base"
     }
   }
-], C = "2024-05-10T13:45:43.840Z", A = "v24.2.22", l = {
+], C = "2024-05-13T18:56:27.527Z", A = "v24.2.23", l = {
   id: u,
   name: m,
   dataUrl: b,
