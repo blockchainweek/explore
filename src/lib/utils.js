@@ -18,7 +18,12 @@ export function formatItemDate(item, opts = {}) {
 	);
 	if (item.days > 1) {
 		dt +=
-			'-' + format(addDays(new Date(item.date), item.days - 1), 'd' + (opts.full ? ', yyyy' : ''));
+			'-' +
+			formatInTimeZone(
+				addDays(new Date(item.date), item.days - 1),
+				config.tz,
+				'd' + (opts.full ? ', yyyy' : '')
+			);
 	}
 	return dt;
 }
