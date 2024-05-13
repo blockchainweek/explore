@@ -8,13 +8,14 @@
 	import { config } from '$lib/bbw';
 
 	import { format, compareAsc, addDays } from 'date-fns';
+	import { formatInTimeZone } from 'date-fns-tz';
 
 	export let data;
 
 	function makeDaysSegments(events) {
 		const days = [];
 		for (let i = 0; i < config.days; i++) {
-			const date = format(addDays(new Date(config.date), i), 'yyyy-MM-dd');
+			const date = formatInTimeZone(addDays(new Date(config.date), i), config.tz, 'yyyy-MM-dd');
 			const query = {
 				start: date + 'T00:00',
 				end: date + 'T23:59'
@@ -65,9 +66,9 @@
 				<div class="mb-14">
 					<h2 class="text-3xl md:text-3xl">
 						<a href="/{$page.params.entry}/day/{day.date}" class=" text-bbw-navy hover:underline"
-							>{format(new Date(day.date), 'MMMM d, yyyy')}</a
+							>{formatInTimeZone(new Date(day.date), config.tz, 'MMMM d, yyyy')}</a
 						>
-						<span class="bbw-text-color-primary">- {format(new Date(day.date), 'EEEE')}</span>
+						<span class="bbw-text-color-primary">- {formatInTimeZone(new Date(day.date), config.tz, 'EEEE')}</span>
 					</h2>
 					<div class="mt-6">
 						<CalendarList

@@ -7,6 +7,8 @@
 	import Disclaimer from '$lib/components/Disclaimer.svelte';
 
 	import { format, compareAsc } from 'date-fns';
+	import { formatInTimeZone } from 'date-fns-tz';
+	import { config } from '$lib/bbw';
 
 	export let data;
 
@@ -56,7 +58,7 @@
 
 <svelte:head>
 	<title
-		>{format(new Date($page.params.date), 'EEEE MMMM d, yyyy')} | Berlin Blockchain Week 20{$page.params.entry}</title
+		>{formatInTimeZone(new Date($page.params.date), config.tz, 'EEEE MMMM d, yyyy')} | Berlin Blockchain Week 20{$page.params.entry}</title
 	>
 </svelte:head>
 
@@ -66,7 +68,7 @@
 		<div class="mx-4 xl:mx-0">
 			<TimelineHeatmap {data} highlightDay={$page.params.date} />
 			<h2 class="text-3xl md:text-4xl font-bold bbw-text-color-primary">
-				{format(new Date($page.params.date), 'MMMM d, yyyy - EEEE')}
+				{formatInTimeZone(new Date($page.params.date), config.tz, 'MMMM d, yyyy - EEEE')}
 			</h2>
 			<div class="mt-10 mb-12">
 				<CalendarList
