@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     permissions:
       contents: write
     concurrency:
@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       - run: rm src/lib/data.json && wget -O src/lib/data.json https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/index.json
       - name: Build
         run: npm run build
