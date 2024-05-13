@@ -2,7 +2,7 @@
 	import { compareAsc, addDays, addMinutes  } from 'date-fns';
 	import { goto } from '$app/navigation';
 	import ItemLogo from '$lib/components/ItemLogo.svelte';
-	import { format } from 'date-fns-tz';
+	import { format, toDate } from 'date-fns-tz';
 	import { config } from '$lib/bbw';
 
 	export let data;
@@ -25,17 +25,17 @@
 
 	const days = [];
 	let currentDate = startDate;
-	while (compareAsc(new Date(currentDate), new Date(endDate)) <= 0) {
-		days.push(format(new Date(currentDate), 'yyyy-MM-dd', { timeZone: config.tz }));
-		currentDate = addDays(new Date(currentDate), 1);
+	while (compareAsc(toDate(currentDate, { timeZone: config.tz }), toDate(endDate, { timeZone: config.tz })) <= 0) {
+		days.push(format(toDate(currentDate, { timeZone: config.tz }), 'yyyy-MM-dd', { timeZone: config.tz }));
+		currentDate = addDays(toDate(currentDate, { timeZone: config.tz }), 1);
 	}
 
 	const segments = [];
 	let currentSegment = '00:00';
 	while (!segments.includes(currentSegment)) {
-		segments.push(format(new Date(startDate + 'T' + currentSegment), 'HH:mm', { timeZone: config.tz }));
+		segments.push(format(toDate(startDate + 'T' + currentSegment, { timeZone: config.tz }), 'HH:mm', { timeZone: config.tz }));
 		currentSegment = format(
-			addMinutes(new Date(startDate + 'T' + currentSegment), segmentMinutes),
+			addMinutes(toDate(startDate + 'T' + currentSegment, { timeZone: config.tz }), segmentMinutes),
 			'HH:mm',
 			{ timeZone: config.tz }
 		);
@@ -55,8 +55,8 @@
 	function updateTimelineEvent(time, eventId, attendees, eventSegmentId) {
 		for (const day of days) {
 			for (const segment of segments) {
-				const sstart = new Date(`${day}T${segment}`);
-				const send = new Date(addMinutes(sstart, segmentMinutes));
+				const sstart = toDate(`${day}T${segment}`, { timeZone: config.tz });
+				const send = toDate(addMinutes(sstart, segmentMinutes), { timeZone: config.tz });
 				if (compareAsc(sstart, time.end) < 0 && compareAsc(send, time.start) > 0) {
 					const baseScore = attendees
 						? attendees > 3000
@@ -79,13 +79,14 @@
 			const eventSegment = event.segments[i];
 			const [tstart, tend] = (eventSegment.times || defaultTimes).split('-');
 			const time = {
-				start: new Date(`${eventSegment.date}T${tstart}`),
-				end: new Date(
+				start: toDate(`${eventSegment.date}T${tstart}`, { timeZone: config.tz }),
+				end: toDate(
 					`${
 						tend <= tstart
-							? format(addDays(new Date(eventSegment.date), 1), 'yyyy-MM-dd', { timeZone: config.tz })
+							? format(addDays(toDate(eventSegment.date, { timeZone: config.tz}), 1), 'yyyy-MM-dd', { timeZone: config.tz })
 							: eventSegment.date
 					}T${tend}`
+					, { timeZone: config.tz }
 				)
 			};
 			updateTimelineEvent(time, event.id, eventSegment.ecap || event.attendees, i);
@@ -99,7 +100,7 @@
 	}
 
 	function makeSelected(day, segment, keys) {
-		const baseDate = new Date(`${day}T${segment}`);
+		const baseDate = toDate(`${day}T${segment}`, { timeZone: config.tz });
 		const title =
 		format(baseDate, 'EEEE MMMM d | HH:mm - ', { timeZone: config.tz }) +
 		format(addMinutes(baseDate, segmentMinutes), 'HH:mm', { timeZone: config.tz });
@@ -115,7 +116,7 @@
 	}
 
 	function makeClick(day, segment, keys) {
-		const start = new Date(`${day}T${segment}`);
+		const start = toDate(`${day}T${segment}`, { timeZone: config.tz });
 		const end = addMinutes(start, segmentMinutes);
 		goto(`/${data.params.entry}/day/${day}?start=${start.toISOString()}&end=${end.toISOString()}`);
 	}
@@ -173,9 +174,9 @@
 					: 'text-bbw-navy text-lg'}"
 				style="width: {1 / (days.length / 100)}%;"
 			>
-				<a href="/24/day/{format(new Date(day), 'yyyy-MM-dd', { timeZone: config.tz })}"
-					><span class="hidden md:inline-block">{format(new Date(day), 'eee ', { timeZone: config.tz })}</span>
-					{format(new Date(day), 'd', { timeZone: config.tz })}</a
+				<a href="/24/day/{format(toDate(day, { timeZone: config.tz }), 'yyyy-MM-dd', { timeZone: config.tz })}"
+					><span class="hidden md:inline-block">{format(toDate(day, { timeZone: config.tz }), 'eee ', { timeZone: config.tz })}</span>
+					{format(toDate(day, { timeZone: config.tz }), 'd', { timeZone: config.tz })}</a
 				>
 			</div>
 		{/each}
