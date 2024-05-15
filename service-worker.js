@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-7a36278a.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-a0d4d54e.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-19197b5f.js",
-  "/_app/immutable/chunks/8-1db29041.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-59f82337.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/7-67bb50b5.js",
-  "/_app/immutable/chunks/Footer-2b8c9a85.js",
-  "/_app/immutable/start-72fe3d9a.js",
-  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-50d41fc2.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
-  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
-  "/_app/immutable/chunks/4-51dfd75a.js",
   "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/_layout-262acad8.js",
-  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-19197b5f.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
   "/_app/immutable/chunks/TimelineHeatmap-f77275d6.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/2-b4a78fe3.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/4-51dfd75a.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/chunks/7-67bb50b5.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-cee9a30a.js",
+  "/_app/immutable/chunks/8-1db29041.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
+  "/_app/immutable/chunks/6-736101be.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-a0d4d54e.js",
+  "/_app/immutable/chunks/_layout-88df1eb5.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
+  "/_app/immutable/start-aca70dea.js",
+  "/_app/immutable/chunks/utils-468e16e8.js",
+  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
-  "/_app/immutable/chunks/utils-468e16e8.js"
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-50d41fc2.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
+  "/_app/immutable/chunks/Footer-2b8c9a85.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715813248423", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715816858204", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -91,7 +91,7 @@ const d = [
     mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Holzmarktstra%C3%9Fe+33+10243+Berlin",
     description: `This one-time pumping station on the Spree has been host to wide-ranging performances, transforming the entire building and its grounds into a stage.
 `,
-    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/radialsystem/photo.webp",
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/radialsystem/logo.webp",
     links: {
       web: "https://radialsystem.de/"
     }
@@ -132,7 +132,7 @@ The implementation of the Spindler & Klatts is based on the idea of a studio tha
 
 Typically Berlin - self-confident, diverse, creative and international
 `,
-    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/spindler/photo.webp",
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/spindler/logo.webp",
     links: {
       web: "https://www.spindlerklatt.com/"
     }
@@ -203,7 +203,7 @@ Typically Berlin - self-confident, diverse, creative and international
     mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Lohmuehlenstra%C3%9Fe+65+12435+Berlin",
     description: `Situated in the historic Lohmühlenstraße 65 factory near Görlitzer Park. CIC’s newest Innovation Campus is in the heart of Berlin’s vibrant creative district. With 14.000 square meters across five floors of dynamic workspace, CIC Berlin is the perfect home for modern businesses—from startups to enterprise—to grow and innovate in a flexible, hybrid world.
 `,
-    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/cic/photo.webp",
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/cic/logo.webp",
     links: {
       web: "https://cic.com/berlin/"
     }
@@ -902,7 +902,7 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
       "metaverse",
       "extendedreality"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-talk/gaming.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-talk/logo.webp",
     description: `Gamers welcome! Connect to like-minded enthusiasts from Berlin's creative Web3-, Metaverse, AI, and Blockchain scene!
 For years, the Web3 space discussed how Blockchain could support gaming, and how the gaming industry could make use of AI, XR (Extended Reality), and the Metaverses. Slowly, the games industry adopted Web3 and AI technologies, and Apple launched Vision Pro. We will discuss the latest trends with industrie insiders and take a look at the future of artificial intelligence in games, and games in the Metaverses. Our speakers:
 + CEO of a games company
@@ -1146,7 +1146,7 @@ Cointracking: [www.cointracking.info](http://www.cointracking.info/)
       "blockchain",
       "web3"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ai-agents/ai-agents.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ai-agents/logo.webp",
     description: `​We're thrilled to kick off this year's Berlin Blockchain Week with an event where the convergence of artificial intelligence and blockchain technology takes center stage. This intersection has emerged as one of the most dynamic and promising sectors in our industry.
 
 ​Our focus is on exploring the tangible value offered by live products at this intersection. The presenting projects will offer the audience practical insights into live AI agents and the benefits they bring.
@@ -1247,7 +1247,7 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
       "society",
       "innovation"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-futures-panel/web3-futures.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-futures-panel/logo.webp",
     description: `​Innovation doesn't just happen. It takes an institutional mindset that facilitates new business creation, IP ownership, and talent acquisition. Berlin, with its thriving blockchain ecosystem, is doing something right. The question is: what can we teach teach the rest of the world? In this panel, we bring three of Berlin's biggest institutions (IHK, Berlin Senate, and Berlin Partner) together to discuss what role institutions play in building the future of the decentralized web - a mission that is famously anti-institution?
 `,
     registration: {
@@ -1293,7 +1293,7 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
       "health",
       "token"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/rooftop-token/rooftop.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/rooftop-token/logo.webp",
     description: `Let's enjoy the sunset of Berlin together after the first day of DappCon!
 
 Cold Drinks and delicious Pizza provided throughout the night.
@@ -1539,7 +1539,7 @@ We'll have DJs, natural wine (while supplies last), and some cool swag 😎
     poc: "Joshua Davila",
     date: "2024-05-25",
     days: 1,
-    times: "09:00-20:00",
+    times: "10:00-23:59",
     venueName: "Moos Space",
     venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=moos+space",
     venueAddress: "MOOS Space, Moosdorfstraße 7-9, Plänterwald, Treptow-Köpenick, Berlin, 12435",
@@ -1556,14 +1556,14 @@ We'll have DJs, natural wine (while supplies last), and some cool swag 😎
       "gnosis chain",
       "solidarity"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/breadchain/breadchain.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/breadchain/logo.webp",
     description: `Join us during Berlin Blockchain Week for the Breadchain Launch Event at the Moos Space in Berlin on May 25th! During the event we will be showcasing the work we've been doing at Breadchain Cooperative for building the infrastructure for a post-capitalist web3. [Breadchain Cooperative](https://breadchain.xyz/) is a cooperative network of blockchain projects working to advance a progressive vision for the technology and its effect on society by scaling solidarity through our BREAD community token and other [solidarity primitives](https://breadchain.mirror.xyz/nwQx4CqPAcwZ5zSNB2_K25N1quOF1NGcKaYcS3S33CA). The primary infrastructure being built at Breadchain is to ask ourselves what if progressives had their own community currency and credit union? Where would we decide to put resources towards to build a post-capitalist political economy?
 
  The other members of Breadchain include the [Crypto Commons Association](https://crypto-commons.org/), [Symbiota Coop](https://symbiota.coop/) (which includes the Dandelion events platform you're looking at now), and Labor DAO. 
 
 The series of events that will take place for the full event include 
 
-1) a ~[real hands on sourdough bread baking workshop](https://www.eventbrite.de/e/sourdough-bread-workshop-tickets-903864481997)~ led by Edible Alchemy, the bakery at Moos, to give a chance to people who work on their computers all day to work with their hands and meet with other solidarity loving folks  (limited availability so please purchase tickets beforehand)
+1) a [real hands on sourdough bread baking workshop](https://www.eventbrite.de/e/sourdough-bread-workshop-tickets-903864481997) led by Edible Alchemy, the bakery at Moos, to give a chance to people who work on their computers all day to work with their hands and meet with other solidarity loving folks  (limited availability so please purchase tickets beforehand)
 
 2) presentations from Breadchain Cooperative members and associated projects building out technology for scaling solidarity with BREAD
 
@@ -1587,9 +1587,9 @@ There will be food (including the bread baked in the workshop) and refreshments 
     segments: [
       {
         date: "2024-05-25",
-        times: "09:00-20:00",
-        startTime: "2024-05-25T07:00:00.000Z",
-        endTime: "2024-05-25T18:00:00.000Z"
+        times: "10:00-23:59",
+        startTime: "2024-05-25T08:00:00.000Z",
+        endTime: "2024-05-25T21:59:00.000Z"
       }
     ]
   },
@@ -1735,7 +1735,7 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
       "Cross-Chain",
       "Account Abstraction"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainsafe/chainsafe.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainsafe/logo.webp",
     description: `Join us in Berlin for an intimate gathering for web3 folks hosted by ChainSafe & Sygma
 
 Discover cutting-edge advancements driving the future of open-source, public goods, and decentralized technology.
@@ -1794,7 +1794,7 @@ Discover cutting-edge advancements driving the future of open-source, public goo
       "photography",
       "art"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/perma/perma.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/perma/logo.webp",
     description: `Come hang out with PERMA team at La Fève and get access to our PERMA Closed Beta, the first time launched in Berlin.
 `,
     registration: {
@@ -2005,7 +2005,7 @@ NEWCOIN
       "account abstraction",
       "l2s"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/zkspaeti/zkspaeti.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/zkspaeti/logo.webp",
     description: `Step into The BlockSpäti and prepare to enter a new reality where your favourite crypto brand is available to drink over the counter. Join us from day to dusk for Berlin Blockchain Week at our authentic Berlin experience: a two-floor mini-mart.
 
 We'll be diving into account abstraction, quantum cryptography and cross-chain compatibility with a lineup so hard even Berghain couldn't curate.
@@ -2048,6 +2048,57 @@ DJ set by [Ohr]
         times: "15:00-21:00",
         startTime: "2024-05-22T13:00:00.000Z",
         endTime: "2024-05-22T19:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "celestia-run",
+    hash: "e5d58f461d21f9b47fc247ee870048da0ae8ab1ecc3f7f57d56de13ce13bf3af",
+    name: "Celestia Light Run",
+    shortname: "Celestia Light",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "Celestia Labs",
+    dri: "devnatnet",
+    poc: "Natnet",
+    date: "2024-05-23",
+    days: 1,
+    times: "09:15-11:00",
+    venueName: "Moltke Monument",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Helmuth+Karl+Bernhard+von+Moltke",
+    venueAddress: "Spreeweg 1, 10557 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 30,
+    chains: [
+      "celestia"
+    ],
+    tags: [
+      "running",
+      "modularity",
+      "breakfast"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/celestia-run/logo.webp",
+    description: `Join the Celestia team for a morning jog, covering 5.5-6km at a slow pace. We'll run from the Siegessäule along the river, through Monbijoupark and end our run with our final coffee and pastries!
+`,
+    registration: {
+      type: "invites",
+      price: "0 EUR",
+      link: "https://lu.ma/cldspsln",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/cldspsln"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "09:15-11:00",
+        startTime: "2024-05-23T07:15:00.000Z",
+        endTime: "2024-05-23T09:00:00.000Z"
       }
     ]
   },
@@ -2138,7 +2189,7 @@ Designed for the Berlin Web3 Community, this event promises to blend insightful 
       "HappyHour",
       "Cross-chain"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainflip/chainflip.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainflip/logo.webp",
     description: `​Come join us for a Happy Hour in Berlin with tunes, beers, cocktails, and food. Alongside the Chainflip crew, we'll have Crypto Builders, Developers, and the wider Web3 Community joining us. So, yeah, networking.
 
 ​Here's what you can expect:
@@ -2198,7 +2249,7 @@ Designed for the Berlin Web3 Community, this event promises to blend insightful 
       "running",
       "strongertogether"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/community-run/w3run.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/community-run/logo.webp",
     description: `Join our run & energize for a lively 5-6km run with fitness stations to test your strength and agility along the way.
 
 ​Gear up for an morning of physical challenge and community fun! Register now to secure your spot.
@@ -2254,7 +2305,7 @@ Designed for the Berlin Web3 Community, this event promises to blend insightful 
       "AI",
       "ZK"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/marketers/adex-event.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/marketers/logo.webp",
     description: `Are you a Web3 marketer tired of developer conferences and tech topics? Do you want to discuss community, points and shitposting with fellow nerds? We got you covered.
 
 ​Join us for our second Web3 marketers gathering - a smooth Berliner evening of drinks and networking at the East Side Bar, just two minutes away from the Dappcon venue.
@@ -2392,7 +2443,7 @@ Immerse yourself in a dynamic atmosphere of innovation, collaboration, and cutti
       "subgraphs",
       "hackathon"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/hack-heights/telekom.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/hack-heights/logo.webp",
     description: `Set against the dynamic backdrop of a vibrant Berlin rooftop, "Hack'N Heights" invites you to delve into the vast potential of decentralized data during Berlin Blockchain Week 2024. 
 
 Hosted at the iconic Deutsche Telekom building, this evening with technical presentations serves as the official kick-off for the Hack’N Heights Online Hackathon.Hack’N Heights kickoff event is organized by leading entities including Chainlink, Deutsche Telekom, The Graph Protocol.The virtual hackathon is co-sponsored by Chainlink, The Graph, Plurality Network, Pinax, Deutsche Telekom, and Soonami with Bounties of over 6K and potential investment opportunities for promising projects. 
@@ -2510,7 +2561,7 @@ Partners TBA
       "Networking",
       "Education"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/blockspaeti-cowork/blockspat.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/blockspaeti-cowork/logo.webp",
     description: `Spend Berlin Blockchain Week in true Berlin style by working from a traditional crypto Spätkauf.
 
 ​Come co-work, enjoy a crypto-branded mate, try out a quest and network with builders, founders and creators in the space.
@@ -2663,7 +2714,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       "Founders",
       "VC"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainsecurity-euler/euler.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainsecurity-euler/logo.webp",
     description: `Join us on Tuesday, May 21st, at the Treehouse in Berlin for an enchanting evening hosted by ChainSecurity and Euler Finance. Mingle with defi-minded professionals and enjoy drinks, foods, and music in the most magical setting in Berlin.
 
 ​What to expect:
@@ -2742,7 +2793,7 @@ You might know us as the auditors who [discovered the read-only reentrancy in 20
       "community",
       "beer"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/metabrew/metabrew.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/metabrew/logo.webp",
     description: `This is a Meetup and pop-up store for Metabrew - the web3 beer as part of the Berlin Blockchain Week. We welcome everyone there is no need to be part of the Metabrew community already.
 
 ​MetaBrewSociety is the leading Web3 beer brand and community. Created by a group of friends and entrepreneurs who love crypto, tech, beer, delicious food and festivals.
@@ -3310,7 +3361,7 @@ Join the community at [Crypto Invest Berlin](https://www.cryptoinvest.berlin/), 
       "AI",
       "content creators"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/gen-video/gen-video.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/gen-video/logo.webp",
     description: `
 Spurred by a new wave of generative AI capabilities, decentralized media technologies and applications have the potential to empower a new generation of content creators and cultural communities for whom video is an increasingly important medium. From online music broadcasting to social media, the relationship between content creators, audiences and platforms is being disrupted with the potential for significant artistic, economic and cultural impact across the globe.
 
@@ -3373,7 +3424,7 @@ Spurred by a new wave of generative AI capabilities, decentralized media technol
       "legal",
       "open source software"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-futures-breakfast/web3-futures-breakfast.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-futures-breakfast/logo.webp",
     description: `​Come join us for breakfast and a engaging discussion with the legal folks in Web3.
 
 ​Agenda:
@@ -3560,7 +3611,7 @@ Role in Blockchain and Web3: Understand Chainlink's role within the broader bloc
       "German tech",
       "M2M"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/drone/drone.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/drone/logo.webp",
     description: `An actual industry usage of Web3 tools...A public-private partnership realizing the next in assets sharing, data collection, permit- and contract handling, and machine payments. All of this will be automated with Staex for reliability and security allowing partners across sectors and industries to work with one another. With the use of Web3 tools, we have neutral grounds, built-in trust, smart-contracts, verified immutable data, and machine-to-machine payments.
 
 We are ready to show you a glimpse of the future. Join us for the best-of-breed German technology.
@@ -3700,6 +3751,65 @@ See you there! 🚀
     ]
   },
   {
+    id: "lukso",
+    hash: "1e94327d5086e1690864ea703a672a942f3d9b051b205fd30f402f3a68ce9011",
+    name: "Blockhaus Afterparty by LUKSO with Google Cloud, SheFi & Guild",
+    shortname: "Blockhaus Afterparty",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "Lukso",
+    dri: "louiejoconnor",
+    poc: "louiejoconnor",
+    date: "2024-05-24",
+    days: 1,
+    times: "20:00-02:00",
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [],
+    tags: [],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/lukso/logo.webp",
+    description: `Join us in Berlin with [Google Cloud](https://twitter.com/googlecloud), [SheFi](https://twitter.com/shefiorg), and [Guild](https://twitter.com/guildxyz), with onsite activations by [Proof:of by Ensō](https://twitter.com/enso_collective) and [DistrictVR](https://twitter.com/TheDistrictVR), as we wrap UP Berlin Blockchain Week with a party you won’t want to miss. 
+
+**​THE PLAYGROUNDS:** 
+**☁️ Rooftop:** Google Cloud Zen Lounge
+**🥐 4th Floor:** She-Fi and Snacks
+**🎛️ 3rd Floor:** Pink Disco Zone
+
+**​BEAT IMMERSION:**
+**8pm - 10pm:** Ahmed & Jappa (B-2-B)
+**10pm - 11:30pm:** [Denyo](https://g.co/kgs/K31cbYd) ([DistrictVR](https://twitter.com/TheDistrictVR)) 
+**11:30pm onwards:** [LEDFUT](https://twitter.com/ledfut_dj) ([DistrictVR](https://twitter.com/TheDistrictVR))
+
+**​DETAILS** 
+**📅 Date:** May 24th, 2024
+**🕒 Time:** 8pm - late
+
+​RSVP required for all attendees.
+
+Create your Universal Profile before attending to be able to engage with the event activations – get started [here](https://universalprofile.cloud/).
+
+`,
+    registration: {
+      type: "signup",
+      price: "FREE",
+      link: "https://lu.ma/ok55cmmf",
+      status: "available"
+    },
+    links: {},
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "20:00-02:00",
+        startTime: "2024-05-24T18:00:00.000Z",
+        endTime: "2024-05-25T00:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "crypto-converge",
     hash: "5707d6f9d3a13d23689aa22eec174642ad2fe79fc91c4eddeae448858ecd40e5",
     name: "CryptoConverge with Kraken powered by DLT Finance",
@@ -3723,7 +3833,7 @@ See you there! 🚀
       "dlt finance",
       "w3.hub"
     ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/crypto-converge/kraken.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/crypto-converge/logo.webp",
     description: `Join us at CryptoConverge with Kraken powered by DLT Finance during Berlin Blockchain Week for a dynamic event where industry leaders, innovators, and enthusiasts come together to explore the future of decentralized finance and blockchain technology. Engage in insightful discussions, network with fellow crypto enthusiasts, and discover the latest trends shaping the digital asset landscape.
 `,
     registration: {
@@ -3953,6 +4063,74 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
     ]
   },
   {
+    id: "subsquid",
+    hash: "4e7a695d1fd564afa783c8e11c51648f14e6f9c22d563ea37b2577356cbb3bd2",
+    name: "Subsquid & Fuel Tech Brunch",
+    shortname: "Subsquid & Fuel Tech Brunch",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Subsquid & Fuel Tech Brunch",
+    dri: "Subsquid",
+    poc: "Roman Kemper",
+    date: "2024-05-15",
+    days: 1,
+    times: "10:00-13:00",
+    venueName: "NEST Schank- und Speisewirtschaft",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=G%C3%B6rlitzer+Str.+52%2C+10997+Berlin",
+    venueAddress: "Görlitzer Str. 52, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "polkadot"
+    ],
+    tags: [
+      "subsquid",
+      "decentralization",
+      "L2"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/subsquid/logo.webp",
+    description: `​GM cryptopunks and decentralization enjoyooors.
+
+We're already a few days through blockchain week... it's probably time for a refuel!
+
+Join us for a reset with us, at the Fuel x Subsquid Tech Brunch.
+
+Why join?
+- There will be croissants & breakfast buffet
+- Plenty of liquidity, including Club Mate, the go-to drink for real Berliners, or those aspiring to be
+- Crypto dev insights straight from the source
+
+​Talk by [David Mihal](https://twitter.com/dmihal), Senior Architect @ Fuel
+
+Light-contracts - Understanding Fuel's Predicates
+The Fuel L2 features a new primitive, known as "predicates". Learn how predicates differ from "smart contracts", and how to use them to build account-abstraction wallets, DeFi apps, and more!
+
+Sounds good? Then sign up and see you soon.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/q7kr9if2",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/q7kr9if2/",
+      twitter: "https://twitter.com/subsquid"
+    },
+    segments: [
+      {
+        date: "2024-05-15",
+        times: "10:00-13:00",
+        startTime: "2024-05-15T08:00:00.000Z",
+        endTime: "2024-05-15T11:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "tokenised-clubs",
     hash: "cff1d239953ac6cb90ebb56e2840f9e5e91c6ffa186aee3b2afc912980eb247c",
     name: "Tokenised Clubs - Incentivising Mutual Growth",
@@ -4042,7 +4220,7 @@ New Renaissance Ventures : https://www.nr.ventures/
     attendees: 200,
     chains: [],
     tags: [],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/fwb/fwb.webp",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/fwb/logo.webp",
     description: `Dear Berliner,
 
 We're thrilled to invite you to the 4th edition of "CEREMONY," a unique fusion of spirituality and digital innovation celebrating Berlin's culture. Join us at the iconic Monopol for a theatrical experience with a hint of irreverence guided by Lori Baldwin and sounds from Tresor.
@@ -4197,6 +4375,17 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
     }
   },
   {
+    id: "celestia",
+    hash: "eb1ce8a6300d75ef5d508db4a88efbce085041d2ba7e7f3fd898cf540a05501c",
+    name: "Celestia",
+    symbol: "TIA",
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/chains/celestia/tia.webp",
+    links: {
+      web: "https://celestia.org",
+      twitter: "https://twitter.com/CelestiaOrg"
+    }
+  },
+  {
     id: "cosmos",
     hash: "fc1f35322edcdd31bdc323c2a9a48b4e79b7fe3c1b75823d6f0da5b52828b9d7",
     name: "Cosmos",
@@ -4272,11 +4461,11 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], C = "2024-05-15T22:42:21.495Z", S = "v24.2.33", l = {
+], C = "2024-05-15T23:38:53.180Z", S = "v24.2.34", l = {
   id: u,
   name: m,
-  dataUrl: b,
-  exploreUrl: g,
+  dataUrl: g,
+  exploreUrl: b,
   dataGithubUrl: f,
   places: w,
   events: y,
