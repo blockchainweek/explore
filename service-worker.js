@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
-  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
-  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-49ba5809.js",
+  "/_app/immutable/chunks/2-38729c8a.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-ddbd5ef5.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
   "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/4-51dfd75a.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-a0d4d54e.js",
-  "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/chunks/7-67bb50b5.js",
-  "/_app/immutable/chunks/8-1db29041.js",
+  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
   "/_app/immutable/components/pages/_entry_/_page.svelte-19197b5f.js",
   "/_app/immutable/chunks/CalendarList-c7dfda09.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-e1f4abe4.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/start-a9356a67.js",
+  "/_app/immutable/chunks/6-736101be.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/7-67bb50b5.js",
+  "/_app/immutable/chunks/4-51dfd75a.js",
   "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-50d41fc2.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/Footer-2b8c9a85.js",
-  "/_app/immutable/start-bdbc2b3c.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
-  "/_app/immutable/chunks/_layout-18e1735f.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
   "/_app/immutable/chunks/TimelineHeatmap-f77275d6.js",
-  "/_app/immutable/chunks/utils-468e16e8.js"
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-a0d4d54e.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/chunks/_layout-b1b3fb10.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/8-1db29041.js",
+  "/_app/immutable/chunks/utils-468e16e8.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
+  "/_app/immutable/chunks/Footer-2b8c9a85.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715784446964", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715788028531", u = "24", m = "Berlin Blockchain Week 2024", b = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", g = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "radialsystem",
     hash: "81a0d9888cfe90ffb8d60a9e7d791bb0a363e4ec9422ebc4270c997a21156d67",
@@ -656,6 +656,71 @@ Cointracking: [www.cointracking.info](http://www.cointracking.info/)
     ]
   },
   {
+    id: "web3-futures-breakfast",
+    hash: "1f24293c98ee3577aa547ffcaf21f8b09b7ab4cf0efcc9361eddc56e8388701b",
+    name: "Blockchain and Open Source: A Look at the Legal Landscape",
+    shortname: "Blockchain and Open Source: A Look at the Legal Landscape",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "JUST Open Source Stiftung, YPOG, The Blockchain Lawyers Forum, EUCI (European Crypto Initiative)",
+    dri: "curiousgeorge21",
+    poc: "Lex Gillon",
+    date: "2024-05-21",
+    days: 1,
+    times: "09:00-11:00",
+    venueName: "Blumental",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/details.html?osmtype=N&osmid=2760829009&class=amenity",
+    venueAddress: "Engeldamm 64, 10179 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 60,
+    chains: [],
+    tags: [
+      "legal",
+      "open source software"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-futures-breakfast/web3-futures-breakfast.webp",
+    description: `​Come join us for breakfast and a engaging discussion with the legal folks in Web3.
+
+​Agenda:
+
+​9AM: Doors Open, Breakfast Served
+
+​9:30AM: Panel Starts
+
+​Post Panel: Networking
+
+​This discussion sits at the intersection between blockchain and open source. Our panelists will look at how the existing and upcoming regulatory frameworks affect the creation and use of blockchain solutions built on open-source software. Additionally, we will discuss how regulations such as the Data Act, Markets in Crypto-Assets Regulation, the Cyber Resilience Act and Product Liability Directive impact open-source solution development, the open-source community, and the future of blockchain innovation. We will also look at the challenges and opportunities in this area, offering practical advice for developers and companies to grow and stay compliant.
+
+​This event is brought to you by JUST Open Source Stiftung, YPOG, The Blockchain Lawyers Forum, and EUCI (European Crypto Initiative), and World of Women.
+
+Our Panelists:
+
+​[Benedikt Flöter](https://www.linkedin.com/in/benedikt-floeter/) (YPOG)
+
+​[Marina Markezic ](https://www.linkedin.com/in/marinamarkezic/) (European Crypto Initiative)
+
+​[Joanna Rindell ](https://www.linkedin.com/in/joanna-rindell/)(Moderator, World of Women)
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/cy8jbq96",
+      status: "available"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "09:00-11:00",
+        startTime: "2024-05-21T07:00:00.000Z",
+        endTime: "2024-05-21T09:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "safecon",
     hash: "14f57ce26e0f573a067a8dfbaf8e5575d0c27be91d6e76eee9934440c42fa75a",
     name: "Safe{con}2",
@@ -1044,6 +1109,78 @@ Designed for the Berlin Web3 Community, this event promises to blend insightful 
         times: "17:00-23:00",
         startTime: "2024-05-22T15:00:00.000Z",
         endTime: "2024-05-22T21:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "blockspaeti-cowork",
+    hash: "855f5ae0f205bc4fc13635a4fb30617390e0cbcc325967218261dfb6321a746c",
+    name: "WebZero BlockSpäti Co-Working",
+    shortname: "WebZero BlockSpäti",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "WebZero",
+    dri: "blacklodge430",
+    poc: "Roman Kemper",
+    date: "2024-05-21",
+    days: 4,
+    times: "10:00-15:00",
+    venueName: "NEST",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=G%C3%B6rlitzer+Str.+52%2C+10997+Berlin",
+    venueAddress: "Görlitzer Str. 52, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 120,
+    tags: [
+      "Co-Working",
+      "protocol-agnostic",
+      "Networking",
+      "Education"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/blockspaeti-cowork/blockspat.webp",
+    description: `Spend Berlin Blockchain Week in true Berlin style by working from a traditional crypto Spätkauf.
+
+​Come co-work, enjoy a crypto-branded mate, try out a quest and network with builders, founders and creators in the space.
+
+​We’ll have snacks, beverages and a Starlink router to keep your WiFi at super strength all day long.
+`,
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://lu.ma/joinwebzero"
+    },
+    links: {
+      web: "https://lu.ma/joinwebzero",
+      twitter: "https://twitter.com/joinwebzero",
+      telegram: "https://t.me/joinWebzero"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "10:00-15:00",
+        startTime: "2024-05-21T08:00:00.000Z",
+        endTime: "2024-05-21T13:00:00.000Z"
+      },
+      {
+        date: "2024-05-22",
+        times: "10:00-15:00",
+        startTime: "2024-05-22T08:00:00.000Z",
+        endTime: "2024-05-22T13:00:00.000Z"
+      },
+      {
+        date: "2024-05-23",
+        times: "10:00-15:00",
+        startTime: "2024-05-23T08:00:00.000Z",
+        endTime: "2024-05-23T13:00:00.000Z"
+      },
+      {
+        date: "2024-05-24",
+        times: "10:00-15:00",
+        startTime: "2024-05-24T08:00:00.000Z",
+        endTime: "2024-05-24T13:00:00.000Z"
       }
     ]
   },
@@ -1717,6 +1854,53 @@ Applications will be approved on a rolling basis and spaces are limited, make su
     ]
   },
   {
+    id: "web3-futures-panel",
+    hash: "c56399742cf213dcc5c1ba621668e08cfc1fc49b7ed0a5715e87ee8fdd1dc9dc",
+    name: "Fueling Emerging Technologies: The role of institutions in building digital futures",
+    shortname: "Fueling Emerging Technologies: The role of institutions in building digital futures",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "JUST Open Source Stiftung & WebZero",
+    dri: "curiousgeorge21",
+    poc: "Lex Gillon",
+    date: "2024-05-22",
+    days: 1,
+    times: "19:00-21:00",
+    venueName: "NEST Schank- und Speisewirtschaft",
+    venueUrl: "https://www.openstreetmap.org/node/1248728521",
+    venueAddress: "Görlitzer Str. 52, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 60,
+    chains: [],
+    tags: [
+      "government",
+      "startups",
+      "society",
+      "innovation"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-futures-panel/web3-futures.webp",
+    description: `​Innovation doesn't just happen. It takes an institutional mindset that facilitates new business creation, IP ownership, and talent acquisition. Berlin, with its thriving blockchain ecosystem, is doing something right. The question is: what can we teach teach the rest of the world? In this panel, we bring three of Berlin's biggest institutions (IHK, Berlin Senate, and Berlin Partner) together to discuss what role institutions play in building the future of the decentralized web - a mission that is famously anti-institution?
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/3lwt3xor",
+      status: "available"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "19:00-21:00",
+        startTime: "2024-05-22T17:00:00.000Z",
+        endTime: "2024-05-22T19:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "chainsafe",
     hash: "218a3d89b843fcbe5854dc0c6543a8df825333181a59fad09b52dea68be06685",
     name: "ChainSafe & Friends: Berlin",
@@ -1787,7 +1971,7 @@ Discover cutting-edge advancements driving the future of open-source, public goo
     poc: "https://dod.ngo",
     date: "2024-05-24",
     days: 3,
-    times: "00:00-24:00",
+    times: "00:00-23:59",
     venues: [
       "cic"
     ],
@@ -1832,21 +2016,21 @@ Check out the website for the full schedule.
     segments: [
       {
         date: "2024-05-24",
-        times: "00:00-24:00",
-        startTime: "2024-05-23T22:00:00.000Z",
-        endTime: "2024-05-24T22:00:00.000Z"
+        times: "12:00-23:59",
+        startTime: "2024-05-24T10:00:00.000Z",
+        endTime: "2024-05-24T21:59:00.000Z"
       },
       {
         date: "2024-05-25",
-        times: "00:00-24:00",
+        times: "00:00-23:59",
         startTime: "2024-05-24T22:00:00.000Z",
-        endTime: "2024-05-25T22:00:00.000Z"
+        endTime: "2024-05-25T21:59:00.000Z"
       },
       {
         date: "2024-05-26",
-        times: "00:00-24:00",
+        times: "00:00-20:00",
         startTime: "2024-05-25T22:00:00.000Z",
-        endTime: "2024-05-26T22:00:00.000Z"
+        endTime: "2024-05-26T18:00:00.000Z"
       }
     ]
   },
@@ -2880,7 +3064,7 @@ FWB Berlin
     registration: {
       type: "invites",
       price: "Free!",
-      link: "https://example.org/tickets",
+      link: "https://lu.ma/krakenDLTfinance",
       status: "available"
     },
     links: {
@@ -3329,6 +3513,62 @@ Categories:
     ]
   },
   {
+    id: "bundesblock",
+    hash: "8c785d9a2d37d374852c6d8d9f4db27f3c6c8e15327b7002398bfdd1e48d7547",
+    name: "The French & German Web3 Ecosystems Community Meeting",
+    shortname: "French & German Web3 Ecosystem",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Bundesblock & ADAN",
+    dri: "JanetMo",
+    poc: "Sebastian Becker",
+    date: "2024-05-21",
+    days: 1,
+    times: "17:00-22:00",
+    venueName: "Future Energy Lab",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Wegelystra%C3%9Fe+1+10623+Berlin%2C+Germany",
+    venueAddress: "Wegelystraße 1 10623 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [],
+    tags: [
+      "blockchain",
+      "web3",
+      "ecosystem",
+      "france"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/bundesblock/logo.webp",
+    description: `The European Web3 landscape, recently chartered in a study from ADAN and KPMG (see: Study 2024: Web 3 and crypto in France and Europe (adan.eu)), is all about innovation. But certainly not because blockchain tech would be an end in itself, but because we need a new 'European Backend for the Future', consisting of various exponential technology components that are orchestrated in the right way.
+
+We want to use the occasion of Berlin Blockchain Week to invite our members and the communities in both of our countries (and beyond) to meet up and discuss the state of #Web3 in France, Germany and Europe and to push the innovation agenda forward.
+
+We will hear from speakers representing our associations, the German Energy Agency dena (our hosts that night) and several companies that lead their field about blockchain ecosystem development over tokenization to various use cases in different industries.
+
+And of course there's drinks and food to enable a proper French-German soirée in the heart of Berlin!
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://www.eventbrite.com/e/the-french-german-web3-ecosystems-community-meeting-tickets-904519842197",
+      status: "available"
+    },
+    links: {
+      twitter: "https://twitter.com/bundesblock"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "17:00-22:00",
+        startTime: "2024-05-21T15:00:00.000Z",
+        endTime: "2024-05-21T20:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "chainlink",
     hash: "a9e5215a14b6b22655a80547e5307d61d563d0fad8651e3e12f96ed12aab5998",
     name: "Chainlink's Morning Mixer: Innovations Over Brunch",
@@ -3509,6 +3749,74 @@ It's the opportunity to meet fellow ZK and privacy enthusiasts, listen to our sp
     ]
   },
   {
+    id: "breadchain",
+    hash: "76fa5952638290ca3978456ae5db0e471c40ea1541f64644e2e1e30f0b09db53",
+    name: "Breadchain Launch Event at Moos Space",
+    shortname: "Breadchain Launch Event",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "Breadchain Cooperative",
+    dri: "tbsoc",
+    poc: "Joshua Davila",
+    date: "2024-05-25",
+    days: 1,
+    times: "09:00-20:00",
+    venueName: "Moos Space",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=moos+space",
+    venueAddress: "MOOS Space, Moosdorfstraße 7-9, Plänterwald, Treptow-Köpenick, Berlin, 12435",
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "solarpunk",
+      "ethereum",
+      "gnosis chain",
+      "solidarity"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/breadchain/breadchain.webp",
+    description: `Join us during Berlin Blockchain Week for the Breadchain Launch Event at the Moos Space in Berlin on May 25th! During the event we will be showcasing the work we've been doing at Breadchain Cooperative for building the infrastructure for a post-capitalist web3. [Breadchain Cooperative](https://breadchain.xyz/) is a cooperative network of blockchain projects working to advance a progressive vision for the technology and its effect on society by scaling solidarity through our BREAD community token and other [solidarity primitives](https://breadchain.mirror.xyz/nwQx4CqPAcwZ5zSNB2_K25N1quOF1NGcKaYcS3S33CA). The primary infrastructure being built at Breadchain is to ask ourselves what if progressives had their own community currency and credit union? Where would we decide to put resources towards to build a post-capitalist political economy?
+
+ The other members of Breadchain include the [Crypto Commons Association](https://crypto-commons.org/), [Symbiota Coop](https://symbiota.coop/) (which includes the Dandelion events platform you're looking at now), and Labor DAO. 
+
+The series of events that will take place for the full event include 
+
+1) a ~[real hands on sourdough bread baking workshop](https://www.eventbrite.de/e/sourdough-bread-workshop-tickets-903864481997)~ led by Edible Alchemy, the bakery at Moos, to give a chance to people who work on their computers all day to work with their hands and meet with other solidarity loving folks  (limited availability so please purchase tickets beforehand)
+
+2) presentations from Breadchain Cooperative members and associated projects building out technology for scaling solidarity with BREAD
+
+3) onboarding  sessions for people who believe in the cause but maybe don't yet have any crypto and 
+
+4) a [gift economy solidarity dinner at Moos](https://dandelion.events/e/s4ngq) with  the artist Mirna Bamieh from the Palestinian Hosting Society to wind it all down 🎉(limited availability so please sign up ahead of time)
+
+There will be food (including the bread baked in the workshop) and refreshments available throughout to be purchased with BREAD. You will be able to get BREAD with cash at the event, so no worries if you don't have any tokens yet. In preparation however, we recommend that you download the [Citizen Wallet](https://citizenwallet.xyz/) app which will be used to make purchases during the event. By creating and using the BREAD token helps fund the cooperative and also gives you the ability to vote on how the yield generated from it among the various projects part of the cooperative. You can bake some BREAD on the [Bread Crowdstaking Application](https://app.breadchain.xyz/) on Gnosis Chain with xDai.
+`,
+    registration: {
+      type: "tickets",
+      price: "0 EUR",
+      link: "https://dandelion.events/e/y3xkf",
+      status: "available"
+    },
+    links: {
+      web: "https://dandelion.events/e/y3xkf",
+      twitter: "https://twitter.com/breadchain_",
+      discord: "https://discord.gg/ChDeH5GRth"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "09:00-20:00",
+        startTime: "2024-05-25T07:00:00.000Z",
+        endTime: "2024-05-25T18:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "crypto2030",
     hash: "ff10d90c5d6e7c3869a177c20d1c1dafcd15ab00f2d4f2db0bf80d2405bb0fbe",
     name: "CRYPTO2030",
@@ -3607,6 +3915,84 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
         times: "10:00-16:00",
         startTime: "2024-05-21T08:00:00.000Z",
         endTime: "2024-05-21T14:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "chainsecurity-euler",
+    hash: "e35b61fa3ef1ae7ce74fadb68d7f7959138637a5ba0b7d0fe82993d356a040b8",
+    name: "Happy Hour with ChainSecurity & Euler",
+    shortname: "Happy Hour with ChainSecurity & Euler",
+    types: [
+      "meetup",
+      "party"
+    ],
+    status: "published",
+    org: "ChainSecurity & Euler",
+    dri: "LouisChainSecurity",
+    poc: "LouisChainSecurity",
+    date: "2024-05-21",
+    days: 1,
+    times: "19:00-22:00",
+    venueName: "TREEHOUSE Berlin Eventlocation",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Revaler+Str.+99%2C+10245+Berlin%2C+Germany",
+    venueAddress: "Revaler Str. 99, 10245 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [],
+    tags: [
+      "DeFI",
+      "Builders",
+      "Founders",
+      "VC"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/chainsecurity-euler/euler.webp",
+    description: `Join us on Tuesday, May 21st, at the Treehouse in Berlin for an enchanting evening hosted by ChainSecurity and Euler Finance. Mingle with defi-minded professionals and enjoy drinks, foods, and music in the most magical setting in Berlin.
+
+​What to expect:
+
+​​- 100 guests actively contributing to the DeFi space
+- Quality food
+- Open bar from 7:00pm to 10:00pm
+- Music at a reasonable volume to allow for quality conversations
+
+​​---
+
+​​[⚠️](https://emojipedia.org/warning) Limited spots [⚠️](https://emojipedia.org/warning)
+
+​​- 100 guests maximum
+- If you confirmed your attendance and unfortunately cannot make it, please inform us ASAP, as another guest will be glad to take your spot.
+
+---
+
+Your hosts (in alphabetical order)
+
+​​ChainSecurity
+
+​​[ChainSecurity](http://www.chainsecurity.com/) is a top-tier security firm based in Switzerland. Check out our most recent Euler audit: https://chainsecurity.com/security-audit/euler-ethereum-vault-connector/
+
+​Since 2017, we work with top-tier DeFi protocols such as MakerDAO, Curve, Ethereum Foundation, Lido, Compound, Yearn, Circle, Enzyme, Gearbox, 1inch, and many others.
+
+You might know us as the auditors who [discovered the read-only reentrancy in 2022](https://www.youtube.com/watch?v=8D5ZJyU-dX0), and those who found the [vulnerability that delayed the Constantinople hardfork in 2019](https://medium.com/chainsecurity/constantinople-enables-new-reentrancy-attack-ace4088297d9). 
+
+​​​​Euler
+
+​​Euler is a modular lending platform on Ethereum that enables users to lend, borrow and build without limits. We're really close to relaunch with v2, a more modular and capital effienct version of v1. Euler is hosting the largest audit code competition, starting in May 20 with Cantina.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/v4w972ol",
+      status: "available"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "19:00-22:00",
+        startTime: "2024-05-21T17:00:00.000Z",
+        endTime: "2024-05-21T20:00:00.000Z"
       }
     ]
   },
@@ -3886,7 +4272,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
       twitter: "https://twitter.com/base"
     }
   }
-], C = "2024-05-14T10:13:57.011Z", A = "v24.2.24", l = {
+], C = "2024-05-15T15:19:04.101Z", S = "v24.2.27", l = {
   id: u,
   name: m,
   dataUrl: b,
@@ -3901,7 +4287,7 @@ If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:
   chains: B,
   "other-events": [],
   __time: C,
-  __tag: A
+  __tag: S
 }, r = {
   tz: "Europe/Berlin",
   collections: {
