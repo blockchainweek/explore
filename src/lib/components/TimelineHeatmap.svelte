@@ -31,14 +31,10 @@
 	}
 
 	const segments = [];
-	let currentSegment = '00:00';
-	while (!segments.includes(currentSegment)) {
-		segments.push(format(toDate(startDate + 'T' + currentSegment, { timeZone: config.tz }), 'HH:mm', { timeZone: config.tz }));
-		currentSegment = format(
-			addMinutes(toDate(startDate + 'T' + currentSegment, { timeZone: config.tz }), segmentMinutes),
-			'HH:mm',
-			{ timeZone: config.tz }
-		);
+	let currentSegment = '00:00';	
+	for (let hour = 0; hour < 24; hour++) {
+		const segment = `${String(hour).padStart(2, '0')}:00`;
+		segments.push(segment);
 	}
 
 	const timelineData = {};
