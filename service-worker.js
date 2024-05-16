@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-19197b5f.js",
-  "/_app/immutable/chunks/2-b4a78fe3.js",
-  "/_app/immutable/chunks/_layout-88df1eb5.js",
-  "/_app/immutable/start-aca70dea.js",
-  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
-  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/4-51dfd75a.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/chunks/7-67bb50b5.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-a0d4d54e.js",
-  "/_app/immutable/chunks/TimelineHeatmap-f77275d6.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-cee9a30a.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/chunks/8-1db29041.js",
-  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/Footer-2b8c9a85.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-50d41fc2.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/2-33e23a6f.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-a0d4d54e.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-f4acfdbc.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-19197b5f.js",
+  "/_app/immutable/chunks/4-51dfd75a.js",
+  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
+  "/_app/immutable/chunks/6-736101be.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/chunks/7-67bb50b5.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/8-1db29041.js",
+  "/_app/immutable/chunks/TimelineHeatmap-f77275d6.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/Footer-2b8c9a85.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
-  "/_app/immutable/chunks/utils-468e16e8.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js"
+  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
+  "/_app/immutable/chunks/_layout-7eea8137.js",
+  "/_app/immutable/start-d9589d10.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
+  "/_app/immutable/chunks/utils-468e16e8.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1715874443555", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1715878041477", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -94,6 +94,25 @@ const d = [
     photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/radialsystem/logo.webp",
     links: {
       web: "https://radialsystem.de/"
+    }
+  },
+  {
+    id: "blockspaeti",
+    hash: "85b6d85a44c137fcc566b7bac553c00b71488590d4ea1bc3cf2190c2ed08cba1",
+    name: "Blockspäti",
+    eventTypes: [
+      "meetup",
+      "party",
+      "other"
+    ],
+    capacity: 500,
+    address: "Görlitzer Str. 52, 10997 Berlin",
+    mapUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=G%C3%B6rlitzer+Str.+52%2C+10997+Berlin",
+    description: `A two-floor authentic Berlin Späti in the heart of Kreuzberg.
+`,
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/blockspaeti/logo.webp",
+    links: {
+      web: "https://lu.ma/joinwebzero"
     }
   },
   {
@@ -1476,6 +1495,71 @@ Categories:
     ]
   },
   {
+    id: "future-state",
+    hash: "89f009c058ac2b474d41b0afd17b8da789b3836ace55199c612d9c2c11ea43ec",
+    name: "Future State",
+    shortname: "Future State",
+    types: [
+      "meetup"
+    ],
+    status: "planning",
+    org: "Future State",
+    dri: "promensvitla",
+    poc: "Ray Svitla",
+    date: "2024-05-25",
+    days: 1,
+    times: "16:00-20:00",
+    venueName: "Berlin, TBA",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Berlin%2C+Berlin",
+    venueAddress: "Berlin, TBA",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [],
+    tags: [
+      "NetworkState",
+      "realworldissues",
+      "innovation"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/future-state/logo.webp",
+    description: `Future State: Navigating Real-World Challenges through Blockchain
+
+As the crypto community braces for the next bull run, we often see a surge of get-rich-quick schemes. Future State is dedicated to addressing genuine issues that the blockchain community can tackle today.
+
+Why this Matters? This is a pragmatic approach Emerging societies are often the quickest to adopt innovations, as seen with the rapid uptake of crypto in Ukraine, Turkey, and Nigeria. Blockchain technology—with programmable economies, zk proofs, DAOs, and more—has the potential to leapfrog the development of communities, nations, and entire regions, accelerating mass adoption.
+
+Why Berlin? Berlin, a city that has long been divided between past and future, is the perfect place to leap into the future. Here, we focus on solving real human problems, not just building castles in the air.
+
+Event Structure:
+
+1. Presentations from Experts: We invite thought leaders and practitioners to share their insights on how blockchain can address real-world challenges. Submit your proposal to speak at the event.
+
+2. World Cafe for Problem-Solving: Participants will gather in small groups to discuss specific real-world challenges that blockchain can address.
+
+Examples of potential topics include: The impact of Georgia's new law on foreign agents The challenges faced by the 500,000 Belarusians in Europe who are at risk of losing their passports Propose your own topic in your participation application.
+
+Join us to explore a sci-fi version of the future, through the lens of new governance models and libertarian concepts inspired by "The Network State" by Balaji Srinivasan. Let's navigate real-world challenges with practical blockchain solutions.
+`,
+    registration: {
+      type: "signup",
+      status: "available"
+    },
+    links: {
+      web: "https://futurestate.wiki/en/events",
+      twitter: "https://twitter.com/futurestate_tv",
+      telegram: "https://t.me/futurestate_hall"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "16:00-20:00",
+        startTime: "2024-05-25T14:00:00.000Z",
+        endTime: "2024-05-25T18:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "scroll",
     hash: "518b64979ba3ae1a91f58c0b8e757f0273b501baab231571ff72903667878a03",
     name: "Scroll on the Kotti Canal",
@@ -2548,9 +2632,9 @@ Partners TBA
     date: "2024-05-21",
     days: 4,
     times: "10:00-15:00",
-    venueName: "NEST",
-    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=G%C3%B6rlitzer+Str.+52%2C+10997+Berlin",
-    venueAddress: "Görlitzer Str. 52, 10997 Berlin",
+    venues: [
+      "blockspaeti"
+    ],
     languages: [
       "english"
     ],
@@ -4461,7 +4545,7 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], C = "2024-05-15T23:38:53.180Z", S = "v24.2.34", l = {
+], C = "2024-05-16T16:31:52.958Z", S = "v24.2.35", l = {
   id: u,
   name: m,
   dataUrl: g,
