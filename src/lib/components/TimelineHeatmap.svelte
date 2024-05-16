@@ -96,7 +96,7 @@
 	}
 
 	function makeSelected(day, segment, keys) {
-		const baseDate = toDate(`${day}T${segment}`, { timeZone: config.tz });
+		const baseDate = toDate(`${day}T${segment}`);
 		const title =
 		format(baseDate, 'EEEE MMMM d | HH:mm - ', { timeZone: config.tz }) +
 		format(addMinutes(baseDate, segmentMinutes), 'HH:mm', { timeZone: config.tz });
