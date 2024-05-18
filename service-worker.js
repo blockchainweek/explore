@@ -1,36 +1,36 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/chunks/8-b1af3caa.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
   "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
-  "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/7-ec3cc428.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
-  "/_app/immutable/chunks/_layout-7eea8137.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-33e23a6f.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
-  "/_app/immutable/chunks/4-92fb94c7.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
   "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
   "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/start-ce04e69e.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-334ad1a5.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/7-ec3cc428.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/chunks/6-736101be.js",
   "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/start-f37ba31a.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-f4acfdbc.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
+  "/_app/immutable/chunks/2-0038753a.js",
+  "/_app/immutable/chunks/4-92fb94c7.js",
   "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/_layout-bc6d5483.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
   "/_app/immutable/chunks/CalendarList-c7dfda09.js",
+  "/_app/immutable/chunks/8-b1af3caa.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
   "/_app/immutable/chunks/Footer-2b8c9a85.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
   "/_app/immutable/chunks/utils-468e16e8.js"
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1716025632689", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1716029234420", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -321,6 +321,115 @@ If you'd like to meet a member of the Starknet Foundation Team we will be here a
     ]
   },
   {
+    id: "fuel-friends",
+    hash: "7b257975e0b5958040d4fe701db29467680d7b8143846d9080ba1181bc10f22f",
+    name: "Fuel & Frens takeover The BlockSpäti",
+    shortname: "Fuel & Frens",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "WebZero",
+    dri: "tripleight",
+    poc: "Roman Kemper",
+    date: "2024-05-21",
+    days: 1,
+    times: "19:00-23:59",
+    venues: [
+      "blockspaeti"
+    ],
+    venueName: "Blockspäti",
+    venueUrl: "https://maps.app.goo.gl/x36xxzA55zPLSfmFA",
+    venueAddress: "Görlitzer Str. 52, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "polkadot",
+      "ethereum"
+    ],
+    tags: [
+      "data",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/fuel-friends/logo.webp",
+    description: `Beers, snacks, goodies, club mate & builder frens
+
+We're joining forces with the WebZero team and for one evening, we're taking over the BlockSpäti - a mini-mart with a hidden event space in the heart of the Berlin Blockchain Week.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/fuelatblockspati",
+      status: "available"
+    },
+    links: {
+      web: "https://www.fuel.network",
+      twitter: "https://twitter.com/fuel_network"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "19:00-23:59",
+        startTime: "2024-05-21T17:00:00.000Z",
+        endTime: "2024-05-21T21:59:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "five-steps",
+    hash: "ff7b8841b7471f826ced7ff505b1dd101a2c95a06598ef407e15b444d9a330e7",
+    name: "5 Steps to List your Tokens as Collateral in Lending/Borrowing/Stablecoin Protocols",
+    shortname: "5 steps to list your token as collateral",
+    types: [
+      "workshop"
+    ],
+    status: "published",
+    org: "Atomica.org",
+    dri: "atomica-dev",
+    poc: "jaroslav.a@atomica.org",
+    date: "2024-05-21",
+    days: 1,
+    times: "15:00-18:00",
+    venueName: "Museum des Kapitalismus",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Str.+172%2C+10997+Berlin%2C+Germany",
+    venueAddress: "Köpenicker Str. 172, 10997 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 50,
+    tags: [
+      "Web3",
+      "risk",
+      "insurance"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/five-steps/logo.webp",
+    description: `​You will learn 5 ways to get collateral status in borrowing and lending protocols for almost any token, so that your users can borrow against it, without selling it.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/p59zu0km",
+      button: "Sign Up",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/p59zu0km",
+      twitter: "https://twitter.com/atomica_org",
+      telegram: "https://t.me/+wjXYe2ZgB844ODJh",
+      docs: "https://linktr.ee/atomica.org"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "15:00-18:00",
+        startTime: "2024-05-21T13:00:00.000Z",
+        endTime: "2024-05-21T16:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "dappcon",
     hash: "9b9b33b227ead2e445b2c44dbd271f1423cb6ca0cd36b888b5dccf775ee0af35",
     name: "DAPPCON 24",
@@ -496,6 +605,66 @@ If you can't make it IRL, you can always find us online:
         times: "17:00-20:00",
         startTime: "2024-05-24T15:00:00.000Z",
         endTime: "2024-05-24T18:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "tvl-growth",
+    hash: "a11605dd92a153992f75743eb7bdb13f682de3845c3fbbfae9ef47e26be858ac",
+    name: "TVL Growth: 3 Growth Hacks Proven to Attract Institutional TVL",
+    shortname: "TVL Growth: 3 Growth Hacks Proven to Attract Institutional TVL",
+    types: [
+      "workshop"
+    ],
+    status: "published",
+    org: "Atomica.org",
+    dri: "atomica-dev",
+    poc: "jaroslav.a@atomica.org",
+    date: "2024-05-24",
+    days: 1,
+    times: "13:00-16:00",
+    venueName: "Studio-Location-Berlin",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Str.+187%2F188+10997+Berlin",
+    venueAddress: "Köpenicker Str. 187/188 1.OG, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 30,
+    chains: [],
+    tags: [
+      "Web3",
+      "risk",
+      "insurance"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/tvl-growth/logo.webp",
+    description: `​You will learn:
+​1. How to deploy insurance selling widgets in your own dApp or Web3 Protocol?
+​2. How to add insurance to your dApp transaction lifecycle?
+​3. How insurance or risk-adjusted yield can attract more TVL and institutional users?
+​4. How to add additional utility, yield and usage to your governance token?
+​5. How to promote the listing of your token on the lending platforms and money markets ?
+​6. How can the community contribute to the dApp or Web3 Protocol safety?
+​7. How can dApp and Web3 Web3 protocol benefit from Web3's threat prevention and insurance solutions?
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/okf4hzwy",
+      button: "Sign Up",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/okf4hzwy",
+      twitter: "https://twitter.com/atomica_org",
+      telegram: "https://t.me/+wjXYe2ZgB844ODJh",
+      docs: "https://linktr.ee/atomica.org"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "13:00-16:00",
+        startTime: "2024-05-24T11:00:00.000Z",
+        endTime: "2024-05-24T14:00:00.000Z"
       }
     ]
   },
@@ -1285,6 +1454,70 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
     ]
   },
   {
+    id: "open-data-brunch-with-subsquid",
+    hash: "37b8669ec5b1cfb0ab53827ddd27a15abc9c9853d5c1eb977ad8412b49e14503",
+    name: "Open Data Brunch with Subsquid",
+    types: [
+      "meetup",
+      "other"
+    ],
+    shortname: "Open Data Brunch with Subsquid",
+    status: "published",
+    org: "WebZero",
+    dri: "tripleight",
+    poc: "Roman Kemper",
+    date: "2024-05-23",
+    days: 1,
+    times: "10:00-13:00",
+    venues: [
+      "blockspaeti"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [
+      "polkadot"
+    ],
+    tags: [
+      "data",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/open-data-brunch-with-subsquid/logo.webp",
+    description: `Dive into open data and start your Thursday at the Blockspäti!
+
+The Subsquid team invites you to a lavish brunch followed by games and casual networking to start the day on the right foot.
+
+Don't miss this mixer if you appreciate:
+
+- Brunch with all the fixings
+- Open data
+- Different games and activities
+
+Your hosts at Subsquid
+
+Subsquid Network is Web3 necessiware—a decentralized data lake and query engine for blazing-fast cross-chain indexing and queries. Infinitely horizontally scalable, Subsquid makes the consumer dApps that real people want to use possible, from social media to games and DeFi. Secured by ZK proofs, Subsquid supports over 100 networks. Learn more: https://subsquid.io/
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/ifha7ucq",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/ifha7ucq",
+      twitter: "https://twitter.com/subsquid"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "10:00-13:00",
+        startTime: "2024-05-23T08:00:00.000Z",
+        endTime: "2024-05-23T11:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "rooftop-token",
     hash: "94b572c80578214378f143c6d7b0a7df2895ff5f631fc2092d8fcc692dc2aac7",
     name: "Rooftop Token Launch Party with Drinks and Pizza by Welshare Health",
@@ -1610,6 +1843,64 @@ We'll have DJs, natural wine (while supplies last), and some cool swag 😎
     ]
   },
   {
+    id: "webzero-coworking-22",
+    hash: "e48082337bab29f69f6f2090002d92a925df3754a517dae718b50bc1fe5fbcba",
+    name: "WebZero BlockSpäti — Co-working Day Two",
+    shortname: "Co-working at BlockSpäti",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "WebZero",
+    dri: "tripleight",
+    poc: "Roman Kemper",
+    date: "2024-05-22",
+    days: 1,
+    times: "10:00-14:00",
+    venues: [
+      "blockspaeti"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "polkadot",
+      "ethereum"
+    ],
+    tags: [
+      "data",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/webzero-coworking-22/logo.webp",
+    description: `Day two at the BlockSpäti: 
+
+We're kicking off the second day of a four-day experience, designed for blockchain builders to co-work and network.
+
+Enjoy a crypto-branded mate, try out a quest activation and network with builders, founders and creators in the space.
+
+We'll have snacks, beverages and a Starlink router to keep your WiFi at super strength all day long.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/detpg0uz",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/detpg0uz",
+      twitter: "https://x.com/joinwebzero"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "10:00-14:00",
+        startTime: "2024-05-22T08:00:00.000Z",
+        endTime: "2024-05-22T12:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "breadchain",
     hash: "76fa5952638290ca3978456ae5db0e471c40ea1541f64644e2e1e30f0b09db53",
     name: "Breadchain Launch Event at Moos Space",
@@ -1903,16 +2194,16 @@ Discover cutting-edge advancements driving the future of open-source, public goo
   {
     id: "aihope",
     hash: "48cb33e5ff47accd1c555e691c24d5d4eb834bc7e1e2f9a8e790c5fbe76f5f6b",
-    name: "AI x Hope: New Internet",
-    shortname: "AI x Hope",
+    name: "AI x HOPE",
+    shortname: "AI x HOPE",
     types: [
       "meetup",
       "conference"
     ],
     status: "published",
-    org: "Seed Club Ventures, Newcoin.org, and Foresight Institute",
+    org: "Seed Club Ventures, Foresight Institute",
     dri: "newfound8ion",
-    poc: "Madvi",
+    poc: "NiMA",
     date: "2024-05-24",
     days: 1,
     times: "14:00-22:00",
@@ -1930,71 +2221,76 @@ Discover cutting-edge advancements driving the future of open-source, public goo
       "crypto"
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/aihope/logo.webp",
-    description: `Join us for BBW's decentralized AI day! Please note, the event is by application only and places are limited.
+    description: `AI x Hope: Towards Futures of Human-AI Interdependence
 
-We present:
+We stand at a crucial point in shaping how Human-AI cooperation will evolve and are witnessing the birth of a new internet. We aim to approach this flippening with [Existential Hope](https://www.existentialhope.com/), and foster futures where humans and machines coexist to flourish ✨. 
 
-**AI x Hope: Towards Futures of Human-AI Interdependence**
+​Our belief is that a healthy and harmonious development of decentralized artificial general intelligence (AGI) can arise from an enlightened vantage point. Specifically, we hope to empower builders, researchers, creators and investors exploring positive futures and protocols at the intersection of AI, crypto and creativity, with AI x Hope as an enabler for coordination in sharing technical, research-based and values-aligned perspectives.
 
-We stand at a crucial point in shaping how Human-AI cooperation will evolve and are witnessing the birth of a New Internet. We aim to approach this flippening with [Existential Hope](https://www.existentialhope.com/), and foster futures where humans and machines coexist to flourish ✨.
+We will converge through panel discussions, keynotes and workshops and think far and wide on the ways to align the nascent AI x crypto space for this new paradigm, where our collective synergy—in data, values and protocols—is all we need. 
 
-Our belief is that a healthy and harmonious development of decentralized artificial general intelligence (AGI) can arise from an enlightened vantage point. Specifically, we hope to empower builders, researchers, creators and investors exploring positive futures and protocols at the intersection of AI, crypto and creativity, with AI x Hope as an enabler for coordination in sharing technical, research-based and values-aligned perspectives.
+Curated by [Seed Club Ventures](https://seedclub.ventures/) and [Foresight Institute](https://foresight.org/).
 
-We will converge through panel discussions, keynotes and workshops and think far and wide on the ways to align the nascent AI x crypto space for this new paradigm, where our collective synergy—in data, values and protocols—is all we need.
+Tentative [Schedule](https://docs.google.com/spreadsheets/d/1HJnKxdquXE1bI7t5b8BbHHkSFgQL9MCQEvTQ5Xf0V2k/edit?usp=sharing)
 
-Hosted by [Seed Club Ventures](https://seedclub.ventures/), [Newcoin.org](http://newcoin.org/), and [Foresight Institute](https://foresight.org/).
-
-[Newinternet.cc](http://newinternet.cc/)
+​
 ~~
 SPEAKERS
 Join us to talk with top researchers, founders, creators, and investors in decentralized AI, including:
 
+​[Holly Herndon](https://twitter.com/hollyherndon), Co-Founder @ [Spawning.ai](http://spawning.ai/)
+[Matt Dryhurst](https://twitter.com/matdryhurst), Co-Founder @ [Spawning.ai](http://spawning.ai/)
+
+​[Lou](https://twitter.com/louviq), Program Director @ Foresight Institute
+[NiMA](https://twitter.com/insideNiMA), Instigator @ Seed Club Ventures
+
+​
+
+​[Dr. Richard Blythman](https://x.com/richardblythman?t=wM-eZdpZvp54Kqu2Be61PQ&s=35), Co-Founder @ Naptha
 [Illia Polosukhin](https://twitter.com/ilblackdragon), Co-Founder @ NEARProtocol
+[Emad Mostaque](https://twitter.com/EMostaque), Founder @ [Schelling.AI](http://schelling.ai/), Stability AI
 [Puja Ohlhaver](https://twitter.com/pujaohlhaver), Pluralist, Technologist
-[Sofiane Delloue](https://twitter.com/sofiane_nco), Co-Founder @ [Newcoin](http://www.newcoin.org/)
-[Scott Moore](https://twitter.com/notscottmoore), Cofounder @ PublicWorks, Gitcoin
-[Emad Mostaque](https://twitter.com/EMostaque), Founder @ Schelling.AI, former Founder @ Stability AI
-[Holly Herndon](https://twitter.com/hollyherndon), Co-Founder @ Spawning.ai
-[Matt Dryhurst](https://twitter.com/matdryhurst), Co-Founder @ Spawning.ai
-[Nick Naraghi](https://twitter.com/0xNN2), Co-Founder @ Hats Protocol
-[Lou de Kerhuelvez](https://twitter.com/louviq), Program Director @ Foresight Institute
-[NiMA Asghari](https://twitter.com/insideNiMA), Instigator @ Seed Club Ventures
+[Martin Köppelmann](https://twitter.com/koeppelmann), Co-Founder @ Gnosis
+[Vincent Weisser](https://twitter.com/vincentweisser), CEO @ Prime Intellect
 
-Speaker & workshop host applications [here](https://airtable.com/appUEWveA6PEFrL6z/pagg7cR4ZLVWWjlZm/form).
+​[Trent McConaghy](http://www.twitter.com/trentmc0), Founder @ Ocean Protocol
+[Sofiane Delloue](https://twitter.com/sofiane_nco), Co-Founder @ Newcoin
+[Nick Naraghi,](https://twitter.com/0xNN2) Co-Founder @ Hats Protocol
+[David Minarsch](https://twitter.com/david_enim), Co-Founder @ Valory/Autonolas
+[Gabriel Fior](https://www.linkedin.com/in/gabrielfior/), Crypto + AI @ Gnosis
+[Fatemeh Fannizadeh, ](https://twitter.com/Fatalmeh)Legal @ Swarm
 
-AGENDA
 
-14:00 ~ Welcome hangout
-15:00-20:00 ~ Main Talks & Workshop Sessions
-20:00-22:00 ~ Social Gathering (in the summer garden)
-22:00+ ~ AFTERPARTY, berlin-style (You will be invited)
+[AGENDA](https://docs.google.com/spreadsheets/d/1HJnKxdquXE1bI7t5b8BbHHkSFgQL9MCQEvTQ5Xf0V2k/edit?usp=sharing)
+
+14:00 ~ Welcome Sessions
+15:00-19:00 ~ Main Talks & Workshop Sessions
+19:00-22:00 ~ Dinner & Social Gathering (in the summer garden & next-door cafe westberlin)
+22:00+ ~ TBD AFTERPARTY, berlin-style (You will be invited)
 
 Beanbag chill areas + summer garden open during the entire event for you.
-[See the program updates](https://www.newinternet.cc/)
 
-Thank you to our friends at Molecule for hosting us. Event production supported by Pretopia.
 
+Excited and looking some good resources on x-hope? Check out [Existential Hope](https://www.existentialhope.com/)!
+
+​We're grateful to our friends from [Molecule](https://www.molecule.xyz/) for hosting this event at their Berlin HQ. Event production supported by Pretopia Ventures GmbH.
+
+​
 SEED CLUB VENTURES
 [Seed Club Ventures](https://seedclub.ventures/) is a Venture DAO backing early-stage founders building at the intersection of web3 and community. With a membership of 60+ leading innovators and investors in crypto, we are diverse in our ability to support projects throughout their life cycle. Launched in partnership with [Seed Club](https://www.seedclub.xyz/) — the leading network for builders at the intersection of crypto, culture, and community — our mission is to build a community-owned internet.
-
+‍
+‍
 FORESIGHT INSTITUTE
 [Existential Hope](http://existentialhope.com/) is a [Foresight Institute](https://foresight.org/) project. Foresight is a non-profit that supports the beneficial development of high-impact technologies. From nanotech, to BCI, space exploration, cryptocommerce, biotech and AI, we gather leading minds to advance research and accelerate progress toward flourishing futures. Existential Hope project is the contextualizer of all our work. As we advance technology and science, we also want to ensure that we are progressing positive futures, and decreasing x-risks.
-
-NEWCOIN
-[Newcoin](https://www.newcoin.org/) is a decentralized AGI protocol for human-agent coordination. [Build on Newcoin](https://www.newcoin.org/build), or join [Newcoin OS](https://www.newcoin.org/os). Newcoin started as a [research project](https://github.com/newfound8ion/papers/blob/main/newcoin.pdf) in 2017, when [Newlife.ai](http://newlife.ai/) was launched as one of the pioneers of RLHF years before the launch of ChatGPT, and accelerated by NVIDIA in 2019. Backed by Seed Club Ventures and builders in DeAI. We support founders, builders and creators in our network with a mission to build the New Internet."
 `,
-    cfp: {
-      link: "https://airtable.com/appUEWveA6PEFrL6z/pagg7cR4ZLVWWjlZm/form"
-    },
     registration: {
       type: "tickets",
       price: "TBA",
-      link: "https://newinternet.cc",
+      link: "https://lu.ma/aix",
       status: "available"
     },
     links: {
-      web: "https://newinternet.cc",
-      docs: "https://developer.newcoin.org"
+      web: "https://lu.ma/aixai"
     },
     segments: [
       {
@@ -2055,6 +2351,133 @@ NEWCOIN
         times: "11:00-13:00",
         startTime: "2024-05-23T09:00:00.000Z",
         endTime: "2024-05-23T11:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "bitcoin-pizza",
+    hash: "97e0458f40081b575547abb2786031a581d964a655b9915fedf53609477215f6",
+    name: "Bitcoin Pizza Party Berlin w/ Blockravers & øhr",
+    shortname: "Bitcoin Pizza Party",
+    types: [
+      "party"
+    ],
+    status: "published",
+    org: "WebZero",
+    dri: "tripleight",
+    poc: "Roman Kemper",
+    date: "2024-05-22",
+    days: 1,
+    times: "21:00-01:30",
+    venues: [
+      "blockspaeti"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "bitcoin"
+    ],
+    tags: [
+      "data",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/bitcoin-pizza/logo.webp",
+    description: `You're invited to PizzaDAO's 4th annual Global Pizza Party in honor of Bitcoin Pizza Day.
+
+It's been 14 years since May 22, 2010, when Laszlo Hanyecz bought two pizzas for 10,000 bitcoin. Today, 10,000 bitcoin buys a lot more than two pizzas!
+
+We think that's a big deal. So in partnership with our friends at NounsDAO, Unlock Protocol, and the World Pizza Champions we are throwing our biggest Global Pizza Party yet! We're expecting well over 10,000 total attendees across more than 150 cities worldwide.
+
+Blockravers and [øhr](http://www.ohr-app.xyz/) are set to amplify this year's Global Pizza Party with a dynamic lineup of Berlin-based DJs and those from the blockchain community. Get ready for a night of electrifying music that bridges technology and culture.
+Lineup announcements coming soon!
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/l6uj7t5c",
+      status: "available"
+    },
+    links: {
+      web: "https://daocentral.com/dao/pizza"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "21:00-01:30",
+        startTime: "2024-05-22T19:00:00.000Z",
+        endTime: "2024-05-22T23:30:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "de-ai",
+    hash: "711e32e73ff49ca646723b2d11bab8bb0fdbe4edef11dc8e93ac320678c995f7",
+    name: "DeAI Society",
+    shortname: "DeAI Society",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "NEWFORUM",
+    dri: "madviii",
+    poc: "Madvi",
+    date: "2024-05-25",
+    days: 2,
+    times: "09:00-22:00",
+    venueName: "Berlin Studio",
+    languages: [
+      "english"
+    ],
+    attendees: 90,
+    chains: [],
+    tags: [
+      "web3",
+      "AI",
+      "deAI",
+      "Filming"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/de-ai/logo.webp",
+    description: `**Building the New Internet**
+​DeAI comes to Berlin. Join the New Internet builders network for DeAI Society, a series of curated talks, working groups, dinners and events, where you will be featured in our documentary about the builders of the New Internet! 🎥
+​
+​Present your project and meet with founders, builders and investors to define the future of composable decentralized AI and the New Internet stack for a DeAI Society.
+
+​​~ 🌐
+The smartest builders in the world are currently running in those two opposite directions: one working towards the exponential increase in machine intelligence and utility (AGI), the other is running towards more trusted global information systems (web3).
+
+​The New Internet is the synthesis of two seemingly incompatible emerging computing paradigms combining the best elements of both paradigms to achieve a decentralized AGI that is natively aligned with the best interest, values, preferences and intelligence of humanity.
+
+​The New Internet stack: Agent Centricity, Proto-Apps, AI Protocol, Verifiable Data, API Composability, Distributed Modularity, Agentic Workflows, Verifiable Computing, Consumer GPU Acceleration, Abstract Computing Markets, Mechanism Design, Creative Networks.
+
+~💡 📸 🎬
+The documentary will be produced by [Newforum](https://twitter.com/newforum_nco?lang=en), the research network for deAI and web3 founders, investors, researchers and creators launched by [Newfoundation](https://new.foundation/).
+
+Filming and art direction of the documentary by [Antonio Pedro ](https://antoniopedro.co/)and [Hugo Hoppmann](https://www.hugohoppmann.com/) from the Newfoundation team. Presenters will receive a recording guide and dress code 📸 🤳🏽🧢
+`,
+    registration: {
+      type: "invites",
+      price: "free",
+      link: "https://lu.ma/deaisoc",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/deaisoc",
+      twitter: "https://twitter.com/newforum_nco"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "09:00-22:00",
+        startTime: "2024-05-25T07:00:00.000Z",
+        endTime: "2024-05-25T20:00:00.000Z"
+      },
+      {
+        date: "2024-05-26",
+        times: "09:00-22:00",
+        startTime: "2024-05-26T07:00:00.000Z",
+        endTime: "2024-05-26T20:00:00.000Z"
       }
     ]
   },
@@ -2306,6 +2729,79 @@ Designed for the Berlin Web3 Community, this event promises to blend insightful 
     ]
   },
   {
+    id: "walletcafe",
+    hash: "da6b2365796185f475bf1d96591ea2dab277fae335f1b9a7eef330ce2b5aa95c",
+    name: "Wallet Cafe: Chill & Connect",
+    shortname: "Wallet Cafe",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Hito.xyz",
+    dri: "mishabunte",
+    poc: "Misha Bunte",
+    date: "2024-05-22",
+    days: 1,
+    times: "17:00-21:00",
+    venueName: "EisWerk",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=EisWerk+Berlin",
+    venueAddress: "Köpenicker Str. 40 - 41, 10179 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 150,
+    chains: [],
+    tags: [
+      "vibes",
+      "crypto",
+      "coffee",
+      "wallet"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/walletcafe/logo.webp",
+    description: `A gathering for wallet/crypto builders, with great coffee and music ☕🎶
+
+​Join us for the vibes! 🌐💸
+
+TL;DR
+
+If like me you’re attending both DAPPCon and ETH Berlin, I invite you to join me for an afternoon of networking and brainstorming ideas about the future of the wallet space.
+
+On 22nd of May at 5PM, we’re meeting at Eiswerk Berlin conveniently located in the centre of Berlin.
+
+Come and refill your batteries before the rest of the Blockchain week. We will be serving good coffee, followed by food and good music.
+
+Join us if you are looking to:
+
+ ⁃ meet fellow wallet builders
+ ⁃ learn from the big players in the wallet space
+ ⁃ meet the disruptors of the wallet space
+ ⁃ get hired or hire more people
+ ⁃ learn how to build a hard wallet (from yours truly)
+ ⁃ make new friends and find cool people to build with
+ ⁃ (And most importantly) re-charge under good vibes only
+
+Stay caffeinated, stay innovative.
+
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/bbturu7p",
+      status: "available"
+    },
+    links: {
+      twitter: "https://twitter.com/hito_xyz"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "17:00-21:00",
+        startTime: "2024-05-22T15:00:00.000Z",
+        endTime: "2024-05-22T19:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "community-run",
     hash: "92c491433464263ae8c2200de928610ad1bb04002864762eabbf5e699460028e",
     name: "BBW' 24 Community Run w/ w3.fund",
@@ -2357,6 +2853,64 @@ Designed for the Berlin Web3 Community, this event promises to blend insightful 
         times: "07:30-08:30",
         startTime: "2024-05-23T05:30:00.000Z",
         endTime: "2024-05-23T06:30:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "webzero-coworking-24",
+    hash: "e1c9267944602f29777b20b3c1ba06a6ca88b4469656bdc4754e24853f37cb6e",
+    name: "WebZero BlockSpäti — Co-working Day Four",
+    shortname: "Co-working at BlockSpäti",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "WebZero",
+    dri: "tripleight",
+    poc: "Roman Kemper",
+    date: "2024-05-24",
+    days: 1,
+    times: "10:00-15:00",
+    venues: [
+      "blockspaeti"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "polkadot",
+      "ethereum"
+    ],
+    tags: [
+      "data",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/webzero-coworking-24/logo.webp",
+    description: `Day four at the BlockSpäti:
+
+The final day of our co-working experience, join us as we wrap up Berlin Blockchain Week with co-working. 
+
+End your week with a crypto-branded mate, try out a quest and network with builders, founders and creators in the space.
+
+We'll have snacks, beverages and a Starlink router to keep your WiFi at super strength all day long.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/q1kvrmr2",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/q1kvrmr2",
+      twitter: "https://x.com/joinwebzero"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "10:00-15:00",
+        startTime: "2024-05-24T08:00:00.000Z",
+        endTime: "2024-05-24T13:00:00.000Z"
       }
     ]
   },
@@ -3224,6 +3778,118 @@ Immerse yourself in insightful discussions with the biggest brains in the Web3 g
     ]
   },
   {
+    id: "webzero-coworking-23",
+    hash: "e6b19093335357138e4718ef20ee88f7f27a4be2d1fbe5d896cf45706e2bc5b8",
+    name: "WebZero BlockSpäti — Co-working Day Three",
+    shortname: "Co-working at BlockSpäti",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "WebZero",
+    dri: "tripleight",
+    poc: "Roman Kemper",
+    date: "2024-05-23",
+    days: 1,
+    times: "10:00-14:00",
+    venues: [
+      "blockspaeti"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "polkadot",
+      "ethereum"
+    ],
+    tags: [
+      "data",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/webzero-coworking-23/logo.webp",
+    description: `Day three at the BlockSpäti: 
+
+Come co-work, enjoy a crypto-branded mate, try out a quest and network with builders, founders and creators in the space.
+
+We'll have snacks, beverages and a Starlink router to keep your WiFi at super strength all day long.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/5nkz0thy",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/5nkz0thy",
+      twitter: "https://x.com/joinwebzero"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "10:00-14:00",
+        startTime: "2024-05-23T08:00:00.000Z",
+        endTime: "2024-05-23T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "ibc-summit",
+    hash: "a44cb330ae820b9a5de7eafe0fdaed5d066fa8b14aa2042bb9cce9a39e9133ee",
+    name: "IBC Summit Berlin '24",
+    shortname: "IBC Summit",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "IBC Summit, Polymer Labs",
+    dri: "https://github.com/polymerdao",
+    poc: "Tommy O'connell, Polymer Product Staff",
+    date: "2024-05-24",
+    days: 1,
+    times: "11:30-14:30",
+    languages: [
+      "english"
+    ],
+    attendees: 500,
+    chains: [
+      "ethereum",
+      "cosmos"
+    ],
+    tags: [
+      "IBC",
+      "Cosmos",
+      "Interchain",
+      "Ethereum",
+      "Superchain",
+      "Crosschain",
+      "Interoperability"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ibc-summit/logo.webp",
+    description: `​The crypto landscape is shifting towards a multi-chain paradigm with a focus on modular designs like appchains and rollups. The Inter-Blockchain Communication protocol (IBC) is the interoperability standard of Web3. Join the builders making blockchain communication a reality for a day of learning and connectivity at IBC Summit Berlin 2024.
+
+​[IBC Summit](https://www.ibcsummit.org/) is a community event held multiple times a year in diverse locations around the globe. If you are interested in hosting an IBC Summit, please reach out to operations@ibcsummit.org!
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/IBCBerlin",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/IBCBerlin/",
+      twitter: "https://x.com/IBC_Summit"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "11:30-14:30",
+        startTime: "2024-05-24T09:30:00.000Z",
+        endTime: "2024-05-24T12:30:00.000Z"
+      }
+    ]
+  },
+  {
     id: "desci",
     hash: "cde562a0df58a93f06dfafd37202a2ae7f3766a5ddfc4aafb5dc762af0caa4f4",
     name: "DeSci Berlin 2024",
@@ -3547,6 +4213,74 @@ Our Panelists:
     ]
   },
   {
+    id: "nftwist",
+    hash: "9cd6164569b50caff21b03a7efe171afa4c139133495e2f37d0703f093a39b37",
+    name: "NFTwist: The ICP Evolution of Dynamic NFTs",
+    shortname: "NFTwist",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "ICP Hub Germany",
+    dri: "apeunit",
+    poc: "Elad Mintzer",
+    date: "2024-05-25",
+    days: 1,
+    times: "18:00-20:30",
+    venues: [
+      "web3hub"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [],
+    tags: [
+      "ICP",
+      "NFT",
+      "community",
+      "tokenization"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/nftwist/logo.webp",
+    description: `Join us at W3.hub to close out Berlin Blockchain Week with a celebration of Dynamic NFTs and their transformative potential in the music and nightlife industries. This evening is a showcase of innovative projects like Klubcoin, DJenerates, and Lost Club Toys—names that resonate across the globe thanks to collaborations with legends like DJ Carl Cox, iconic clubs like Amnesia Ibiza, and large-scale events including Formula 1. Discover how these trailblazers are partnering with giants like Animoca Brands and major mobile operators to push the boundaries of what NFTs can achieve in Web3.
+
+​Evening Highlights:
+
+​Panel Discussion: Delve into the world of Dynamic NFTs with the creators behind Klubcoin, DJenerates, and Lost Club Toys.
+
+​Minted Drinks: After a week of hard work, unwind and network with a glass of wine in hand.
+
+​Dancing: Dress to impress in your most fabulous outfits and get ready for an inspiring evening!
+
+​Beer pong tournament: Check out W3.hub closing party at the ground floor.
+
+​----
+
+​Klubcoin & DJenerates: Spearheading innovations in blockchain integration within the electronic music industry. Their new venture, SoundChain AI, leverages AI to revolutionize audio content creation, providing dynamic NFTs that enhance user interaction and personalization.
+
+​Lost Club Toys: Known for their digital stickers, they're now pioneering the use of Dynamic NFTs to engage users more deeply. With support from Animoca Brands, The Binary Holding and partnerships with global telecom operators, they're expanding their interactive digital presence.
+
+​Internet Computer Protocol (ICP): The backbone for developing and hosting dynamic NFTs, ICP offers robust infrastructure that supports real-time interactions, enabling projects like these to flourish with scalable, secure, and efficient blockchain solutions.
+`,
+    registration: {
+      type: "signup",
+      link: "https://lu.ma/62wwalij",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/62wwalij",
+      twitter: "https://twitter.com/icphub_DE"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "18:00-20:30",
+        startTime: "2024-05-25T16:00:00.000Z",
+        endTime: "2024-05-25T18:30:00.000Z"
+      }
+    ]
+  },
+  {
     id: "depin",
     hash: "0131d193d09967ccbe62ee83dbaea44921c0d9fb31171e1e40f4c7e09c55ca5d",
     name: "DEPIN DAY BERLIN",
@@ -3727,6 +4461,49 @@ Dr. Severin Fischer, Staatssekretär in der Senatsverwaltung für Wirtschaft, En
         times: "14:00-17:00",
         startTime: "2024-05-21T12:00:00.000Z",
         endTime: "2024-05-21T15:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "office-impart",
+    hash: "73e02133a4a4c4568675a11a3be55ccc5fa6ccccd0bd1f9ce36035fb533c7781",
+    name: "Constant Dullaart - Captains Log (humanized)",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "OFFICE IMPART",
+    poc: "Johanna Neuschäffer",
+    dri: "",
+    date: "2024-05-23",
+    days: 1,
+    times: "19:30-22:00",
+    venueName: "Office Impart",
+    venueUrl: "https://www.openstreetmap.org/way/375909180#map=19/52.52904/13.33748",
+    attendees: 100,
+    chains: [],
+    tags: [
+      "DigitalArt",
+      "Constant Dullaart"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/office-impart/logo.webp",
+    description: "As a part of OFFICE IMPARTs current exhibition 'Accepting the Job' artist Constant Dullaart will do a Live-performance on Thursday, May 23rd. A close reading with an oracle, speaking in machine learned tongues, with a voice derived from sci-fi related voice-over intonations, accompanied by overtly humanized MIDI rhythms. Performed in collaboration with Chris Wratt. Sign up to attend.",
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/lazhqb1p",
+      status: "available"
+    },
+    links: {
+      website: "https://lu.ma/lazhqb1p",
+      twitter: "https://twitter.com/office_impart"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "19:30-22:00",
+        startTime: "2024-05-23T17:30:00.000Z",
+        endTime: "2024-05-23T20:00:00.000Z"
       }
     ]
   },
@@ -4155,21 +4932,22 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
       "meetup"
     ],
     status: "published",
-    org: "Subsquid & Fuel Tech Brunch",
-    dri: "Subsquid",
+    org: "WebZero",
+    dri: "tripleight",
     poc: "Roman Kemper",
-    date: "2024-05-15",
+    date: "2024-05-22",
     days: 1,
     times: "10:00-13:00",
-    venueName: "NEST Schank- und Speisewirtschaft",
-    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=G%C3%B6rlitzer+Str.+52%2C+10997+Berlin",
-    venueAddress: "Görlitzer Str. 52, 10997 Berlin",
+    venues: [
+      "blockspaeti"
+    ],
     languages: [
       "english"
     ],
     attendees: 80,
     chains: [
-      "polkadot"
+      "polkadot",
+      "ethereum"
     ],
     tags: [
       "subsquid",
@@ -4177,7 +4955,7 @@ After the conversations, enjoy a relaxed networking with your industry peers wit
       "L2"
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/subsquid/logo.webp",
-    description: `​GM cryptopunks and decentralization enjoyooors.
+    description: `GM cryptopunks and decentralization enjoyooors.
 
 We're already a few days through blockchain week... it's probably time for a refuel!
 
@@ -4188,7 +4966,7 @@ Why join?
 - Plenty of liquidity, including Club Mate, the go-to drink for real Berliners, or those aspiring to be
 - Crypto dev insights straight from the source
 
-​Talk by [David Mihal](https://twitter.com/dmihal), Senior Architect @ Fuel
+Talk by [David Mihal](https://twitter.com/dmihal), Senior Architect @ Fuel
 
 Light-contracts - Understanding Fuel's Predicates
 The Fuel L2 features a new primitive, known as "predicates". Learn how predicates differ from "smart contracts", and how to use them to build account-abstraction wallets, DeFi apps, and more!
@@ -4207,10 +4985,68 @@ Sounds good? Then sign up and see you soon.
     },
     segments: [
       {
-        date: "2024-05-15",
+        date: "2024-05-22",
         times: "10:00-13:00",
-        startTime: "2024-05-15T08:00:00.000Z",
-        endTime: "2024-05-15T11:00:00.000Z"
+        startTime: "2024-05-22T08:00:00.000Z",
+        endTime: "2024-05-22T11:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "webzero-coworking-21",
+    hash: "ef6f86e0ad37351e85a1f937a2cfa3450117126e30864a13dbf1e48c6297ac99",
+    name: "WebZero BlockSpäti — Co-working Day One",
+    shortname: "Co-working at BlockSpäti",
+    types: [
+      "other"
+    ],
+    status: "published",
+    org: "WebZero",
+    dri: "tripleight",
+    poc: "Roman Kemper",
+    date: "2024-05-21",
+    days: 1,
+    times: "10:00-18:00",
+    venues: [
+      "blockspaeti"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 80,
+    chains: [
+      "polkadot",
+      "ethereum"
+    ],
+    tags: [
+      "data",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/webzero-coworking-21/logo.webp",
+    description: `Kick-off Berlin Blockchain Week in true Berlin style by working from a traditional crypto Spätkauf.
+
+The Blockspati officially opens its doors for day one. 
+
+Come co-work, enjoy a crypto-branded mate, try out a quest and network with builders, founders and creators in the space.
+
+We'll have snacks, beverages and a Starlink router to keep your WiFi at super strength all day long.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/blockspati",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/blockspati",
+      twitter: "https://x.com/joinwebzero"
+    },
+    segments: [
+      {
+        date: "2024-05-21",
+        times: "10:00-18:00",
+        startTime: "2024-05-21T08:00:00.000Z",
+        endTime: "2024-05-21T16:00:00.000Z"
       }
     ]
   },
@@ -4545,7 +5381,7 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], C = "2024-05-16T16:31:52.958Z", S = "v24.2.35", l = {
+], C = "2024-05-18T10:22:55.166Z", S = "v24.2.36", l = {
   id: u,
   name: m,
   dataUrl: g,
