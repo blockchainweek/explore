@@ -1,38 +1,38 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/4-92fb94c7.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/chunks/2-b3076194.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
-  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
-  "/_app/immutable/start-ce04e69e.js",
   "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/2-0038753a.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-f6bc1fbb.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
   "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/start-65624006.js",
   "/_app/immutable/chunks/6-736101be.js",
   "/_app/immutable/chunks/7-ec3cc428.js",
   "/_app/immutable/chunks/8-b1af3caa.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-334ad1a5.js",
   "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
-  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/_layout-bc6d5483.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
+  "/_app/immutable/chunks/4-92fb94c7.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
+  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
+  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
+  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
+  "/_app/immutable/chunks/_layout-bb3a22ee.js",
   "/_app/immutable/chunks/Footer-2b8c9a85.js",
+  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
   "/_app/immutable/chunks/utils-468e16e8.js"
 ], h = [
   "/bg-prg.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1716212846342", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1716216458336", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -228,6 +228,27 @@ Typically Berlin - self-confident, diverse, creative and international
     }
   },
   {
+    id: "office-impart",
+    hash: "217930ce0a2fc90e83a7c58bdf672a503e87724a3b42d25b72fd5d578b9f5e99",
+    name: "OFFICE IMPART",
+    eventTypes: [
+      "expo",
+      "other"
+    ],
+    capacity: 200,
+    address: "Waldenserstraße 2-4, 10551 Berlin",
+    mapUrl: "https://www.openstreetmap.org/way/375909180#map=19/52.52904/13.33748",
+    description: `OFFICE IMPART, founded in April 2018 by Johanna Neuschäffer and Anne Schwanz, is a gallery that extend the standard definition of what a gallery is. The world is changing, and so is the way in which art is presented and sold. To be part of this transformative process, the traditional model of the gallery needs to be expanded. And this is precisely what we seek to achieve with OFFICE IMPART. 
+
+As a part of OFFICE IMPARTs current exhibition 'Accepting the Job' artist Constant Dullaart will do a Live-performance on Thursday, May 23rd. A close reading with an oracle, speaking in machine learned tongues, with a voice derived from sci-fi related voice-over intonations, accompanied by overtly humanized MIDI rhythms. Performed in collaboration with Chris Wratt. 
+
+Sign up to attend.`,
+    photo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/places/office-impart/logo.webp",
+    links: {
+      web: "https://officeimpart.com/"
+    }
+  },
+  {
     id: "web3hub",
     hash: "be19a59c98c122825db08e4e9bfefeaeb0d88d92c3f46ceb554fce7ae07fabba",
     name: "w3.hub",
@@ -264,7 +285,7 @@ Typically Berlin - self-confident, diverse, creative and international
       web: "https://www.cvlabs.com/"
     }
   }
-], y = [
+], w = [
   {
     id: "starkspace",
     hash: "e4c26186bc7c3416740a8336da2a724c5c94acdf0b3e490ea1e4e4d53ec0fdaf",
@@ -907,6 +928,65 @@ The event will be prolonged with the 5th anniversary part of BerChain. Celebrate
     ]
   },
   {
+    id: "safe-modules",
+    hash: "63678e62eab88b9910b7581b8cce45c7fa3d0bd855d5d3c87ad0e446bd6b1d6e",
+    name: "Safe Modules: Payments, Debit Cards & Self-custodial Asset Management",
+    shortname: "Safe Modules for Self-custodial Asset Management",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Protofire.io Dev DAO",
+    dri: "renatco",
+    poc: "Renatco",
+    date: "2024-05-22",
+    days: 1,
+    times: "15:00-16:30",
+    venueName: "Museum des Kapitalismus",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Str.+172%2C+10997+Berlin%2C+Germany",
+    venueAddress: "Köpenicker Str. 172, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 60,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "Safe Multisig",
+      "Account Abstraction",
+      "Self-custodial Asset Management"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/safe-modules/logo.webp",
+    description: `If you are building B2C or B2B use cases on top of Safe (aka Gnosis Safe Multisig), this meetup is for you. 
+
+1. Overview of Modules for Payments, Crypto Debit Cards, and Asset Management in Safe
+
+2. What are the design patterns used by Safe Module developers?
+
+3. Safe Module Security. Audits of Safe Modules; limitations circuit breakers & proactive monitoring security solutions. 
+
+Meet developers behind some of the Safe Modules out there, and learn about challenges, design patterns directly from each other. 
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/n4c0p0sz",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/n4c0p0sz"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "15:00-16:30",
+        startTime: "2024-05-22T13:00:00.000Z",
+        endTime: "2024-05-22T14:30:00.000Z"
+      }
+    ]
+  },
+  {
     id: "brew",
     hash: "b776fc8e350a0ab4248504208b44218dd61c71875460597ff960a42b3bcdd2ff",
     name: "BREW Web3 Berlin",
@@ -1421,9 +1501,9 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
     date: "2024-05-22",
     days: 1,
     times: "19:00-21:00",
-    venueName: "NEST Schank- und Speisewirtschaft",
-    venueUrl: "https://www.openstreetmap.org/node/1248728521",
-    venueAddress: "Görlitzer Str. 52, 10997 Berlin",
+    venues: [
+      "blockspaeti"
+    ],
     languages: [
       "english"
     ],
@@ -1436,7 +1516,30 @@ Proudly hosted by SMART-compliance and SMART-shift, supported by BerChain, Crypt
       "innovation"
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-futures-panel/logo.webp",
-    description: `​Innovation doesn't just happen. It takes an institutional mindset that facilitates new business creation, IP ownership, and talent acquisition. Berlin, with its thriving blockchain ecosystem, is doing something right. The question is: what can we teach teach the rest of the world? In this panel, we bring three of Berlin's biggest institutions (IHK, Berlin Senate, and Berlin Partner) together to discuss what role institutions play in building the future of the decentralized web - a mission that is famously anti-institution?
+    description: `We're JUST Open Source Stiftung, the foundation behind The JUST Grant: [apply here](https://www.justopensource.io/grants).
+
+For our second Web3 Futures event, we are collaborating with WebZero to tackle the question:
+
+Fueling Emerging Technologies: What role do institutions play in building digital futures?
+
+Innovation doesn't just happen. It takes an institutional mindset that facilitates new business creation, IP ownership, and talent acquisition. Berlin, with its thriving blockchain ecosystem, is doing something right. The question is: what can we teach teach the rest of the world? In this panel, we bring three of Berlin's biggest institutions (IHK, Berlin Senate, and Berlin Partner) together to discuss what role institutions play in building the future of the decentralized web - a mission that is famously anti-institution?
+
+Our Panelists:
+- Anna Borodenko, IHK Coordinator for Digitalization, IT Security and AI
+- Isabella Hermann, Stiftung Zukunft Berlin
+- Norbert Herrmann, Senate Department for Economic Affairs, Energy and Public Enterprises, Head of Startup Affairs
+
+Promoted by Jakob Zwiers, Berlin Partner, Project Manager Innovation | Information and Communication Technology | Blockchain & IT-Security
+
+About Web3 Futures
+
+Web3 Futures, hosted by JUST Open Source Stiftung, is a speaking series aimed at understanding the barriers and challenges to Web3 adoption. In this event series, we invite Web3 players from across Berlin to discuss how we reach a Web3 Future.
+
+About JUST Open Source Stiftung
+
+JUST Open Source is Stiftung aiming to promote Web3 adoption through funding education and research initiatives. As part of their mandate, they have launched The JUST Grant. Learn more and apply at [justopensource.io/grants](http://justopensource.io/grants)
+
+All data collected here is for use hosting this event. For more information about how we use data, consult our [privacy policy](https://www.justopensource.io/privacy-policy).
 `,
     registration: {
       type: "signup",
@@ -1579,6 +1682,70 @@ https://twitter.com/welsharehealth
         times: "19:00-22:00",
         startTime: "2024-05-21T17:00:00.000Z",
         endTime: "2024-05-21T20:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "avs-builders",
+    hash: "0711f7a049dc421a72ca70e78c7e1e0d1f519927e3d93485732c06a7996b87f0",
+    name: "AVS Builders: Dual Token Restaking in EigenLayer",
+    shortname: "AVS Builders Meetup: Dual Token Restaking",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Protofire.io Dev DAO",
+    dri: "renatco",
+    poc: "Renatco",
+    date: "2024-05-22",
+    days: 1,
+    times: "16:30-18:00",
+    venueName: "Museum des Kapitalismus",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Str.+172%2C+10997+Berlin%2C+Germany",
+    venueAddress: "Köpenicker Str. 172, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 60,
+    chains: [
+      "ethereum",
+      "cosmos",
+      "polkadot",
+      "bitcoin"
+    ],
+    tags: [
+      "Restaking",
+      "AVS",
+      "economic-security"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/avs-builders/logo.webp",
+    description: `​If you are building, or want to build an AVS on top of EigenLayer (or any other rapidly growing restaking ecosystems), this meetup is for you. 
+
+​1. How to design Dual Token Staking  - add your own token to provide economic security to your protocol, too!
+
+​2. Comparison of Native Dual Staking, Modular Dual Staking, and Veto Dual Staking
+
+​3. How to design a good slashing mechanism?
+
+​4. How to design your AVS for rapid bootstrapping of economic security behind it, and minimize the risk of AVS failure? 
+
+​Developers behind AVS-es will meet, share challenges and  design patterns, and learn from each other to build more resilient and economically secure decentralized systems. 
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/knqhdhcp",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/knqhdhcp"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "16:30-18:00",
+        startTime: "2024-05-22T14:30:00.000Z",
+        endTime: "2024-05-22T16:00:00.000Z"
       }
     ]
   },
@@ -1897,6 +2064,122 @@ We'll have snacks, beverages and a Starlink router to keep your WiFi at super st
         times: "10:00-14:00",
         startTime: "2024-05-22T08:00:00.000Z",
         endTime: "2024-05-22T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "zkproof",
+    hash: "756de434111182058585413d8f3c42c83d8119e5d842f2ac21aabfc4edd69e78",
+    name: "ZKProof.org 6th Standardization Workshop",
+    shortname: "ZKProof 6",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "ZKProof.org",
+    dri: "@jonrouach",
+    poc: "Jonathan Rouach",
+    date: "2024-05-22",
+    days: 3,
+    times: "09:00-18:00",
+    venueName: "Hilton Doubletree Ku'damm",
+    venueUrl: "https://www.openstreetmap.org/way/26412513",
+    venueAddress: "Los-Angeles-Platz 1, 10789 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 130,
+    chains: [],
+    tags: [
+      "cryptography",
+      "zkp",
+      "zk",
+      "zero-knowledge-proof"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/zkproof/logo.webp",
+    description: `ZKProof is an initiative focused on the standardization of Zero-Knowledge Proofs. This community of over 1000 practitioners converges stakeholders from academia, startups, and law enforcement, creating a bridge between theory and practical implementation.
+`,
+    cfp: {
+      link: "https://zkproof.org/events/zkproof-6-berlin/"
+    },
+    registration: {
+      type: "tickets",
+      price: "595 USD",
+      link: "https://zkproof.org/events/zkproof-6-berlin/",
+      status: "available"
+    },
+    links: {
+      web: "https://zkproof.org/events/zkproof-6-berlin/",
+      twitter: "https://twitter.com/zkproof"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "09:00-18:00",
+        startTime: "2024-05-22T07:00:00.000Z",
+        endTime: "2024-05-22T16:00:00.000Z"
+      },
+      {
+        date: "2024-05-23",
+        times: "09:00-18:00",
+        startTime: "2024-05-23T07:00:00.000Z",
+        endTime: "2024-05-23T16:00:00.000Z"
+      },
+      {
+        date: "2024-05-24",
+        times: "09:00-18:00",
+        startTime: "2024-05-24T07:00:00.000Z",
+        endTime: "2024-05-24T16:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "urbit-happy-hour",
+    hash: "fb04b5eb43d88f9790c46c29005e1a676eed01b4558a7e84bd360c9e910c7146",
+    name: "Enjoy Bustling Berlin with Urbit: Happy Hour",
+    shortname: "Urbit Happy Hour",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "Urbit",
+    dri: "thomasurbit",
+    poc: "Thomas Kroes",
+    date: "2024-05-22",
+    days: 1,
+    times: "17:00-22:00",
+    venueName: "Register to see venue",
+    venueAddress: "TBA",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [],
+    tags: [
+      "Urbit",
+      "Personal Sever",
+      "Operating System",
+      "Decentralization"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/urbit-happy-hour/logo.webp",
+    description: `Are you curious about Urbit or already part of the Urbit community? Come join for a drink at the Urbit Happy Hour! This is the perfect opportunity to share insights, learn more about Urbit, and enjoy a relaxed evening together. Whether you have been in the Urbit ecosystem for a while or just curious about what Urbit can do for you, this happy hour is the ideal setting to explore and expand your knowledge.
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/urbitBBW",
+      status: "available"
+    },
+    links: {
+      web: "https://urbit.org",
+      twitter: "https://twitter.com/urbit"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "17:00-22:00",
+        startTime: "2024-05-22T15:00:00.000Z",
+        endTime: "2024-05-22T20:00:00.000Z"
       }
     ]
   },
@@ -2484,8 +2767,8 @@ Filming and art direction of the documentary by [Antonio Pedro ](https://antonio
   {
     id: "zkspaeti",
     hash: "5968c92c0c2685285ddade77042a68d0d9ff78b7abb7fbec1f6812a046bee3bd",
-    name: "zk Späti with zkSync & crypto girls club",
-    shortname: "The zk Späti",
+    name: "zkSpäti with zkSync & crypto girls club",
+    shortname: "zkSpäti",
     types: [
       "meetup",
       "party"
@@ -2497,14 +2780,16 @@ Filming and art direction of the documentary by [Antonio Pedro ](https://antonio
     date: "2024-05-22",
     days: 1,
     times: "15:00-21:00",
-    venueName: "NEST Schank- und Speisewirtschaft",
-    venueUrl: "https://www.openstreetmap.org/node/1248728521",
-    venueAddress: "[Görlitzer Str. 52, 10997 Berlin](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47a84e4d15dd5631:0x86b65817acef8820?sa=X&ved=1t:8290&ictx=111)",
+    venues: [
+      "blockspaeti"
+    ],
     languages: [
       "english"
     ],
     attendees: 300,
-    chains: [],
+    chains: [
+      "ethereum"
+    ],
     tags: [
       "devrel",
       "cryptography",
@@ -2517,27 +2802,41 @@ Filming and art direction of the documentary by [Antonio Pedro ](https://antonio
 
 We'll be diving into account abstraction, quantum cryptography and cross-chain compatibility with a lineup so hard even Berghain couldn't curate.
 
+
 PANEL - 3:30PM
 
-Hira Siddiqui - CEO & Co-Founder, Plurality Network
-Lana Ivina - Blockchain Developer, Starkware
-Albiona Hoti - DevRel, Matter Labs
-Bianca Buzea - Head of Devrel, LUKSO
+'Cross-chain compatibility: redefining the collaboration between blockchains"
 
-​PRESENTATIONS - 4:20PM
+- Hira Siddiqui - CEO & Co-Founder, Plurality Network
+- Lana Ivina - Blockchain Developer, Starkware
+- Albiona Hoti - DevRel, Matter Labs
+- Bianca Buzea - Head of Devrel, LUKSO
 
-"Quantum Cryptography: Does It Have a Future?"
+PRESENTATIONS - 4:20PM
+
+- "Quantum Cryptography: Does It Have a Future?"
 Olena-Ivanna Oshchypok Applied Cryptographer Engineer at Matter Labs
 
-"Account abstraction: user interaction and experience"
+- “Exploring the evolution of Account Abstraction (AA) and its impact since 2023"
 Albiona Hoti - DevRel, Matter Labs
 
-​AFTER HOURS - 6PM
+- The session will highlight key implementations like EIP-4337 and zkSync, and provide hands-on example on native AA.
 
-Join us for afterhours for sassy-named cocktails, free flowing food and drink, killer merch in the merch mart and live music and a DJ set by ohr collective afterwards till dark.
+AFTER HOURS - 6PM-LATE
 
-Acoustic Nigerian set by [Dammy Daas]
-DJ set by [Ohr]
+Join us for afterhours for sassy-named cocktails, free flowing food and drink, killer merch in the merch mart, live music and sets from Berlin DJs till dark.
+
+Acoustic set by [Dammy Daas](https://www.instagram.com/dammydaas_/?hl=en)
+DJ set by [øhr](https://twitter.com/ohr_xyz) collective, including pacmax and Zwiebel Noam
+
+DRINK OF THE DAY
+
+zksync club mate
+Savour the refreshing mate plant with a touch of zero knowledge (don't worry, we know the ingredients)
+
+See you soon,
+
+zkSync & crypto girls club
 `,
     registration: {
       type: "signup",
@@ -2546,7 +2845,7 @@ DJ set by [Ohr]
       status: "available"
     },
     links: {
-      web: "https://lu.ma/zkspati",
+      web: "https://instagram.com/Cryptogirlsclub.berlin",
       twitter: "https://twitter.com/zksync"
     },
     segments: [
@@ -3240,6 +3539,58 @@ Partners TBA
         times: "10:00-15:00",
         startTime: "2024-05-24T08:00:00.000Z",
         endTime: "2024-05-24T13:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "longevity-meetup",
+    hash: "6289570d84e5768dabd4ec66c6a954710efc4aa18d71341e6a38f4467eb1b515",
+    name: "Longevity Meet-up Berlin 2024",
+    shortname: "Longevity Meetup",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "VitaDAO",
+    dri: "john007",
+    poc: "Laurence Ion",
+    date: "2024-05-24",
+    days: 1,
+    times: "18:00-20:00",
+    venueName: "DeSci church",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Alexandrienstra%C3%9Fe+18+10969+Berlin",
+    venueAddress: "Alexandrinenstraße 118-121, 10969 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 50,
+    chains: [
+      "ethereum"
+    ],
+    tags: [
+      "network states",
+      "longevity"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/longevity-meetup/logo.webp",
+    description: `Join us for a casual meetup of revolutionaries against aging & death during Berlin Blockchain Week.
+
+Longevity x Don't Die x DeSci
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/longevity-berlin",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/longevity-berlin"
+    },
+    segments: [
+      {
+        date: "2024-05-24",
+        times: "18:00-20:00",
+        startTime: "2024-05-24T16:00:00.000Z",
+        endTime: "2024-05-24T18:00:00.000Z"
       }
     ]
   },
@@ -4478,8 +4829,9 @@ Dr. Severin Fischer, Staatssekretär in der Senatsverwaltung für Wirtschaft, En
     date: "2024-05-23",
     days: 1,
     times: "19:30-22:00",
-    venueName: "Office Impart",
-    venueUrl: "https://www.openstreetmap.org/way/375909180#map=19/52.52904/13.33748",
+    venues: [
+      "office-impart"
+    ],
     attendees: 100,
     chains: [],
     tags: [
@@ -5381,22 +5733,22 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], C = "2024-05-18T10:22:55.166Z", S = "v24.2.36", l = {
+], S = "2024-05-20T14:16:37.059Z", C = "v24.2.37", l = {
   id: u,
   name: m,
   dataUrl: g,
   exploreUrl: b,
   dataGithubUrl: f,
-  places: w,
-  events: y,
+  places: y,
+  events: w,
   "media-partners": [],
   contributors: k,
   benefits: v,
   unions: T,
   chains: B,
   "other-events": [],
-  __time: C,
-  __tag: S
+  __time: S,
+  __tag: C
 }, r = {
   tz: "Europe/Berlin",
   collections: {
