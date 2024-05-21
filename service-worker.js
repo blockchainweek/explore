@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
   "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/start-65624006.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-f6bc1fbb.js",
-  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/chunks/2-b3076194.js",
+  "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/start-77bca8b9.js",
   "/_app/immutable/chunks/3-2d378cfc.js",
   "/_app/immutable/chunks/4-92fb94c7.js",
-  "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-78eff2a6.js",
+  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
+  "/_app/immutable/chunks/2-2b649d24.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
   "/_app/immutable/chunks/7-ec3cc428.js",
   "/_app/immutable/chunks/8-b1af3caa.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
   "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
-  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
-  "/_app/immutable/chunks/_layout-bb3a22ee.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
   "/_app/immutable/chunks/Footer-2b8c9a85.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
+  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
+  "/_app/immutable/chunks/_layout-cdbbb089.js",
+  "/_app/immutable/chunks/6-736101be.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
-  "/_app/immutable/chunks/utils-468e16e8.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js"
+  "/_app/immutable/chunks/utils-468e16e8.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1716277634459", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
+], p = "1716281246660", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -285,7 +285,7 @@ Sign up to attend.`,
       web: "https://www.cvlabs.com/"
     }
   }
-], w = [
+], y = [
   {
     id: "starkspace",
     hash: "e4c26186bc7c3416740a8336da2a724c5c94acdf0b3e490ea1e4e4d53ec0fdaf",
@@ -2303,6 +2303,60 @@ There will be food (including the bread baked in the workshop) and refreshments 
     ]
   },
   {
+    id: "shutter-dao",
+    hash: "2f53c5a3f5b1cdb1be2a30924d9bc833babda3b11b3f3d77666dbb8d538ab778",
+    name: "ShutterDao 0x36 meetup @BBW24",
+    shortname: "ShutterDao 0x36 meetup",
+    types: [
+      "meetup",
+      "party"
+    ],
+    status: "published",
+    org: "ShutterDao 0x36",
+    dri: "Cbezzenberger",
+    poc: "@cklbe",
+    date: "2024-05-23",
+    days: 1,
+    times: "17:30-21:00",
+    venueName: "Cuvrystr 1. Rooftop (6th floor)",
+    venueUrl: "https://www.openstreetmap.org/node/1244883358#map=19/52.50036/13.44636",
+    venueAddress: "Cuvrystr. 1, 10997 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 100,
+    chains: [],
+    tags: [
+      "Shutter",
+      "Dao",
+      "MEV"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/shutter-dao/logo.webp",
+    description: `Friends of ShutterDao 0x36, come and get a drink with us, enjoy the sunset, and talk all things Shutter!
+
+Drinks are complementary; feel free to pick up food on the way - Berlin's famous Burgermeister is just around the corner.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/4kkg9qar",
+      button: "Sign up on Luma!",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/4kkg9qar",
+      twitter: "https://twitter.com/project_shutter"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "17:30-21:00",
+        startTime: "2024-05-23T15:30:00.000Z",
+        endTime: "2024-05-23T19:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "zkhack",
     hash: "ecd9fe4d2840292aea6544e9465217464d49884f0ddc8a493dc42a2d72986f3e",
     name: "ZK Hack Meetup - ZK Education",
@@ -4187,48 +4241,46 @@ We'll have snacks, beverages and a Starlink router to keep your WiFi at super st
   {
     id: "ibc-summit",
     hash: "a44cb330ae820b9a5de7eafe0fdaed5d066fa8b14aa2042bb9cce9a39e9133ee",
-    name: "IBC Summit Berlin '24",
-    shortname: "IBC Summit",
+    name: "IBC Berlin Brunch with Polymer, Celestia, Anoma, & Interchain Foundation",
+    shortname: "IBC Brunch with Polymer, Celestia, Anoma, & Interchain Foundation",
     types: [
-      "meetup"
+      "conference"
     ],
     status: "published",
     org: "IBC Summit, Polymer Labs",
-    dri: "https://github.com/polymerdao",
+    dri: "",
     poc: "Tommy O'connell, Polymer Product Staff",
     date: "2024-05-24",
     days: 1,
     times: "11:30-14:30",
+    venueName: "Prachtwerk",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Ganghoferstra%C3%9Fe+2%2C+12043+Berlin%2C+Germany",
+    venueAddress: "Ganghoferstraße 2, 12043 Berlin, Germany",
     languages: [
       "english"
     ],
     attendees: 500,
-    chains: [
-      "ethereum",
-      "cosmos"
-    ],
+    chains: [],
     tags: [
       "IBC",
-      "Cosmos",
-      "Interchain",
       "Ethereum",
-      "Superchain",
+      "Cosmos",
       "Crosschain",
-      "Interoperability"
+      "#Interoperability"
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/ibc-summit/logo.webp",
-    description: `​The crypto landscape is shifting towards a multi-chain paradigm with a focus on modular designs like appchains and rollups. The Inter-Blockchain Communication protocol (IBC) is the interoperability standard of Web3. Join the builders making blockchain communication a reality for a day of learning and connectivity at IBC Summit Berlin 2024.
+    description: `The crypto landscape is shifting towards a multi-chain paradigm with a focus on modular designs like appchains and rollups. The Inter-Blockchain Communication protocol (IBC) is the interoperability standard of Web3. Join the builders making blockchain communication a reality for a day of learning and connectivity at IBC Summit Berlin 2024.
 
-​[IBC Summit](https://www.ibcsummit.org/) is a community event held multiple times a year in diverse locations around the globe. If you are interested in hosting an IBC Summit, please reach out to operations@ibcsummit.org!
+[IBC Summit](https://www.ibcsummit.org/) is a community event held multiple times a year in diverse locations around the globe. If you are interested in hosting an IBC Summit, please reach out to [operations@ibcsummit.org](mailto:operations@ibcsummit.org)!
 `,
     registration: {
-      type: "signup",
-      price: "Free",
+      type: "tickets",
+      price: "FREE",
       link: "https://lu.ma/IBCBerlin",
       status: "available"
     },
     links: {
-      web: "https://lu.ma/IBCBerlin/",
+      web: "https://lu.ma/IBCBerlin",
       twitter: "https://x.com/IBC_Summit"
     },
     segments: [
@@ -4495,6 +4547,76 @@ Spurred by a new wave of generative AI capabilities, decentralized media technol
         times: "11:00-15:00",
         startTime: "2024-05-23T09:00:00.000Z",
         endTime: "2024-05-23T13:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "bitcoin-real-world",
+    hash: "1d6befbdd96b540ae315d1c86e49d6d90b1b99d0f7d365785b23b3fbeba9f6db",
+    name: "Showroom: Bitcoin Real World Products",
+    shortname: "Bitcoin Showroom",
+    types: [
+      "expo"
+    ],
+    status: "published",
+    org: "Bitcoin Lab Berlin",
+    dri: "BitcoinBeginnerWorkshops",
+    poc: "BitcoinBeginnerWorkshops",
+    date: "2024-05-25",
+    days: 1,
+    times: "10:00-18:00",
+    venues: [
+      "web3hub"
+    ],
+    languages: [
+      "english",
+      "german"
+    ],
+    attendees: 2121,
+    tags: [
+      "Bitcoin",
+      "BitcoinOnly",
+      "StudyBitcoin",
+      "ThereIsNoSecondBest"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/bitcoin-real-world/logo.webp",
+    description: `**You really thought Bitcoin is boring? Let us proof you wrong!**
+
+We have what 'other chains' lack: real life applications! We show you:
+- Bitcoin sauna via Bitcoin mining (self-build)
+- Bitcoin fruit drying via Bitcoin mining (bitcoin-mango.com)
+- Bitcoin heater via Bitcoin mining (21energy.com)
+- Send Bitcoin on your own phone in 1 second (Lightning Network Self-Experience)
+- See where you can already pay with Bitcoin in Berlin (btcmap.org)
+- IOT: Pay a jukebox, beer tap and other machines in Bitcoin
+- Ordimint: NFT the Bitcoin way
+- Bitcoin Full-Node Set-Up for your home
+- Smallest Bitcoin Miner: Nerdminer
+- 'Bitcoin im Bundestag': An ongoing initiative to inform about Bitcoin in the German Parliament
+
+If you are new to Bitcoin, we can talk about why we think it is the future of money. Get in touch with us!
+
+**Sign-In:**
+Not required - show up as you wish. Free admission!
+
+**How To Find:**
+We will be on the 2. floor in the community kitchen.
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://www.meetup.com/bitcoin-lab-berlin/events/301056693",
+      status: "available"
+    },
+    links: {
+      web: "https://www.meetup.com/bitcoin-lab-berlin/events/301056693"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "10:00-18:00",
+        startTime: "2024-05-25T08:00:00.000Z",
+        endTime: "2024-05-25T16:00:00.000Z"
       }
     ]
   },
@@ -5222,60 +5344,6 @@ Alongside a line-up of cultural leaders, thinkers and technologists, we invite y
     ]
   },
   {
-    id: "fiona",
-    hash: "93918e279038a1775c007e829c917326051f127985fe2840c2008d92b1257b16",
-    name: "Finoa's Digital Asset Summit",
-    shortname: "Finoa's Digital Asset Summit",
-    types: [
-      "conference"
-    ],
-    status: "published",
-    org: "Finoa",
-    dri: "marius-smith",
-    poc: "Marius Smith",
-    date: "2024-05-23",
-    days: 1,
-    times: "13:00-19:00",
-    venueName: "Finoa Headquarters",
-    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Saarbruecker+Stra%C3%9Fe+37+10405+Berlin",
-    venueAddress: "Saarbrücker Str. 37, 10405 Berlin, Germany",
-    languages: [
-      "english"
-    ],
-    attendees: 200,
-    chains: [
-      "ethereum",
-      "polkadot",
-      "cosmos"
-    ],
-    tags: [
-      "solarpunk",
-      "cryptography"
-    ],
-    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/fiona/logo.webp",
-    description: `Join us for Finoa's Digital Asset Summit, a gathering of industry leaders, innovators, and Berlin friends to explore the latest trends and developments shaping the digital asset space. Our event features insightful panel discussions, engaging talks, and interactions with experts from all areas of the digital asset industry.
-
-After the conversations, enjoy a relaxed networking with your industry peers with drinks at the Finoa offices. ​This affair is reserved for the discerning few, with space at a premium. Please RSVP at your earliest convenience; each registration will be considered. Please note, an exclusive invitation is required for admittance, and regrettably, we are unable to accommodate additional guests.
-`,
-    registration: {
-      type: "signup",
-      price: "Free",
-      link: "https://lu.ma/m0miep2i",
-      status: "available"
-    },
-    links: {
-      twitter: "https://twitter.com/Finoa_io"
-    },
-    segments: [
-      {
-        date: "2024-05-23",
-        times: "13:00-19:00",
-        startTime: "2024-05-23T11:00:00.000Z",
-        endTime: "2024-05-23T17:00:00.000Z"
-      }
-    ]
-  },
-  {
     id: "subsquid",
     hash: "4e7a695d1fd564afa783c8e11c51648f14e6f9c22d563ea37b2577356cbb3bd2",
     name: "Subsquid & Fuel Tech Brunch",
@@ -5399,6 +5467,60 @@ We'll have snacks, beverages and a Starlink router to keep your WiFi at super st
         times: "10:00-18:00",
         startTime: "2024-05-21T08:00:00.000Z",
         endTime: "2024-05-21T16:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "finoa",
+    hash: "cc0595f56dfb9c1257740975db99dcd411f7bb09da29ccf013852dd1c70a357b",
+    name: "Finoa's Digital Asset Summit",
+    shortname: "Finoa's Digital Asset Summit",
+    types: [
+      "conference"
+    ],
+    status: "published",
+    org: "Finoa",
+    dri: "marius-smith",
+    poc: "Marius Smith",
+    date: "2024-05-22",
+    days: 1,
+    times: "13:00-19:00",
+    venueName: "Finoa Headquarters",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Saarbruecker+Stra%C3%9Fe+37+10405+Berlin",
+    venueAddress: "Saarbrücker Str. 37, 10405 Berlin, Germany",
+    languages: [
+      "english"
+    ],
+    attendees: 200,
+    chains: [
+      "ethereum",
+      "polkadot",
+      "cosmos"
+    ],
+    tags: [
+      "solarpunk",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/finoa/logo.webp",
+    description: `Join us for Finoa's Digital Asset Summit, a gathering of industry leaders, innovators, and Berlin friends to explore the latest trends and developments shaping the digital asset space. Our event features insightful panel discussions, engaging talks, and interactions with experts from all areas of the digital asset industry.
+
+After the conversations, enjoy a relaxed networking with your industry peers with drinks at the Finoa offices. ​This affair is reserved for the discerning few, with space at a premium. Please RSVP at your earliest convenience; each registration will be considered. Please note, an exclusive invitation is required for admittance, and regrettably, we are unable to accommodate additional guests.
+`,
+    registration: {
+      type: "signup",
+      price: "Free",
+      link: "https://lu.ma/m0miep2i",
+      status: "available"
+    },
+    links: {
+      twitter: "https://twitter.com/Finoa_io"
+    },
+    segments: [
+      {
+        date: "2024-05-22",
+        times: "13:00-19:00",
+        startTime: "2024-05-22T11:00:00.000Z",
+        endTime: "2024-05-22T17:00:00.000Z"
       }
     ]
   },
@@ -5733,14 +5855,14 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], S = "2024-05-20T14:16:37.059Z", C = "v24.2.37", l = {
+], S = "2024-05-21T08:36:23.461Z", C = "v24.2.38", l = {
   id: u,
   name: m,
   dataUrl: g,
   exploreUrl: b,
   dataGithubUrl: f,
-  places: y,
-  events: w,
+  places: w,
+  events: y,
   "media-partners": [],
   contributors: k,
   benefits: v,
