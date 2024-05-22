@@ -1,39 +1,39 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
   "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/components/error.svelte-0e52f78e.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
   "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
   "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/7-ec3cc428.js",
+  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
   "/_app/immutable/chunks/8-b1af3caa.js",
   "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-78eff2a6.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/chunks/4-92fb94c7.js",
-  "/_app/immutable/chunks/2-2b649d24.js",
-  "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
-  "/_app/immutable/chunks/_layout-cdbbb089.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/start-77bca8b9.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
   "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
+  "/_app/immutable/chunks/6-736101be.js",
+  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
   "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/7-ec3cc428.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
+  "/_app/immutable/chunks/2-9ac41708.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-5e31f787.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
   "/_app/immutable/chunks/Footer-2b8c9a85.js",
-  "/_app/immutable/chunks/utils-468e16e8.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js"
+  "/_app/immutable/start-28ced532.js",
+  "/_app/immutable/chunks/4-92fb94c7.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/_layout-410f9970.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
+  "/_app/immutable/chunks/utils-468e16e8.js"
 ], h = [
   "/bg-prg.png",
   "/favicon.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1716353252575", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], p = "1716356841508", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -286,6 +286,66 @@ Sign up to attend.`,
     }
   }
 ], y = [
+  {
+    id: "streamm",
+    hash: "b8a58aae4d67ced3cfd31cc3035b6d2a8fbc22447e98dec4ea5d1f5498e0b1c4",
+    name: "Discover Streamm.xyz: The Future of Livestreams and Videocasts with Farcaster Integration",
+    shortname: "Streamm.xyz",
+    types: [
+      "meetup"
+    ],
+    status: "planning",
+    org: "Streamm.xyz",
+    dri: "UNITECHIL",
+    poc: "https://warpcast.com/streamm",
+    date: "2024-05-27",
+    days: 1,
+    times: "09:00-20:00",
+    venueName: "Mindspace Friedrichstraße",
+    venueUrl: "https://www.openstreetmap.org/node/535088858#map=19/52.51242/13.38975",
+    venueAddress: "Friedrichstraße 68, 10117 Berlin",
+    languages: [
+      "english"
+    ],
+    attendees: 50,
+    chains: [
+      "ethereum",
+      "base"
+    ],
+    tags: [
+      "socialfi",
+      "cryptography"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/streamm/logo.webp",
+    description: `Join us during Berlin Blockchain Week for an exclusive introduction to Streamm.xyz, a groundbreaking new video client designed for the Web3 community. Streamm.xyz offers:
+
+- Livestreams and Videocasts: Engage with real-time and recorded content tailored for the blockchain ecosystem.
+- Creator Keys for Gated Content: Empower creators with tools to control access and monetize their content.
+- Full @Farcaster Integration: Seamless interaction with the Farcaster protocol, including responses, likes, and follows.
+
+This event is perfect for content creators, developers, and blockchain enthusiasts looking to explore innovative ways to connect and engage with their audience. Don't miss the opportunity to be part of the future of video content in Web3!
+
+**Just add your email at https://streamm.xyz beta signup form and we will email you the invite 48 hours before the event.**
+`,
+    registration: {
+      type: "signup",
+      price: "0 EUR",
+      link: "https://streamm.xyz",
+      status: "available"
+    },
+    links: {
+      web: "https://streamm.xyz",
+      twitter: "https://twitter.com/streamm_xyz"
+    },
+    segments: [
+      {
+        date: "2024-05-27",
+        times: "09:00-20:00",
+        startTime: "2024-05-27T07:00:00.000Z",
+        endTime: "2024-05-27T18:00:00.000Z"
+      }
+    ]
+  },
   {
     id: "starkspace",
     hash: "e4c26186bc7c3416740a8336da2a724c5c94acdf0b3e490ea1e4e4d53ec0fdaf",
@@ -5855,7 +5915,7 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], S = "2024-05-21T08:36:23.461Z", C = "v24.2.38", l = {
+], S = "2024-05-22T05:39:15.049Z", C = "v24.2.39", l = {
   id: u,
   name: m,
   dataUrl: g,
