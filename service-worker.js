@@ -1,38 +1,38 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
   "/_app/immutable/chunks/stores-f2171350.js",
   "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/components/error.svelte-0e52f78e.js",
   "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/chunks/singletons-cf074d6e.js",
   "/_app/immutable/chunks/index-5edaeb20.js",
-  "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/chunks/Footer-2b8c9a85.js",
-  "/_app/immutable/chunks/0-476fd584.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
-  "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/chunks/2-9ac41708.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/chunks/5-fef4e663.js",
-  "/_app/immutable/chunks/4-92fb94c7.js",
-  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-5e31f787.js",
-  "/_app/immutable/chunks/7-ec3cc428.js",
-  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/chunks/8-b1af3caa.js",
-  "/_app/immutable/chunks/_layout-410f9970.js",
   "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
+  "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
+  "/_app/immutable/chunks/2-ece1552c.js",
   "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
-  "/_app/immutable/start-28ced532.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
+  "/_app/immutable/chunks/0-476fd584.js",
+  "/_app/immutable/chunks/1-2c9a4ab2.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
+  "/_app/immutable/chunks/7-ec3cc428.js",
+  "/_app/immutable/chunks/4-92fb94c7.js",
+  "/_app/immutable/chunks/6-736101be.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-126e668f.js",
+  "/_app/immutable/chunks/5-fef4e663.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
+  "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/start-dc4e1165.js",
   "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
+  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
+  "/_app/immutable/chunks/_layout-eb889418.js",
+  "/_app/immutable/chunks/8-b1af3caa.js",
+  "/_app/immutable/chunks/Footer-2b8c9a85.js",
   "/_app/immutable/chunks/utils-468e16e8.js"
 ], h = [
   "/bg-prg.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], p = "1716392835212", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", w = [
+], u = "1716396436754", p = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -285,7 +285,7 @@ Sign up to attend.`,
       web: "https://www.cvlabs.com/"
     }
   }
-], y = [
+], w = [
   {
     id: "streamm",
     hash: "b8a58aae4d67ced3cfd31cc3035b6d2a8fbc22447e98dec4ea5d1f5498e0b1c4",
@@ -746,6 +746,99 @@ If you can't make it IRL, you can always find us online:
         times: "13:00-16:00",
         startTime: "2024-05-24T11:00:00.000Z",
         endTime: "2024-05-24T14:00:00.000Z"
+      }
+    ]
+  },
+  {
+    id: "auditone-havn",
+    hash: "7678fb3323d6064a7ee839d9316a0b907474a21c3532d73f753fccc464011a6e",
+    name: "Walk-by Coffee Event by HAVN & AuditOne",
+    shortname: "AuditOne at BBW",
+    types: [
+      "meetup"
+    ],
+    status: "published",
+    org: "AuditOne and Haven",
+    dri: "rajaauditone",
+    poc: "Adrien",
+    date: "2024-05-23",
+    days: 1,
+    times: "08:30-11:00",
+    venueName: "Holzmarkt Cafe",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=holzmarkt+berlin",
+    venueAddress: "HOLZMARKTSTRASSE 25 10243 BERLIN",
+    languages: [
+      "english"
+    ],
+    attendees: 300,
+    chains: [],
+    tags: [
+      "security audits",
+      "smart contracts",
+      "bug bounties"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/auditone-havn/logo.webp",
+    description: `
+Morning Bytes & Bites at Holzmarkt Cafe
+
+​Location: Holzmarkt Cafe
+
+​Date & Time:
+
+​Thursday, May 23, 2024
+
+​From 8:30 AM to 11:00 AM
+
+​OVERVIEW
+
+​As part of the vibrant Berlin Blockchain Week, we invite the Web3 community and DAPPCON attendees to join us at the Holzmarkt Cafe for a unique morning mixer. Kickstart your day with our exclusive breakfast event, designed to energize and engage blockchain enthusiasts and professionals.
+
+WHAT TO EXPECT
+
+​Upon arrival, each registered guest will receive a complimentary voucher redeemable for a Coffee to Go and a croissant, or alternatively, a glass of sparkling wine and a croissant. 
+
+​This casual "walk-by" event is perfect for those looking to fuel up and network without a lengthy stop.
+
+​SPECIAL FEATURES:
+
+​Conveniently located right next to the DAPPCON venue at Radialsystem
+
+​Enjoy your breakfast in the charming outdoor seating area of Holzmarkt Cafe
+
+​A perfect setting to meet fellow blockchain enthusiasts in a relaxed, informal atmosphere
+
+​NOTE
+
+​The event is designed for quick stops; however, the venue's outdoor area provides a lovely setting for those who wish to linger and enjoy their morning treats.
+
+​We look forward to welcoming you to Morning Bytes & Bites – where good mornings are made better with blockchain!
+
+​ORGANIZERS
+
+HAVN
+
+​HAVN is an ecosystem that connects hybrid chains into a fully decentralized and interoperable network. The HAVN token powers the ecosystem and works as fuel for running the chains.
+
+AuditOne
+
+​​AuditOne is an aggregator platform that creates auditor pools based on projects' needs to deliver high-quality, affordable audits. Our main focus is on Web3 cybersecurity (smart-contract audits, pentests, bug bounties), AI systems audits (bias, fairness, compliance check), and technical due diligence (for VCs and traders).
+`,
+    registration: {
+      type: "signup",
+      link: "https://lu.ma/havn-auditone?tk=708GXQ",
+      button: "Register Now",
+      status: "available"
+    },
+    links: {
+      web: "https://lu.ma/havn-auditone?tk=708GXQ",
+      twitter: "https://twitter.com/auditone_dao"
+    },
+    segments: [
+      {
+        date: "2024-05-23",
+        times: "08:30-11:00",
+        startTime: "2024-05-23T06:30:00.000Z",
+        endTime: "2024-05-23T09:00:00.000Z"
       }
     ]
   },
@@ -1231,12 +1324,19 @@ BREW offers a crucial platform for those eager to shape the future of Web 3, off
       "extendedreality"
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/web3-talk/logo.webp",
-    description: `Gamers welcome! Connect to like-minded enthusiasts from Berlin's creative Web3-, Metaverse, AI, and Blockchain scene!
-For years, the Web3 space discussed how Blockchain could support gaming, and how the gaming industry could make use of AI, XR (Extended Reality), and the Metaverses. Slowly, the games industry adopted Web3 and AI technologies, and Apple launched Vision Pro. We will discuss the latest trends with industrie insiders and take a look at the future of artificial intelligence in games, and games in the Metaverses. Our speakers:
-+ CEO of a games company
-+ CTO of a XR company
-+ Lawyer and gaming industry consultant
-+ Games magazine journalist
+    description: `Gamers welcome! Connect to like-minded enthusiasts from Berlin's creative
+Web3-, Metaverse, AI, and Blockchain scene! For years, the Web3 space
+discussed how Blockchain could support gaming, and how the gaming industry
+could make use of AI, XR (Extended Reality), and the Metaverses. Slowly,
+the games industry adopted Web3 and AI technologies, and Apple launched
+Vision Pro. We will discuss the latest trends with industrie insiders and
+take a look at the future of AI and XR in games, and games in the
+Metaverses.
+Our speakers:
++ Nicola Mizon, founder, VIZTA Digital
++ Florian Dreschner, CTO, VOYA Games
++ Prof. Dr. Malte Behrmann, lawyer, former speaker of German Games
+Association
 `,
     registration: {
       type: "signup",
@@ -1957,56 +2057,80 @@ Categories:
   {
     id: "future-state",
     hash: "89f009c058ac2b474d41b0afd17b8da789b3836ace55199c612d9c2c11ea43ec",
-    name: "Future State",
+    name: "Future State: Future State: Navigating Real-World Challenges through Blockchain",
     shortname: "Future State",
     types: [
       "meetup"
     ],
-    status: "planning",
-    org: "Future State",
-    dri: "promensvitla",
+    status: "published",
+    org: "futurestate.wiki / Rarimo.com",
+    dri: "RaySvitla",
     poc: "Ray Svitla",
     date: "2024-05-25",
     days: 1,
     times: "16:00-20:00",
-    venueName: "Berlin, TBA",
+    venueName: "Berlin, Berlin",
     venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Berlin%2C+Berlin",
-    venueAddress: "Berlin, TBA",
+    venueAddress: "Berlin, Berlin",
     languages: [
       "english"
     ],
     attendees: 100,
     chains: [],
     tags: [
-      "NetworkState",
-      "realworldissues",
-      "innovation"
+      "#NetworkState",
+      "politics",
+      "DAO",
+      "governance"
     ],
     logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/future-state/logo.webp",
-    description: `Future State: Navigating Real-World Challenges through Blockchain
+    description: `​Future State: Navigating Real-World Challenges through Blockchain
+As the crypto community braces for the next bull run, we often see a surge of get-rich-quick schemes. Future State, is dedicated to addressing genuine issues that the blockchain community can tackle today.
 
-As the crypto community braces for the next bull run, we often see a surge of get-rich-quick schemes. Future State is dedicated to addressing genuine issues that the blockchain community can tackle today.
+​Why this Matters? This is a pragmatic approach
+Emerging societies are often the quickest to adopt innovations, as seen with the rapid uptake of crypto in Ukraine, Turkey, and Nigeria. Blockchain technology—with programmable economies, zk proofs, DAOs, and more—has the potential to leapfrog the development of communities, nations, and entire regions, accelerating mass adoption.
 
-Why this Matters? This is a pragmatic approach Emerging societies are often the quickest to adopt innovations, as seen with the rapid uptake of crypto in Ukraine, Turkey, and Nigeria. Blockchain technology—with programmable economies, zk proofs, DAOs, and more—has the potential to leapfrog the development of communities, nations, and entire regions, accelerating mass adoption.
+​Why Berlin?
+Berlin, a city that has long been divided between past and future, is the perfect place to leap into the future. Here, we focus on solving real human problems, not just building castles in the air.
 
-Why Berlin? Berlin, a city that has long been divided between past and future, is the perfect place to leap into the future. Here, we focus on solving real human problems, not just building castles in the air.
+About the Organizers:
 
-Event Structure:
+​[futurestate.wiki](http://futurestate.wiki/) – A self-publishing platform centered around the Network States movement, offering a series of offline events in various cities.
 
-1. Presentations from Experts: We invite thought leaders and practitioners to share their insights on how blockchain can address real-world challenges. Submit your proposal to speak at the event.
+​[rarimo.com](http://rarimo.com/) – A privacy-first (ZK) social protocol that unlocks a new generation of social apps, allowing users to go incognito without losing historical actions, networks, and identities.
 
-2. World Cafe for Problem-Solving: Participants will gather in small groups to discuss specific real-world challenges that blockchain can address.
+​Event Structure:
 
-Examples of potential topics include: The impact of Georgia's new law on foreign agents The challenges faced by the 500,000 Belarusians in Europe who are at risk of losing their passports Propose your own topic in your participation application.
+​1. Presentations from Experts:
 
-Join us to explore a sci-fi version of the future, through the lens of new governance models and libertarian concepts inspired by "The Network State" by Balaji Srinivasan. Let's navigate real-world challenges with practical blockchain solutions.
+​How FreedomTool Helps Reclaim Stolen Votes // Kitty Horlick, Director Rarify Labs
+
+​How Belarusians in Exile Are Building a Network State // Ray Svitla, Future State founder
+
+​Build an onchain court system run by communities // Florian Glatz, Founder of Common Ground
+
+​2. World Cafe for Problem-Solving:
+
+​Participants will gather in small groups to discuss specific real-world challenges that blockchain can address.
+
+​Examples of potential topics include:
+
+​The impact of Georgia's new law on foreign agents
+
+​The challenges faced by the 500,000 Belarusians in Europe who are at risk of losing their passports
+
+​Propose your own topic in your participation application.
+
+​Join us to explore a sci-fi version of the future, through the lens of new governance models and libertarian concepts inspired by "The Network State" by Balaji Srinivasan. Let's navigate real-world challenges with practical blockchain solutions.
 `,
     registration: {
       type: "signup",
+      price: "0 EUR",
+      link: "https://lu.ma/FutureState_Berlin",
       status: "available"
     },
     links: {
-      web: "https://futurestate.wiki/en/events",
+      web: "https://lu.ma/FutureState_Berlin",
       twitter: "https://twitter.com/futurestate_tv",
       telegram: "https://t.me/futurestate_hall"
     },
@@ -4199,7 +4323,7 @@ Agenda coming soon. Please RSVP.
     org: "MetaMask 🦊 , Linea,Safe,1inch.io and ZKLink",
     dri: "andreolf",
     poc: "francesco Andreoli",
-    date: "2024-05-25",
+    date: "2024-05-24",
     days: 1,
     times: "17:00-21:00",
     venueName: "Safe venue",
@@ -4235,10 +4359,10 @@ Immerse yourself in insightful discussions with the biggest brains in the Web3 g
     },
     segments: [
       {
-        date: "2024-05-25",
+        date: "2024-05-24",
         times: "17:00-21:00",
-        startTime: "2024-05-25T15:00:00.000Z",
-        endTime: "2024-05-25T19:00:00.000Z"
+        startTime: "2024-05-24T15:00:00.000Z",
+        endTime: "2024-05-24T19:00:00.000Z"
       }
     ]
   },
@@ -5915,14 +6039,14 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], S = "2024-05-22T05:39:15.049Z", C = "v24.2.39", l = {
-  id: u,
+], S = "2024-05-22T16:26:07.132Z", C = "v24.2.40", l = {
+  id: p,
   name: m,
   dataUrl: g,
   exploreUrl: b,
   dataGithubUrl: f,
-  places: w,
-  events: y,
+  places: y,
+  events: w,
   "media-partners": [],
   contributors: k,
   benefits: v,
@@ -5981,7 +6105,7 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
   },
   date: "2024-05-18",
   days: 10
-}, s = `cache-${p}`, o = [];
+}, s = `cache-${u}`, o = [];
 for (const e in r.collections)
   r.collections[e].virtual || o.push(...l[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
 for (const e of l.events)
