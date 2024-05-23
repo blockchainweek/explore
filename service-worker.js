@@ -1,38 +1,38 @@
 const d = [
   "/_app/immutable/assets/_layout-181171b0.css",
-  "/_app/immutable/chunks/_page-2dca5438.js",
-  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/layout.svelte-9d2d995d.js",
+  "/_app/immutable/chunks/control-e7f5239e.js",
   "/_app/immutable/chunks/singletons-cf074d6e.js",
-  "/_app/immutable/chunks/stores-f2171350.js",
-  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
-  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
-  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
-  "/_app/immutable/start-dc4e1165.js",
-  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
   "/_app/immutable/components/error.svelte-0e52f78e.js",
+  "/_app/immutable/chunks/stores-f2171350.js",
+  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/components/pages/_page.svelte-204300d8.js",
+  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
+  "/_app/immutable/chunks/3-2d378cfc.js",
   "/_app/immutable/chunks/0-476fd584.js",
   "/_app/immutable/chunks/1-2c9a4ab2.js",
-  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
+  "/_app/immutable/chunks/2-0a27f3ce.js",
   "/_app/immutable/chunks/4-92fb94c7.js",
   "/_app/immutable/chunks/5-fef4e663.js",
   "/_app/immutable/chunks/6-736101be.js",
-  "/_app/immutable/chunks/7-ec3cc428.js",
-  "/_app/immutable/chunks/8-b1af3caa.js",
-  "/_app/immutable/chunks/2-ece1552c.js",
-  "/_app/immutable/chunks/3-2d378cfc.js",
-  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
-  "/_app/immutable/modules/pages/_entry_/_layout.js-126e668f.js",
-  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
-  "/_app/immutable/chunks/control-e7f5239e.js",
-  "/_app/immutable/components/pages/_entry_/_page.svelte-02635b50.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
   "/_app/immutable/components/pages/_layout.svelte-a33620fe.js",
-  "/_app/immutable/components/layout.svelte-9d2d995d.js",
-  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
+  "/_app/immutable/chunks/Disclaimer-d43c0e13.js",
+  "/_app/immutable/components/pages/_entry_/schedule/_page.svelte-e207762c.js",
+  "/_app/immutable/chunks/CalendarList-c7dfda09.js",
   "/_app/immutable/chunks/EventTypeBadge-d2aaae66.js",
-  "/_app/immutable/chunks/index-5edaeb20.js",
+  "/_app/immutable/components/pages/_entry_/day/_date_/_page.svelte-02d40789.js",
+  "/_app/immutable/chunks/7-ec3cc428.js",
+  "/_app/immutable/modules/pages/_entry_/_layout.js-6f7f7b07.js",
+  "/_app/immutable/chunks/8-b1af3caa.js",
+  "/_app/immutable/chunks/_page-2dca5438.js",
+  "/_app/immutable/modules/pages/_page.js-c0185d73.js",
+  "/_app/immutable/chunks/_layout-046ec317.js",
   "/_app/immutable/chunks/Footer-2b8c9a85.js",
-  "/_app/immutable/chunks/_layout-eb889418.js",
+  "/_app/immutable/chunks/CollectionList-1b19a1f9.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_page.svelte-e24f67bb.js",
+  "/_app/immutable/start-9b813a52.js",
+  "/_app/immutable/chunks/TimelineHeatmap-e145f717.js",
+  "/_app/immutable/components/pages/_entry_/_type_/_slug_/_page.svelte-8b120bb5.js",
   "/_app/immutable/chunks/utils-468e16e8.js"
 ], h = [
   "/bg-prg.png",
@@ -42,7 +42,7 @@ const d = [
   "/img/press-center-banner.webp",
   "/manifest.json",
   "/preview.jpg"
-], u = "1716497250399", p = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
+], p = "1716500832044", u = "24", m = "Berlin Blockchain Week 2024", g = "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24", b = "https://blockchainweek.berlin/24", f = "https://github.com/blockchainweek/data/tree/main/data/24", y = [
   {
     id: "moos",
     hash: "cb454a60404667f8cfefa67bcd93cd95a3c9af07c675701d97ed4fc85952c483",
@@ -298,9 +298,9 @@ Sign up to attend.`,
     org: "Streamm.xyz",
     dri: "UNITECHIL",
     poc: "https://warpcast.com/streamm",
-    date: "2024-05-27",
-    days: 1,
-    times: "09:00-20:00",
+    date: "2024-05-24",
+    days: 3,
+    times: "08:45-10:00",
     venueName: "Mindspace Friedrichstraße",
     venueUrl: "https://www.openstreetmap.org/node/535088858#map=19/52.51242/13.38975",
     venueAddress: "Friedrichstraße 68, 10117 Berlin",
@@ -339,10 +339,22 @@ This event is perfect for content creators, developers, and blockchain enthusias
     },
     segments: [
       {
-        date: "2024-05-27",
-        times: "09:00-20:00",
-        startTime: "2024-05-27T07:00:00.000Z",
-        endTime: "2024-05-27T18:00:00.000Z"
+        date: "2024-05-24",
+        times: "08:45-10:00",
+        startTime: "2024-05-24T06:45:00.000Z",
+        endTime: "2024-05-24T08:00:00.000Z"
+      },
+      {
+        date: "2024-05-25",
+        times: "08:45-10:00",
+        startTime: "2024-05-25T06:45:00.000Z",
+        endTime: "2024-05-25T08:00:00.000Z"
+      },
+      {
+        date: "2024-05-26",
+        times: "08:45-10:00",
+        startTime: "2024-05-26T06:45:00.000Z",
+        endTime: "2024-05-26T08:00:00.000Z"
       }
     ]
   },
@@ -2876,6 +2888,69 @@ FORESIGHT INSTITUTE
     ]
   },
   {
+    id: "co-create",
+    hash: "fe4f5b13d2e6e7a7227b779c2f1fa3d00403d8503929ad664cee769b2ed71e25",
+    name: "co-create",
+    shortname: "co-create",
+    types: [
+      "expo"
+    ],
+    status: "published",
+    org: "Department of Decentralization",
+    dri: "ligi",
+    poc: "https://dod.ngo",
+    date: "2024-05-25",
+    days: 1,
+    times: "11:00-17:00",
+    venues: [
+      "cic"
+    ],
+    languages: [
+      "english"
+    ],
+    attendees: 150,
+    chains: [],
+    tags: [
+      "art"
+    ],
+    logo: "https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/assets/events/co-create/logo.webp",
+    description: `An exhibition by Department of Decentralization and Refraction
+
+In the history of media, sound, and related image-based practices, hardly any city in the world has been as impactful in the concept of collaborative performance and presentation as a genre and medium as Berlin. From the early hacklabs, cross-sound performances, Bring-Your-Own-Beamer initiatives, and crypto raves, the sense of a joint collaboration has been at the core, inviting artists of many disciplines and genres to create, exhibit and perform together, creating novel social sculptural movements.
+
+It is in this ethos Department of Decentralization Refraction, in collaboration with Refraction, presents ‘co-create’. The exhibition asks questions in and around identity, open source technology, and participatory frameworks as they relate to contemporary on-chain discourse. The work is presented on-chain and IRL, creating a new mode of action and communication, bridging the exhibition space in Berlin and on the blockchain, furthering the notion of presentation as participation.
+
+The IRL exhibition is inspired by the Bring-Your-Own-Beamer (BYOB) initiative and asks presenting artists to consider and bring the device on which they believe the work is best suited for.
+The BYOB concept was initiated by Rafaël Rozendaal.
+
+Talks program
+
+12.00: Panel - Decentralized Art Organisation with Vincent Trasov and Benny Giang. Moderated by Stina Gustafsson
+
+13.30: Panel - Art after NFTs with Joan Heemskerk and Billy Rennekamp. Moderated by María Paula Fernández
+`,
+    registration: {
+      type: "signup",
+      price: "free",
+      link: "https://visas.ethberlin.org/ethberlin/art",
+      button: "Register!",
+      status: "closed"
+    },
+    links: {
+      web: "https://ethberlin.org",
+      twitter: "https://twitter.com/ETHBerlin",
+      matrix: "https://matrix.to/#/%23ethberlin:dod.ngo"
+    },
+    segments: [
+      {
+        date: "2024-05-25",
+        times: "11:00-17:00",
+        startTime: "2024-05-25T09:00:00.000Z",
+        endTime: "2024-05-25T15:00:00.000Z"
+      }
+    ]
+  },
+  {
     id: "bitcoin-pizza",
     hash: "97e0458f40081b575547abb2786031a581d964a655b9915fedf53609477215f6",
     name: "Bitcoin Pizza Party Berlin w/ Blockravers & øhr",
@@ -3795,13 +3870,13 @@ Partners TBA
     date: "2024-05-24",
     days: 1,
     times: "18:00-20:00",
-    venueName: "DeSci church",
-    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Alexandrienstra%C3%9Fe+18+10969+Berlin",
-    venueAddress: "Alexandrinenstraße 118-121, 10969 Berlin",
+    venueName: "Treptower park",
+    venueUrl: "https://nominatim.openstreetmap.org/ui/search.html?q=Treptower+Park+12435+Berlin",
+    venueAddress: "Treptower Park, 12435 Berlin",
     languages: [
       "english"
     ],
-    attendees: 50,
+    attendees: 100,
     chains: [
       "ethereum"
     ],
@@ -6039,8 +6114,8 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
       twitter: "https://twitter.com/solana"
     }
   }
-], S = "2024-05-22T16:26:07.132Z", C = "v24.2.40", l = {
-  id: p,
+], S = "2024-05-23T21:06:38.738Z", C = "v24.2.41", l = {
+  id: u,
   name: m,
   dataUrl: g,
   exploreUrl: b,
@@ -6105,7 +6180,7 @@ This event is possible thanks to our sponsors and collaborators: KODA, Vara Netw
   },
   date: "2024-05-18",
   days: 10
-}, s = `cache-${u}`, o = [];
+}, s = `cache-${p}`, o = [];
 for (const e in r.collections)
   r.collections[e].virtual || o.push(...l[e].map((t) => t.logo || t.photoUrl || t.photo).filter((t) => t));
 for (const e of l.events)
